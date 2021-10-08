@@ -5,7 +5,7 @@ The data engineering weekly newsletter started with a mission of reflecting view
 
 # Sounds great, how can I contribute articles?
 
-It is simple, open a pull request and follow the format to contribute the article
+It is simple, open a pull request with the article title under the weekly folder. Please read the contributing guidelines before submitting the request.
 
 ```yaml
 article:
