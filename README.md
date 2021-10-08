@@ -37,4 +37,4 @@ On average, we read about 15+ articles every week before selecting a few article
 
 I'm starting this as an experiment. The contributing guide may not be perfect. We will iterate and improve the contributing guideline as we move along.
 
-Please tag your suggestion @data_weekly on Twitter.
+Please tag your suggestion (https://twitter.com/data_weekly)[@data_weekly] on Twitter.
