@@ -1,0 +1,63 @@
+{
+    "edition": 51,
+    "articles": [
+        {
+            "author": "Uber",
+            "title": "How Uber Achieves Operational Excellence in the Data Quality Experience",
+            "summary": "Poor data quality not only leads to a degraded machine learning model but also requires a lot of laborious manual effort to investigate and refill. Uber writes about its Unified Data Quality Platform(UDQ) that automatically detects data quality issues. The approach to generate automatic test cases from the past learning and metadata fields emphasis the more significant role of data lineage and metadata-driven workflow.",
+            "urls": [
+                "https://eng.uber.com/operational-excellence-data-quality/"
+            ]
+        },
+        {
+            "author": "Airbnb",
+            "title": "How Airbnb Built \u201cWall\u201d to prevent data bugs",
+            "summary": "On a similar data quality journey of Uber, Airbnb writes about Wall Framework, its abstraction on top of Airflow where users can add data quality check as part of the Airflow DAG. Wall framework is a config-driven approach that provides the most common DQ checks & anomaly detection as a service.",
+            "urls": [
+                "https://medium.com/airbnb-engineering/how-airbnb-built-wall-to-prevent-data-bugs-ad1b081d6e8f"
+            ]
+        },
+        {
+            "author": "Tiffany Jachja",
+            "title": "My First Three Weeks as a Data Engineering Manager",
+            "summary": "The author shared the first three weeks of experience as a data engineering manager. It is a good read for any new data engineering manager from aligning the team on a joint mission, clear distinction of roles & responsibility.",
+            "urls": [
+                "https://tiffanyjachja.medium.com/my-first-three-weeks-a-data-engineering-manager-8b0be08da7a5"
+            ]
+        },
+        {
+            "author": "Hurb.com",
+            "title": "Data Platform Architecture at Hurb.com",
+            "summary": "Hurb.com, one of the major OTAs in Latin America, writes about an overview of its data infrastructure. The article is a great reference architecture for a Google cloud platform with the adoption of Google dataflow & BigQuery. The exciting part of the article where the author discusses the choice of data visualization engine, how per-user billing preventing them from democratizing the data, and the choice of Metabase to address the issue.",
+            "urls": [
+                "https://twitter.com/criccomini/status/1420817568516902915?s=20",
+                "https://twitter.com/criccomini/status/1420817568516902915?s=20",
+                "https://medium.com/hurb-engineering/data-platform-architecture-at-hurb-com-8c472c051fa2"
+            ]
+        },
+        {
+            "author": "Disney Streaming",
+            "title": "Voidbox-Docker on YARN",
+            "summary": "Disney Streaming writes about Voidbox, which enables any application encapsulated in docker image running on YARN cluster along with MapReduce and Spark. Voidbox supports Docker container-based DAG(Directed Acyclic Graph) tasks in execution is an exciting approach where Voidbox can encapsulate each step of the data pipeline as a Docker run.",
+            "urls": [
+                "https://medium.com/disney-streaming/voidbox-docker-on-yarn-e1b9f3a789ec"
+            ]
+        },
+        {
+            "author": "AWS",
+            "title": "Expiring Amazon S3 Objects Based on Last Accessed Date to Decrease Costs",
+            "summary": "S3 is a widely used system for building data lakes, websites, mobile applications, and enterprise applications even though S3 tiered storage can bring down the storage cost, but not be without the performance hit while accessing the tiered storage. AWS writes a reference architecture to delete the S3 objects based on Last Access Date using the S3 server access log & S3 inventory.",
+            "urls": [
+                "https://aws.amazon.com/blogs/architecture/expiring-amazon-s3-objects-based-on-last-accessed-date-to-decrease-costs/"
+            ]
+        },
+        {
+            "author": "HighScalability",
+            "title": "Evolution Of Search Engines Architecture - Algolia New Search Architecture Part 1",
+            "summary": "Search engine plays a vital role in information retrieval, which is the critical function of data engineering. The article evaluates some of the critical milestones of the search engine architecture, and the challenges those architecture style faces today.",
+            "urls": [
+                "http://highscalability.com/blog/2021/8/2/evolution-of-search-engines-architecture-algolia-new-search.html"
+            ]
+        }
+    ]
+}

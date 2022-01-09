@@ -1,0 +1,87 @@
+{
+    "edition": 68,
+    "articles": [
+        {
+            "author": "OtterTune",
+            "title": "Databases in 2021 A Year in Review",
+            "summary": "A comprehensive overview of databases in 2021, from the dominance of PostgreSQL to the Database vendor fights over performance benchmark results. It is an exciting time for cloud databases where companies like ClickHouse Inc, StartTree, Imply & Single Store collectively raised around $480M in 2021.",
+            "urls": [
+                "https://ottertune.com/blog/2021-databases-retrospective/"
+            ]
+        },
+        {
+            "author": "Shipyard",
+            "title": "dbt Coalesce 2021 Takeaways",
+            "summary": "A collection of exciting notes in case you missed the dbt coalesce 2021",
+            "urls": [
+                "https://www.shipyardapp.com/blog/dbt-coalesce-2021-day-1-takeaways/",
+                "https://www.shipyardapp.com/blog/dbt-coalesce-2021-day-2-takeaways/",
+                "https://www.shipyardapp.com/blog/dbt-coalesce-2021-day-3-takeaways/"
+            ]
+        },
+        {
+            "author": "Ernest Chan",
+            "title": "Lessons on ML Platforms \u2014 from Netflix, DoorDash, Spotify, and more",
+            "summary": "A comprehensive overview of the ML platform across the companies. It is not so surprising to see most of the platform developed in-house. I hope the year 2022 pave the way to democratize and simplify MLOps. ",
+            "urls": [
+                "https://towardsdatascience.com/lessons-on-ml-platforms-from-netflix-doordash-spotify-and-more-f455400115c7"
+            ]
+        },
+        {
+            "author": "Netflix",
+            "title": "Robust Foundation for Data Pipelines at Scale - Lessons from Netflix",
+            "summary": "Job orchestration and scheduling are the core parts of data engineering. In this InfoQ talk, Netflix narrates its data pipeline scheduler design and lessons learned from operating large-scale pipelines.",
+            "urls": [
+                "https://www.infoq.com/presentations/netflix-big-data-orchestrator/"
+            ]
+        },
+        {
+            "author": "Shopify",
+            "title": "Shopify\u2019s Unique Data Science Hierarchy Of Needs",
+            "summary": "Data analytics goes through its hierarchy of needs, from descriptive to predictive analytics to prescriptive action. Shopify shares its journey on handling pandemic data and the data science maturity model. ",
+            "urls": [
+                "https://shopifyengineering.myshopify.com/blogs/engineering/shopify-unique-data-science-hierarchy-of-needs"
+            ]
+        },
+        {
+            "author": "Etsy",
+            "title": "Redesigning Etsy\u2019s Machine Learning Platform",
+            "summary": "We often underestimate the lead time to train a new engineer to an internal tool, which is a significant push for companies to adopt open standards/ open source systems. Etsy writes about its journey through the ML platform redesign on Google Cloud.",
+            "urls": [
+                "https://codeascraft.com/2021/12/21/redesigning-etsys-machine-learning-platform/"
+            ]
+        },
+        {
+            "author": "Twitter",
+            "title": "Advancing Jupyter Notebooks at Twitter",
+            "summary": "The flexibility of Notebooks also brings the challenge of disconnected infrastructure in an organization. Twitter narrates the tools that helped simplify notebook lifecycle management and integrated development environments.",
+            "urls": [
+                "https://blog.twitter.com/engineering/en_us/topics/infrastructure/2021/advancing-jupyter-notebooks-at-twitter---part-1--a-first-class-d"
+            ]
+        },
+        {
+            "author": "Khuyen Tran",
+            "title": "Top Bootcamps for Data Professionals\u2014 An Analysis of 5000 Profiles",
+            "summary": "What are the top boot camps and Universities for Data Scientists? The author did an excellent data-scientific way to figure this out!! It is interesting to see Udacity on top of traditional universities, and no doubt it is the top Bootcamp for data science.",
+            "urls": [
+                "https://python.plainenglish.io/find-the-top-bootcamps-for-data-professionals-from-over-5k-profiles-92c38b10ddb4"
+            ]
+        },
+        {
+            "author": "Vinoth Chandar",
+            "title": "Lakehouse Concurrency Controls - Are we too optimistic?",
+            "summary": "Data lakes have come a long way, and supporting transactions is now an essential characteristic of Lakehouse design. The author writes an exciting overview of different patterns of concurrency control and Apache Hudi's support for it.",
+            "urls": [
+                "https://www.linkedin.com/pulse/lakehouse-concurrency-controls-we-too-optimistic-vinoth-chandar/"
+            ]
+        },
+        {
+            "author": "Yotpo",
+            "title": "Scheduling Millions Of Messages With Kafka & Debezium",
+            "summary": "Yotpo writes about its CDC pipeline using Kafka & Debezium for email services. Domain event sourcing is increasingly adopting the transactional outbox pattern. IMAO and Debezium is an underrated system, yet the critical open source solution in data engineering. It deserves much more limelight than what it gets now.",
+            "urls": [
+                "https://medium.com/yotpoengineering/scheduling-millions-of-messages-with-kafka-debezium-6d1a105160c"
+            ]
+        }
+    ]
+}

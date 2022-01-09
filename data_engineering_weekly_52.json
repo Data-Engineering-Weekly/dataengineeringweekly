@@ -1,0 +1,61 @@
+{
+    "edition": 52,
+    "articles": [
+        {
+            "author": "LakeFs",
+            "title": "Hive Metastore \u2013 Why It\u2019s Still Here and What Can Replace It?",
+            "summary": "Hive meta store is a critical component in the interception of all query engines path provides a virtualization layer between the storage and compute. LakeFs write an exciting article on how Hive meta store sustained last ten years while the Hadoop popularity declined. The article predicts the possible components that can succeed the Hive meta store.",
+            "urls": [
+                "https://lakefs.io/hive-metastore-why-its-still-here-and-what-can-replace-it/"
+            ]
+        },
+        {
+            "author": "Apache Hudi",
+            "title": "Apache Hudi - The Data Lake Platform",
+            "summary": "Apache Hudi pioneered the serverless transactional layer for event logs that significantly shape the data infrastructure. The article gives an in-depth overview of Apache Hudi's building blocks and future roadmap aligning with its founding principle.",
+            "urls": [
+                "https://hudi.apache.org/blog/2021/07/21/streaming-data-lake-platform/"
+            ]
+        },
+        {
+            "author": "Continual",
+            "title": "Is Data-First AI the Next Big Thing?",
+            "summary": "Continual writes about the evolution of ML platforms from collaboration-centric to model-based to data-centric platforms. The blog is an exciting read on how one generation platform abstraction leads the next-generation platform and democratization of ML/AI engineering in the last ten years.",
+            "urls": [
+                "https://continual.ai/post/is-data-first-ai-the-next-big-thing"
+            ]
+        },
+        {
+            "author": "Open Lineage",
+            "title": "Expecting Great Quality with OpenLineage Facets",
+            "summary": "The data quality defines the success of a data-driven organization.",
+            "urls": [
+                "https://openlineage.io/blog/dataquality_expectations_facet/"
+            ]
+        },
+        {
+            "author": "Sponsored - RudderStack",
+            "title": "Why It\u2019s Hard for Engineering to Support Marketing",
+            "summary": "Engineers and marketers don\u2019t [often] get along, and the tension between these teams isn't fabricated. It's based on conflicting approaches that naturally present alignment challenges. RudderStack writes a thoughtful analysis of the contentious relationship and hints at a solution.",
+            "urls": [
+                "https://rudderstack.com/blog/why-it-s-hard-for-engineering-to-support-marketing?utm_source=email&utm_medium=email&utm_campaign=CMPGN_46_DEWS&utm_content=None&utm_term=%7Bkeyword%7D&raid=39008a0a0c72eb7f33bee9b56cf063be"
+            ]
+        },
+        {
+            "author": "Uber",
+            "title": "Cost-Efficient Open Source Big Data Platform at Uber",
+            "summary": "An ever-growing data generation adds pressure on the cost of operations to the data infrastructure. Cost optimization is a critical architectural constraint in modern data infrastructure. Uber writes its experience on optimizing cost on data storage, computing & querying layer. S3 tiered storage provides similar optimization for AWS on the storage.",
+            "urls": [
+                "https://eng.uber.com/cost-efficient-big-data-platform/"
+            ]
+        },
+        {
+            "author": "SQLGlot",
+            "title": "Python SQL Parser and Transpiler",
+            "summary": "Presto/ Trino is an excellent query engine for the exploration stage of analysis but not providing sufficient fault tolerance like Spark SQL/Hive for the production pipeline. It is a painful task to convert SQL from one engine to another. I recently came across SQLGlot with the promise of automating it. I've not tested it, but I'm excited about this tool.",
+            "urls": [
+                "https://github.com/tobymao/sqlglot"
+            ]
+        }
+    ]
+}

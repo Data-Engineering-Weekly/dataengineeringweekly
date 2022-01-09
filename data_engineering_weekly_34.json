@@ -1,0 +1,101 @@
+{
+    "edition": 34,
+    "articles": [
+        {
+            "author": "Google",
+            "title": "Massively Parallel Graph Computation - From Theory to Practice",
+            "summary": "Graph computation is widely used for various data science purposes, from ranking web pages by popularity and mapping out social networks. Google AI discusses MapReduce's limitations in graph processing and introduces Adaptive Massively Parallel Computation Model using a distributed hash table.",
+            "urls": [
+                "https://ai.googleblog.com/2021/03/massively-parallel-graph-computation.html"
+            ]
+        },
+        {
+            "author": "Uber",
+            "title": "Uber\u2019s Journey Toward Better Data Culture From First Principles",
+            "summary": "Uber writes an exciting blog on the challenges of operating a data platform at scale. Self-serving analytics is a north star dream of many businesses. However, it also brings multiple challenges such as data duplication, data discovery issues, disconnected tooling, logging inconsistency, lack of process, and lack of SLA and ownership.\u00a0",
+            "urls": [
+                "https://eng.uber.com/ubers-journey-toward-better-data-culture-from-first-principles/"
+            ]
+        },
+        {
+            "author": "Hyperight",
+            "title": "Is Data Mesh right for your organization?",
+            "summary": "Does Data Mesh make sense for all types of organizations? The captures the collective thoughts on data mesh principles on when to apply them and the future outlook of data mesh and DataOps.",
+            "urls": [
+                "https://read.hyperight.com/is-data-mesh-right-for-your-organisation/"
+            ]
+        },
+        {
+            "author": "Lyft",
+            "title": "ML Feature Serving Infrastructure at Lyft",
+            "summary": "ML Feature Serving Infrastructure at Lyft",
+            "urls": [
+                "https://eng.lyft.com/ml-feature-serving-infrastructure-at-lyft-d30bf2d3c32a"
+            ]
+        },
+        {
+            "author": "Lyft",
+            "title": "Flyte Joins LF AI & Data",
+            "summary": "Continuing on Lyft\u2019s ML feature serving infrastructure, Flyte, the core platform for orchestrating the machine learning job, joins the Data & AI chapter of the Linux Foundation.",
+            "urls": [
+                "https://eng.lyft.com/flyte-joins-lf-ai-data-48c9b4b60eec"
+            ]
+        },
+        {
+            "author": "PayPal",
+            "title": "How PayPal moves secure and encrypted data across security zones",
+            "summary": "Paypal writes an exciting article on the challenges of secure data movement across data centers. The article narrates how it uses Apache Gobblin, Kerberos, and KMS to handle secure transfer, encryption at rest, and the prevention of unauthorized & unauthenticated access.",
+            "urls": [
+                "https://medium.com/paypal-tech/how-paypal-moves-secure-and-encrypted-data-across-security-zones-10010c1788ce"
+            ]
+        },
+        {
+            "author": "Samsara",
+            "title": "Data Pipelines @ Samsara",
+            "summary": "Samsara writes about its data pipeline infrastructure builds with a data transformation DSL and AWS step function. One of the complicated challenges of a data pipeline that depends on the tasks than the model (data) requires significant engineering effort to resolve duplications. Samsara narrates an exciting read on how it handles the task dependency and deduplication of the tasks using DynamoDB to store the data transformation metadata.",
+            "urls": [
+                "https://medium.com/samsara-engineering/data-pipelines-samsara-64596dbc2137"
+            ]
+        },
+        {
+            "author": "Gousto",
+            "title": "Gousto Data Team \u2014 Best of 2020",
+            "summary": "Gousto writes an excellent summary highlighting some of the data teams\u2019 projects 2020, design choices, and decision factors. I wish every team publishes their yearly summary as a guide.",
+            "urls": [
+                "https://medium.com/gousto-engineering-techbrunch/gousto-data-team-best-of-2020-8a731837ace2"
+            ]
+        },
+        {
+            "author": "Cloudflare",
+            "title": "Lessons Learned from Scaling Up Cloudflare\u2019s Anomaly Detection Platform",
+            "summary": "Lessons Learned from Scaling Up Cloudflare\u2019s Anomaly Detection Platform",
+            "urls": [
+                "https://blog.cloudflare.com/lessons-learned-from-scaling-up-cloudflare-anomaly-detection-platform/"
+            ]
+        },
+        {
+            "author": "Instacart",
+            "title": "7 steps to get started with large-scale labeling",
+            "summary": "Data collections often require human labeling to annotate the datasets. Crowdsourcing has emerged as one of the possible ways to collect labels at scale. Instacart writes a \u201cPre-flight Checklist\u201d of tasks for implementing large-scale crowdsourcing tasks.",
+            "urls": [
+                "https://tech.instacart.com/7-steps-to-get-started-with-large-scale-labeling-1a1eb2bf8141"
+            ]
+        },
+        {
+            "author": "Dagster",
+            "title": "Dagster 0.11.0 Lucky Star Version Release",
+            "summary": "Dagster released version 0.11.0, codenamed \u201cLucky Star,\u201d with MySQL backend support, better backfill management, and experimental support for data lineage.",
+            "urls": [
+                "https://github.com/dagster-io/dagster/releases/tag/0.11.0"
+            ]
+        },
+        {
+            "author": "Emil Koutanov",
+            "title": "Why Kafka Is so Fast",
+            "summary": "The author narrates some of Kafka's foundational design principles and demonstrates why it becomes the central nerve of data processing and management.",
+            "urls": [
+                "https://medium.com/swlh/why-kafka-is-so-fast-bde0d987cd03"
+            ]
+        }
+    ]
+}

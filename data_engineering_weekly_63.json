@@ -1,0 +1,78 @@
+{
+    "edition": 63,
+    "articles": [
+        {
+            "author": "Preset",
+            "title": "How the Modern Data Stack is Reshaping Data Engineering",
+            "summary": "The blog is a  comprehensive narration of the recent trends in data engineering and how the modern data stack is reshaping data engineering. As noted in the blog, the critical trend to watch,",
+            "urls": [
+                "https://preset.io/blog/reshaping-data-engineering/"
+            ]
+        },
+        {
+            "author": "Benn Stancil",
+            "title": "A method for measuring analytical work",
+            "summary": "How do you measure the success of the analytical practices? The fact that the feedback loop for a business decision is long and often can't assess the counterfactual, is it still makes sense to measure the analytical practice by the outcome? ",
+            "urls": [
+                "https://benn.substack.com/p/method-for-measuring-analytical-work"
+            ]
+        },
+        {
+            "author": "Twitter",
+            "title": "Forecasting SQL query resource usage with machine learning",
+            "summary": "One of the challenges of data infrastructure is to balance the query performance and the cost. Twitter writes an exciting blog narrating how machine learning-driven optimization is on top of Presto to optimize resource usage.",
+            "urls": [
+                "https://blog.twitter.com/engineering/en_us/topics/insights/2021/forecasting-sql-query-resource-usage-with-machine-learning"
+            ]
+        },
+        {
+            "author": "Confluent",
+            "title": "The Future of SQL - Databases Meet Stream Processing",
+            "summary": "SQL is a powerful language that allows us to express complex questions of our data with ease. How does SQL adopt not only the data at rest but also for the streaming data? The article narrates how the push vs. pull query execution changes the query complexity from O(number of records in input table) vs. O(rate of table change).",
+            "urls": [
+                "https://www.confluent.io/blog/databases-meet-stream-processing-the-future-of-sql/"
+            ]
+        },
+        {
+            "author": "Ryan Gross",
+            "title": "Designing Data Platforms to Harness the Power of Fog Computing",
+            "summary": "The modern data stack predominately focused on the concept of a LakeHouse architecture. It takes the best attributes from traditional data warehouses and runs on platforms with data lake storage architectures. On following Confluent's thoughts on streaming SQL, the author raised great questions on the role of Fog computing in the modern data platform.",
+            "urls": [
+                "https://ryanwgross.medium.com/designing-data-platforms-to-harness-the-power-of-fog-computing-cf7dc29050b1"
+            ]
+        },
+        {
+            "author": "StarTree",
+            "title": "What makes Apache Pinot fast?",
+            "summary": "StarTree writes about why Pinot is fast, explaining various indexing & multi-model support. JSON indexing to support semi-structured data analysis, aggregation optimization using star tree indexing are some of the highlights to read.",
+            "urls": [
+                "https://www.startree.ai/blogs/what-makes-apache-pinot-fast-chapter-1/",
+                "https://www.startree.ai/blogs/what-makes-apache-pinot-fast-chapter-ii/"
+            ]
+        },
+        {
+            "author": "Qonto",
+            "title": "Scaling Airflow on Kubernetes - lessons learned",
+            "summary": "Qonto shares its experience scaling Airflow on Kubernetes. The pod template files to optimize the resource consumption for the sensor & task operators, monitoring the lifecycle of a task & cluster elasticity are some of the exciting reads.",
+            "urls": [
+                "https://medium.com/qonto-way/scaling-airflow-on-kubernetes-lessons-learned-a0d3d0417fc1"
+            ]
+        },
+        {
+            "author": "Meltwater",
+            "title": "Our Journey from Database to Data Lake",
+            "summary": "Meltwater writes about its journey to adopt the data lake from a single database for the reporting solution. The cost comparison matrix is a fascinating study that shows S3 + Athena is 6X cost-efficient than the RDS solution.",
+            "urls": [
+                "https://underthehood.meltwater.com/blog/2021/11/05/our-journey-from-database-to-data-lake/"
+            ]
+        },
+        {
+            "author": "Leev\u2019s",
+            "title": "A Practical Guide for Kafka Cost Reduction",
+            "summary": "A great read on practical tips on reducing the Kafka infrastructure cost, focus AWS instance type, compression, rake aware consumers to fetch data from closest replica, cluster rebalancing & cluster tuning configurations.",
+            "urls": [
+                "https://leevs.dev/kafka-cost-reduction/"
+            ]
+        }
+    ]
+}

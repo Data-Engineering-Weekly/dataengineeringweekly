@@ -1,0 +1,86 @@
+{
+    "edition": 42,
+    "articles": [
+        {
+            "author": "Benn Stancil",
+            "title": "Analytics is a mess",
+            "summary": "When we look at companies with mature data practices, we only see the final, stable metrics and dashboards. However, simple metrics like \"What is the unique user count for this week\"? the definition of unique can have multiple answers, and make no mistake, they all more or less correct. Are metrics real? Are we creating an analytical mess with multiple definitions of metrics? The author narrates how it's not only normal, but it's also necessary.",
+            "urls": [
+                "https://benn.substack.com/p/analytics-is-a-mess"
+            ]
+        },
+        {
+            "author": "Earnest Research",
+            "title": "SQLFluff \u2014 The Linter For Modern SQL",
+            "summary": "SQL deserves linter more than ever, and I 100% agree. In this blog post, Earnest Research talks about its experience and effectiveness of SQLFluff, an open-source linter tool for SQL.",
+            "urls": [
+                "https://towardsdatascience.com/sqlfluff-the-linter-for-modern-sql-8f89bd2e9117",
+                "https://github.com/sqlfluff/sqlfluff"
+            ]
+        },
+        {
+            "author": "eBay",
+            "title": "Explore eBay\u2019s New Optimized Spark SQL Engine for Interactive Analysis",
+            "summary": "eBay writes about its optimized SQL engine for interactive analysis. eBay effectively using the spark's thrift server on Yarn with workload isolation using Yarn queue. The usage of bloom filter indexing, transparent data caching strategy, bucketing improvements, and parquet read optimization are some of the exiting read.",
+            "urls": [
+                "https://tech.ebayinc.com/engineering/explore-ebays-new-optimized-spark-sql-engine-for-interactive-analysis/"
+            ]
+        },
+        {
+            "author": "Dropbox",
+            "title": "Optimizing payments with machine learning",
+            "summary": "One of the challenges of the subscription business model is to manage the subscription renewal process efficiently to reduce involuntary churn. Dropbox writes an exciting case study of how it applied ML techniques in the renewal process to increase the retention rate.",
+            "urls": [
+                "https://dropbox.tech/machine-learning/optimizing-payments-with-machine-learning"
+            ]
+        },
+        {
+            "author": "Microsoft",
+            "title": "How weekends can impact seasonality and metrics",
+            "summary": "The seasonality such as weekends, holidays are the critical factors to accommodate in the exploratory data analytics before interpreting the analysis. The blog narrates the walk through the impact of seasonality in analysis and discusses how to handle it. It might be overcomplicated or not fully necessary to get a formula to \u201cnormalize\u201d such data. However, it might be helpful to track such seasonality to understand better how your business is doing.",
+            "urls": [
+                "https://medium.com/data-science-at-microsoft/how-weekends-can-impact-seasonality-and-metrics-db223bd9738a"
+            ]
+        },
+        {
+            "author": "Acing AI",
+            "title": "Lyft\u2019s End-to-End ML Platform",
+            "summary": "Flyte is the workflow automation platform for complex, mission-Critical Data and ML processes at scale. The blog narrates a general overview of Flyte, integration with data catalog, and extensibility of the platform.",
+            "urls": [
+                "https://medium.com/acing-ai/lyfts-end-to-end-ml-platform-e4498fb1c089"
+            ]
+        },
+        {
+            "author": "Razorpay",
+            "title": "How Razorpay uses Druid for seamless analytics and product insights?",
+            "summary": "Razorpay writes about its journey of adopting Apache Druid from Apache Kylin & Spark for multi-dimensional analysis. The blog narrates some of the cluster tunings of Druid, how it improves the performance of the data platform,  and some of the challenges such as auto-scaling Druid's middle manager, enhance analytics on complex data types.",
+            "urls": [
+                "https://medium.com/@birendra.sahu_77409/how-razorpay-uses-druid-for-seamless-analytics-and-product-insights-364c01b87f1e"
+            ]
+        },
+        {
+            "author": "Astronomer",
+            "title": "Airflow and Ray - A Data Science Story",
+            "summary": "Ray is a Python-first cluster computing framework that allows Python code, with complex libraries or packages, to be distributed and run on clusters of infinite size. In this blog, Astronomer writes about Airflow integration with Ray using the task flow API and narrates how it uses Ray's in-memory object storage to pass data between the tasks instead of Airflow's traditional XCom approach.",
+            "urls": [
+                "https://www.astronomer.io/blog/airflow-ray-data-science-story"
+            ]
+        },
+        {
+            "author": "Anna Geller",
+            "title": "How a Shared Slack Channel Can Improve Your Data Quality",
+            "summary": "Integrating the data quality process with the developer workflow and monitoring process is a critical aspect of a data platform's success. The author discusses one such process of integrating data quality alerting and monitoring with Slack and the business process to ensure high data quality standards.",
+            "urls": [
+                "https://towardsdatascience.com/how-a-shared-slack-channel-can-improve-your-data-quality-e62a4c2a0936"
+            ]
+        },
+        {
+            "author": "Confluent",
+            "title": "Kafka Summit Europe 2021 Recap",
+            "summary": "Confluent writes about a recap of the recent Kafka summit - Europe 2021. Some exciting talks on data mesh foundation, a deep dive on Zookeeper-less Kafka, and the importance of schema registry & structured streaming.",
+            "urls": [
+                "https://www.confluent.io/blog/highlights-from-kafka-summit-europe-2021/"
+            ]
+        }
+    ]
+}

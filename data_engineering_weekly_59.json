@@ -1,0 +1,78 @@
+{
+    "edition": 59,
+    "articles": [
+        {
+            "author": "Abhi Sivasailam",
+            "title": "Data Mesh at Flexport - Driving Buy-in and Social/Org Challenges",
+            "summary": "Possibly one of the good walkthroughs of data mesh implementation experience shared from Flexport. The logical division of the transaction and analytical layers, focusing on modeling, not the technology, domain interoperability is a first-order concern, are some of the key takeaways from the talk.",
+            "urls": []
+        },
+        {
+            "author": "Financial Times",
+            "title": "So You Want To Be A\u2026 Business Analyst",
+            "summary": "A great read of practical recommendations if you start thinking of switching your career towards business analyst. My favorite suggestion, ",
+            "urls": [
+                "https://medium.com/ft-product-technology/so-you-want-to-be-a-business-analyst-fc28596411f5"
+            ]
+        },
+        {
+            "author": "Mark Grover",
+            "title": "3 Steps for a Successful Data Migration",
+            "summary": "We can measure the effectiveness of a team by the number of clean migration projects executed. I used \"clean migration\" because, as the author says ",
+            "urls": [
+                "https://towardsdatascience.com/3-steps-for-a-successful-data-migration-9de8e7f1671c"
+            ]
+        },
+        {
+            "author": "Jupyter",
+            "title": "Looking at notebooks from a new perspective",
+            "summary": "The blog narrates two Jupyter rendering engines, nbconvert and Voil\u00e0, with the highlights of D\u00e9j\u00e0vu utility, which specifies new default values for several options to mimic Voil\u00e0's behavior for hiding input cells and prompt numbers.",
+            "urls": [
+                "https://blog.jupyter.org/looking-at-notebooks-from-a-new-perspective-bfd06797f188"
+            ]
+        },
+        {
+            "author": "PayPal",
+            "title": "PayPal Introduces Dione, an Open-Source Spark Indexing Library",
+            "summary": "PayPal writes about the implementation of Dione, an open-source indexing library that creates a \"shadow\" table with the selected key values. Avro B-Tree implementation further optimizes the indexing to support single-row fetch tasks.",
+            "urls": [
+                "https://medium.com/paypal-tech/paypal-introduces-dione-an-open-source-spark-indexing-library-783e12800585"
+            ]
+        },
+        {
+            "author": "LinkedIn",
+            "title": "Our approach to building transparent and explainable AI systems",
+            "summary": "LinkedIn writes about its approach to build explainable AI systems. The blog defines transparency in AI as,",
+            "urls": [
+                "https://arxiv.org/pdf/2105.12941.pdf",
+                "https://engineering.linkedin.com/blog/2021/transparent-and-explainable-AI-systems"
+            ]
+        },
+        {
+            "author": "Netflix",
+            "title": "Interpreting A/B test results - false positives and statistical significance",
+            "summary": "Netflix writes the third part of the A/B testing series highlighting what an A/B test is and how Netflix decision-makers using A/B testing. The third part of the multi-part post narrates interpreting A/B test results highlighting false positives and statistical significance.",
+            "urls": [
+                "https://netflixtechblog.com/interpreting-a-b-test-results-false-positives-and-statistical-significance-c1522d0db27a",
+                "https://netflixtechblog.com/decision-making-at-netflix-33065fa06481",
+                "https://netflixtechblog.com/what-is-an-a-b-test-b08cc1b57962"
+            ]
+        },
+        {
+            "author": "Zalando",
+            "title": "Space-efficient machine learning feature stores using probabilistic data structures - a benchmark",
+            "summary": "Zalando writes an exciting blog post discussing the usage of the probabilistic data structure for feature storage. The benchmark results the traditional key-value storages using 15 GB of data vs. the probabilistic data structure uses 470 MN for 1.762 bill data points.",
+            "urls": [
+                "https://engineering.zalando.com/posts/2021/10/space-efficient-machine-learning-feature-stores-using-probabilistic-data-structures.html"
+            ]
+        },
+        {
+            "author": "Databricks",
+            "title": "Pandas API on Upcoming Apache Spark\u2122 3.2",
+            "summary": "Databricks announces that the pandas API will be part of the Apache Spark\u2122 3.2 release by merging the Koalas onto PySpark. The blog follows the successive iterations on the pandas API, such as 90% API compatibility coverage, more type-hints, performance improvements, and stabilization.",
+            "urls": [
+                "https://databricks.com/blog/2021/10/04/pandas-api-on-upcoming-apache-spark-3-2.html"
+            ]
+        }
+    ]
+}

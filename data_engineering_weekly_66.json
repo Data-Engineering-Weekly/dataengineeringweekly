@@ -1,0 +1,88 @@
+{
+    "edition": 66,
+    "articles": [
+        {
+            "author": "dbt labs",
+            "title": "Coalesce - the analytics engineering conference 2021",
+            "summary": "Coalesce - the analytics engineering conference is a delight to watch this week. dbt as a metric layer is an exciting evolution and is the key highlight of the conference. If you missed the conference, you can watch all the replays here.",
+            "urls": [
+                "https://coalesce.getdbt.com/replays/"
+            ]
+        },
+        {
+            "author": "James Le",
+            "title": "What I Learned From the Open Source Data Stack Conference 2021",
+            "summary": "Open-source Data Stack conference is another exciting data conference focused on the modern data stack in the open-source world. The author writes an excellent summary of the conference.",
+            "urls": [
+                "https://jameskle.com/writes/open-source-data-stack-2021",
+                "https://www.opensourcedatastack.com/stage/events"
+            ]
+        },
+        {
+            "author": "AWS",
+            "title": "Top Announcements of AWS reInvent 2021",
+            "summary": "AWS published the top announcements from the AWS re: Invent 2021 conference. The top announcements from the data engineering perspective are,",
+            "urls": [
+                "https://aws.amazon.com/blogs/aws/aws-lake-formation-general-availability-of-cell-level-security-and-governed-tables-with-automatic-compaction/"
+            ]
+        },
+        {
+            "author": "LinkedIn",
+            "title": "Evolving LinkedIn\u2019s analytics tech stack - Lessons from a large-scale data platform migration",
+            "summary": "LinkedIn shares its analytical stack transition story from Teradata data warehouse systems to open source big data technologies. The analytical stack includes 1400+ datasets, 900+ data flows, and 2100+ users. The migration strategy with improving the data model is an exciting read.",
+            "urls": [
+                "https://engineering.linkedin.com/blog/2021/from-daily-dashboards-to-enterprise-grade-data-pipelines",
+                "https://engineering.linkedin.com/blog/2021/evolving-linkedin-s-analytics-tech-stack"
+            ]
+        },
+        {
+            "author": "Tableau",
+            "title": "Top Data books of 2021",
+            "summary": "Though the title says the top data books, the shortlisted books focus on data visualization or Tableau platform. Nonetheless, it is great to read data visualization books. ",
+            "urls": [
+                "https://www.tableau.com/about/blog/2021/12/andy-cotgreave-top-data-books-2021"
+            ]
+        },
+        {
+            "author": "Erik Bernhardsson",
+            "title": "Storm in the stratosphere - how the cloud will be reshuffled",
+            "summary": "Erik Bernhardsson writes an exciting prediction on cloud vendors' trends builds a case on top of the success of Snowflake over Redshift. It is undoubtedly true in the analytical world where AWS solutions always package and sell open-source tools but never go beyond simplifying the developer workflow. A couple of interesting predictions to highlight,",
+            "urls": [
+                "https://erikbern.com/2021/11/30/storm-in-the-stratosphere-how-the-cloud-will-be-reshuffled.html"
+            ]
+        },
+        {
+            "author": "Shreya Shankar",
+            "title": "The Modern ML Monitoring Mess Rethinking Streaming Evaluation",
+            "summary": "A streaming sliding window with a finite interval is a go-to ML metrics monitoring strategy. The threshold, window size, and alerts are still defined manually for each metric. The author argues why this procedure to evaluate ML on streams of data is broken, highlighting representation differences, varying sample size & delayed feedback on the sliding window.",
+            "urls": [
+                "https://www.shreya-shankar.com/rethinking-ml-monitoring-1/"
+            ]
+        },
+        {
+            "author": "Microsoft",
+            "title": "SynapseML - A simple, multilingual, and massively parallel machine learning library",
+            "summary": "Microsoft announces the release of SynapseML (previously MMLSpark), an open-source library that simplifies the creation of massively scalable machine learning (ML) pipelines. With SynapseML, developers can build scalable and intelligent systems for solving challenges in domains such as Anomaly Detection, Computer Vision, Deep Learning, Text analytics, etc.",
+            "urls": [
+                "https://www.microsoft.com/en-us/research/blog/synapseml-a-simple-multilingual-and-massively-parallel-machine-learning-library/"
+            ]
+        },
+        {
+            "author": "Data@Monzo",
+            "title": "Mapping our data journey with column lineage",
+            "summary": "Monzo writes about its journey to bring column-level lineage to track and understand scope changes across the data warehouse and automatically detect unused columns. TIL about ZetaSQL, which helps to parse & analyze BigQuery Sql, and looking forward to playing around with it.",
+            "urls": [
+                "https://github.com/google/zetasql",
+                "https://medium.com/data-monzo/mapping-our-data-journey-with-column-lineage-56209c00606d"
+            ]
+        },
+        {
+            "author": "PayPal",
+            "title": "Building Data Quality into the Enterprise Data Lake",
+            "summary": "PayPal writes about Rule Execution Framework to manage a centralized rule configuration system to manage data quality rules & rulesets. The adoption of SQL to write complex data validation rules and the workflow focused on the domain owners to define the data quality rules are exciting.",
+            "urls": [
+                "https://medium.com/paypal-tech/building-data-quality-into-the-enterprise-data-lake-9dec305c3757"
+            ]
+        }
+    ]
+}

@@ -1,0 +1,71 @@
+{
+    "edition": 50,
+    "articles": [
+        {
+            "author": "Benn Stancil",
+            "title": "The Third Rail",
+            "summary": "Benn Stancil writes an insightful view on the analyst role in an organization, the importance of analyst as a business decision support system, how the engineering skills overshadow the analyst function, and the lack of practical training brings the gap in the industry.",
+            "urls": [
+                "https://benn.substack.com/p/third-rail"
+            ]
+        },
+        {
+            "author": "Bessemer Venture Partners",
+            "title": "Roadmap - Data Infrastructure",
+            "summary": "Bessemer Ventures writes the guideline for its investment strategy for the data infrastructure. The blog has a comprehensive overview of the data infrastructure trends, the adoption of the cloud, and the future direction.  ",
+            "urls": [
+                "https://www.bvp.com/atlas/roadmap-data-infrastructure"
+            ]
+        },
+        {
+            "author": "ValidIO",
+            "title": "dbt and the Analytics Engineer \u2014 what\u2019s the hype about?",
+            "summary": "The rise of the modern data stack is expanding the scope of analytical engineering. The article narrates how DBT catalyzes the change and discusses the evolution of data warehouses & data lakes.",
+            "urls": [
+                "https://medium.com/validio/dbt-and-the-analytics-engineer-whats-the-hype-about-907eb86c4938"
+            ]
+        },
+        {
+            "author": "Zalando",
+            "title": "Knowledge Graph Technologies Accelerate and Improve the Data Model Definition for Master Data",
+            "summary": "The adoption of data lakes pushes master data management to the backseat partly because the \"schema-on-write\" MDM systems go against the \"schema-on-read\" design principles. At the same time, the adoption of microservices architecture is prone to yield inconsistent entity states. Zalando writes an exciting blog on how it tackles the MDM challenges with a graph database.",
+            "urls": [
+                "https://engineering.zalando.com/posts/2021/07/knowledge-graph-master-data-mdm.html"
+            ]
+        },
+        {
+            "author": "Sponsored - RudderStack",
+            "title": "Real-Time Personalization with Redis and RudderStack",
+            "summary": "Nailing personalization can mean increasing revenue by 15%, but technical challenges keep many companies stuck using basic methods. RudderStack writes a step-by-step guide on designing and implementing a real-time personalization engine using Redis and RudderStack.",
+            "urls": [
+                "https://rudderstack.com/blog/real-time-personalization-with-redis-and-rudderstack?utm_source=email&utm_medium=email&utm_campaign=CMPGN_46_DEWS&utm_content=None&utm_term=%7Bkeyword%7D&raid=39008a0a0c72eb7f33bee9b56cf063be"
+            ]
+        },
+        {
+            "author": "Anna Geller",
+            "title": "10 Common Mistakes When Building Analytical Data Models",
+            "summary": "Tejas Manohar @tejasmanoharThe hardest problem in data *is* data modeling and *should* always be data modeling.\n\nThe whole goal of this wave of data infra startups (Fivetran, Hightouch, dbt, etc.) should be to make data modeling the only challenge remaining.\n\nNever lose sight of that \ud83d\ude09July 12th 20214 Retweets79 Likes",
+            "urls": [
+                "https://twitter.com/tejasmanohar/status/1414670898880200712?s=20",
+                "https://twitter.com/tejasmanohar/status/1414670898880200712?s=20",
+                "https://betterprogramming.pub/10-common-mistakes-when-building-analytical-data-models-814c763d1b70"
+            ]
+        },
+        {
+            "author": "Zoba",
+            "title": "Scaling Zoba to more cities using Airflow",
+            "summary": "Zoba, the on-demand forecasting and optimization tool for mobility, writes about using Airflow to expand mobility to the newer markets. The workflow optimization to sync bootstrapping and periodic sync using Airflow's TaskFlow API is a good design reference for Airflow.",
+            "urls": [
+                "https://medium.com/zoba-blog/scaling-zoba-to-more-cities-using-airflow-1524f1941ffb"
+            ]
+        },
+        {
+            "author": "DevianArt",
+            "title": "Change Data Capture at DeviantArt",
+            "summary": "DevianArt writes about its journey of adopting CDC infrastructure. Often the CDC narrations focusing on the choice of the CDC frameworks. The author did an excellent job focusing on describing the overall complexity of the ecosystem and troubleshooting.",
+            "urls": [
+                "https://www.wix.engineering/post/change-data-capture-at-deviantart"
+            ]
+        }
+    ]
+}

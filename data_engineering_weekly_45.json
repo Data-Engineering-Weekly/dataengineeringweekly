@@ -1,0 +1,85 @@
+{
+    "edition": 45,
+    "articles": [
+        {
+            "author": "Rohan Goel",
+            "title": "The Ultimate Repo of Data Discovery Solutions",
+            "summary": "The data discovery system is a critical infrastructure in data engineering, and there are growing startups to solve the discovery problem. The ultimate repo of data discovery solutions is an excellent work that captures the current data discovery solutions. Thanks, Rohan, for sharing it.",
+            "urls": [
+                "https://www.notion.so/The-Ultimate-Repo-of-Data-Discovery-Solutions-149b0ea2a2ed401d84f2b71681c5a369",
+                "https://www.dataengineeringweekly.com/p/data-engineering-weekly-21-metadata"
+            ]
+        },
+        {
+            "author": "New York Times",
+            "title": "Tracking Covid-19 From Hundreds of Sources, One Extracted Record at a Time",
+            "summary": "NYT shared their experience developing a covid-19 application where the tracking work began with a single spreadsheet to more than 9.98 million programmatic requests for Covid-19 data from websites worldwide. It's fascinating to read about the scrapper development where the counties and cities source website frequently changed during the Covid crisis. The blog raised an important point: public data is not open data unless it is well-maintained, documented, and queryable APIs.",
+            "urls": [
+                "https://open.nytimes.com/tracking-covid-19-from-hundreds-of-sources-one-extracted-record-at-a-time-dd8cbd31f9b4"
+            ]
+        },
+        {
+            "author": "Adevinta",
+            "title": "Building a data mesh to support an ecosystem of data products at Adevinta",
+            "summary": "Adevinta writes an exciting blog about its journey towards data mesh architecture and what worked and didn't work. The learning focused on SQL access, Dataset as a Product & Domain data is an excellent blueprint of implementing data mesh architecture. ",
+            "urls": [
+                "https://medium.com/adevinta-tech-blog/building-a-data-mesh-to-support-an-ecosystem-of-data-products-at-adevinta-4c057d06824d"
+            ]
+        },
+        {
+            "author": "Nvidia",
+            "title": "What Is Synthetic Data?",
+            "summary": "Synthetic data is annotated information that computer simulations or algorithms generate as an alternative to real-world data. The importance of synthetic data comes as AI pioneer Andrew Ng calling for a broad shift to a more data-centric approach to machine learning. The blog narrates the history of synthetic data and comparing it with the augmented and anonymized data.",
+            "urls": [
+                "https://blogs.nvidia.com/blog/2021/06/08/what-is-synthetic-data/"
+            ]
+        },
+        {
+            "author": "Adobe",
+            "title": "Migrating to Apache Iceberg at Adobe Experience Platform",
+            "summary": "Adobe shared its experience migrating to Apache Iceberg for faster data access and reducing the dependency on catalogs. In addition, the blog narrates the pros & cons of in-place upgrade vs. shadow migration, and the decision matrix to decide on the migration strategy is a practice that one can adapt in any migration projects.",
+            "urls": [
+                "https://medium.com/adobetech/migrating-to-apache-iceberg-at-adobe-experience-platform-40fa80f8b8de"
+            ]
+        },
+        {
+            "author": "Confluent",
+            "title": "Consistency and Completeness - Rethinking Distributed Stream Processing in Apache Kafka",
+            "summary": "It is a vital feature of a stream processing engine to guarantee that it can recover from failures to a consistent state. Thus, the final results will not contain duplicates or lose any data &\u00a0completeness and\u00a0do not generate incomplete, partial outputs as final results even when input stream records may arrive out of order. Confluent writes an exciting blog that narrates how Kafka Stream guarantees such stream processing semantics on consistency and completeness.",
+            "urls": [
+                "https://www.confluent.io/blog/rethinking-distributed-stream-processing-in-kafka/"
+            ]
+        },
+        {
+            "author": "Databricks",
+            "title": "Announcing Photon Public Preview - The Next Generation Query Engine on the Databricks Lakehouse Platform",
+            "summary": "Databricks announced a brand new query engine, Photon, to run SQL & Spark SQL queries on top of the Delta Lake. Photon does not yet support all Spark features; a single query can run partially in Photon and partially in Spark!!!.  It would be an exciting paper to read how the optimizer work when the task is preferred over Photon vs. Spark SQL, and most importantly, how the data serialization works!!!",
+            "urls": [
+                "https://databricks.com/blog/2021/06/17/announcing-photon-public-preview-the-next-generation-query-engine-on-the-databricks-lakehouse-platform.html"
+            ]
+        },
+        {
+            "author": "StarTree",
+            "title": "Introduction to Geospatial Queries in Apache Pinot",
+            "summary": "One of the exciting features that I liked about Pinot is the customizable indexes for each dimension and provide interactive analytics in real-time. StarTree Data shared how one can run Geospatial analytical using Apache Pinot.",
+            "urls": []
+        },
+        {
+            "author": "LinkedIn",
+            "title": "Text analytics on LinkedIn Talent Insights using Apache Pinot",
+            "summary": "LinkedIn shared a similar usage of Pinot, narrating how Linkedin runs text analytics using Pinot.",
+            "urls": [
+                "https://medium.com/apache-pinot-developer-blog/introduction-to-geospatial-queries-in-apache-pinot-b63e2362e2a9",
+                "https://engineering.linkedin.com/blog/2021/text-analytics-on-linkedin-talent-insights-using-apache-pinot"
+            ]
+        },
+        {
+            "author": "Myntra Engineering",
+            "title": "Optimisation using Sparklens",
+            "summary": "Sparklens is a profiling and performance prediction tool for Spark with a built-in Spark Scheduler simulator. It helps identify the bottlenecks that a Spark application is facing and provides us with critical path time. Myntra shared its experience in utilizing Sparklens to optimize the Apache Spark jobs.",
+            "urls": [
+                "https://medium.com/myntra-engineering/optimisation-using-sparklens-59477440bdd8"
+            ]
+        }
+    ]
+}

@@ -1,0 +1,87 @@
+{
+    "edition": 41,
+    "articles": [
+        {
+            "author": "Airbnb",
+            "title": "How does Airbnb track and measure growth marketing?",
+            "summary": "Airbnb writes about its unified tracking measurement system to support marketing campaigns by introducing C-parameter tracking and a system for analytics and growth evaluation. In addition, the blog narrates some of the drawbacks of UTM tracking and why it chooses a custom tracking system.",
+            "urls": [
+                "https://medium.com/airbnb-engineering/how-does-airbnb-track-and-measure-growth-marketing-15ee4ce55c5d"
+            ]
+        },
+        {
+            "author": "Dagster",
+            "title": "Moving past Airflow - Why Dagster is the next-generation data orchestrator",
+            "summary": "Dagster writes an exciting blog comparing Dagster with Airflow in various lifecycles of a data pipeline development on developing & testing, Deploy & execute and monitor & observe. The metadata-rich,  parameterizable functions\u2013\u2013called\u00a0solids,\u00a0separation of computing and IO, support for Adhoc executions, process isolation with a clear separation of user process and system process, and flexible event-based scheduling are some of the exciting features to explore in Dagster.\u00a0",
+            "urls": [
+                "https://dagster.io/blog/dagster-airflow"
+            ]
+        },
+        {
+            "author": "NewYorkTimes",
+            "title": "How We Manage New York Times Readers\u2019 Data Privacy",
+            "summary": "The privacy policy and GDPR compliance can be challenging for consumer applications, given that there are more than 100 privacy laws by various countries. NYT writes an exciting blog on handling various privacy laws dynamically by its homegrown system called PURR (Privacy, Users, Rules, and Regulations).",
+            "urls": [
+                "https://open.nytimes.com/how-we-manage-new-york-times-readers-data-privacy-d39627d79a64"
+            ]
+        },
+        {
+            "author": "Lyft",
+            "title": "LyftLearn - ML Model Training Infrastructure built on Kubernetes",
+            "summary": "Lyft writes about its ML model infrastructure on Kubernetes focuses on various ML model development functions, model development, running the training & batch prediction jobs, and model user dashboard for previous model versions & job performances. The design focus on fast iterations, no restriction on supported modeling libraries and their versions, and enabling the system to be accessed programmatically are some of the exciting system design read.",
+            "urls": [
+                "https://eng.lyft.com/lyftlearn-ml-model-training-infrastructure-built-on-kubernetes-aef8218842bb"
+            ]
+        },
+        {
+            "author": "Uber",
+            "title": "Introducing Orbit, An Open Source Package for Time Series Inference and Forecasting",
+            "summary": "Uber as a marketplace business, forecasting is a vital aspect to solve the business problems. Uber writes about its open-source time-series library, Orbit, a Python package for Bayesian time series forecasting and inference which provides an intuitive initialize-fit-predict interface for time series tasks and uses probabilistic programming languages under the hood.",
+            "urls": [
+                "https://eng.uber.com/orbit/",
+                "https://arxiv.org/abs/2004.08492"
+            ]
+        },
+        {
+            "author": "LinkedIn",
+            "title": "Greykite - A flexible, intuitive, and fast forecasting library",
+            "summary": "A similar approach to Uber, To support LinkedIn\u2019s forecasting needs, LinkedIn developed & open-sourced the Greykite Python library. Greykite contains a simple modeling interface that facilitates data exploration and model tuning. The Silverkite algorithm, which is the flagship algorithm of the Greykite library, works well on time series with (potentially time-varying) trends and seasonality, repeated events/holidays, and short-range effects.",
+            "urls": [
+                "https://engineering.linkedin.com/blog/2021/greykite--a-flexible--intuitive--and-fast-forecasting-library",
+                "https://arxiv.org/abs/2105.01098"
+            ]
+        },
+        {
+            "author": "GameChanger",
+            "title": "From pipeline to beyond - Moving data out of Kafka to wherever else it's needed",
+            "summary": "Gamechanger writes about Tangent, its Kafka to S3 pipeline, and some of the learning while trying to adopt opensource systems such as Kafka Connect, Secor & Gobblin. The focus on monitoring approaches and the integration of terraforming generic autoscaling policies are exciting to read.",
+            "urls": [
+                "https://tech.gc.com/from-pipeline-to-beyond/"
+            ]
+        },
+        {
+            "author": "Groupon",
+            "title": "Pinion \u2014 The Load Framework",
+            "summary": "Groupon writes about Pinion, an abstraction over the\u00a0Delta lake APIs for S3 and spark-snowflake connector for Snowflake\u00a0to do SCD type 1,2 & 3 operations in the respective target system. The configuration-driven, plug & play approach to handle the slowly changing dimension to increase the developer productivity is an exciting read on improving the data pipeline efficiency.\u00a0",
+            "urls": [
+                "https://medium.com/groupon-eng/pinion-the-load-framework-79cc1d8bff55"
+            ]
+        },
+        {
+            "author": "eBay",
+            "title": "From Vendor to In-house - How eBay Reimagined Its Analytics Landscape",
+            "summary": "A data infrastructure at its core requires supporting two primary functions, a  scalable batch & real-time computation and fast, interactive query & analytics. eBay writes about the challenges it faced with vendor solutions on the growing need for data governance & reliability and various customization on the opensource systems to move from the vendor solution to an open ecosystem.",
+            "urls": [
+                "https://tech.ebayinc.com/engineering/from-vendor-to-in-house-how-ebay-reimagined-its-analytics-landscape/"
+            ]
+        },
+        {
+            "author": "Pinterest",
+            "title": "Shallow Mirror - Enhancement to Kafka MirrorMaker to reduce CPU/memory pressure",
+            "summary": "Kafka MirrorMaker widely used replicate traffic among different Kafka clusters spread across multiple regions. Pinterest writes about its Shallow Mirror, an optimized Kafka Mirror Maker, the scalability challenges as the adoption grows, and some of its optimization to improve the Kafka mirror maker performance.",
+            "urls": [
+                "https://medium.com/pinterest-engineering/shallow-mirror-f543b14bb25"
+            ]
+        }
+    ]
+}

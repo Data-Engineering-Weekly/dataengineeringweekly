@@ -1,0 +1,79 @@
+{
+    "edition": 61,
+    "articles": [
+        {
+            "author": "Benn Stancil",
+            "title": "The future of operational analytics",
+            "summary": "Another great write-up from Benn Stancil on the future of operational analytics narrates why analytics is the experience. The narration on how the dashboard failing analogy is an exciting read that closely resembles the typical second system syndrome.",
+            "urls": [
+                "https://en.wikipedia.org/wiki/Second-system_effect",
+                "https://benn.substack.com/p/the-future-of-operational-analytics"
+            ]
+        },
+        {
+            "author": "Robert Yi",
+            "title": "Signaling a tectonic shift in the transformation layer",
+            "summary": "Airbnb\u2019s Minerva metrics layer, and the recent Looker & Tableau partnership triggered some exciting conversation on transformation layer vs. metrics layer. The author narrates the paradigm shift in the transformation layer and how the transformation layer & metrics layer complement each other.",
+            "urls": [
+                "https://medium.com/airbnb-engineering/how-airbnb-achieved-metric-consistency-at-scale-f23cc53dea70"
+            ]
+        },
+        {
+            "author": "Monte Carlo",
+            "title": "The Future of the Data Engineer",
+            "summary": "The conversation is an excellent recap of the current state of data engineering and what the future holds with the fast-changing data tooling landscape. The narration on scalability & cost optimization, consensus & change management in a distributed ownership is an exciting read.",
+            "urls": [
+                "https://www.montecarlodata.com/the-future-of-the-data-engineer/"
+            ]
+        },
+        {
+            "author": "Monzo",
+            "title": "An introduction to Monzo\u2019s data stack",
+            "summary": "Monzo writes about an overview of its data infrastructure on Google Cloud. The usage of dbt and the wrapper tooling on top of dbt to speed up the execution is an exciting read. It is evident from the blog that one of the most significant challenges of data engineering is the ownership and the contract between the producer & consumers.",
+            "urls": [
+                "https://medium.com/data-monzo/an-introduction-to-monzos-data-stack-827ae531bc99"
+            ]
+        },
+        {
+            "author": "Petrica Leuca",
+            "title": "What is data versioning and 3 ways to implement it",
+            "summary": "Data versioning is the essence of data pipelines. The authors narrate what data versioning is and three patterns to approach the data versioning.",
+            "urls": [
+                "https://medium.com/@petrica.leuca/what-is-data-versioning-and-3-ways-to-implement-it-4b6377bbdf93"
+            ]
+        },
+        {
+            "author": "Twitter",
+            "title": "Processing billions of events in real-time at Twitter",
+            "summary": "Twitter writes about its journey on adopting the Kappa architecture pattern and the reasoning for moving away from the Lambda architecture pattern. The blog is an exciting read for the scalability challenges while maintaining the same view for real-time and batch analytics.",
+            "urls": [
+                "https://blog.twitter.com/engineering/en_us/topics/infrastructure/2021/processing-billions-of-events-in-real-time-at-twitter-"
+            ]
+        },
+        {
+            "author": "Uber",
+            "title": "Introducing uGroup Uber\u2019s Consumer Management Framework",
+            "summary": "Consumer offset monitoring is critical for operating the streaming applications on top of Apache Kafka. Uber writes about uGroup, a Kafka consumer management framework.",
+            "urls": [
+                "https://eng.uber.com/introducing-ugroup-ubers-consumer-management-framework/"
+            ]
+        },
+        {
+            "author": "LinkedIn",
+            "title": "Project Magnet, providing push-based shuffle, now available in Apache Spark 3.2",
+            "summary": "LinkedIn writes about MagnetA push-based shuffle is an implementation of shuffle where the shuffle blocks are pushed to the remote shuffle services from the mapper tasks in the past. The blog narrates an overview of the push-based shuffle, and now it is available as part of Spark 3.2 open source release.",
+            "urls": [
+                "https://engineering.linkedin.com/blog/2020/introducing-magnet",
+                "https://engineering.linkedin.com/blog/2021/push-based-shuffle-in-apache-spark"
+            ]
+        },
+        {
+            "author": "Debezium",
+            "title": "Using Debezium to Create a Data Lake with Apache Iceberg.",
+            "summary": "Apache Iceberg is an open table format for large analytic datasets. Debezium writes about how the Debezium server can add a new sink connector for creating the Apache Iceberg consumers to capture change data stream.",
+            "urls": [
+                "https://iceberg.apache.org/"
+            ]
+        }
+    ]
+}

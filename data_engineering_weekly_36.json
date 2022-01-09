@@ -1,0 +1,103 @@
+{
+    "edition": 36,
+    "articles": [
+        {
+            "author": "Pinterest",
+            "title": "Open sourcing Querybook, Pinterest\u2019s collaborative big data hub",
+            "summary": "Ad-hoc analytics is the first step for building a data analytics product. The need for ad-hoc analytics evolved from a simple SQL editor to an integrated workflow engine\u2014Pinterest opensource Querybook with enhanced visualization, collaboration, and scheduling feature as a hub for data analytics.",
+            "urls": [
+                "https://medium.com/pinterest-engineering/open-sourcing-querybook-pinterests-collaborative-big-data-hub-ba2605558883"
+            ]
+        },
+        {
+            "author": "Capital One Tech",
+            "title": "The Journey from Batch to Real-time with Change Data Capture",
+            "summary": "Change Data Capture and event sourcing is the vital component of data infrastructure. Capital One writes about introducing the event sourcing & CDC and an excellent comparison between Debezium and AWS Data migration service.",
+            "urls": [
+                "https://medium.com/capital-one-tech/the-journey-from-batch-to-real-time-with-change-data-capture-c598e56146be"
+            ]
+        },
+        {
+            "author": "QuantumBlack",
+            "title": "Data Engineering\u2019s Role Is Scaling Beyond Scope \u2014 And That Should Be Celebrated",
+            "summary": "Today\u2019s data engineers are responsible for unlocking data science and analytics in an organization and building well-curated, accessible data foundations. Responsibilities have increased, and expectations are higher than they were even five years ago.",
+            "urls": [
+                "https://quantumblack.medium.com/data-engineerings-role-is-scaling-beyond-scope-and-that-should-be-celebrated-ca9fa1cb8cbb"
+            ]
+        },
+        {
+            "author": "Pinterest",
+            "title": "Detecting Image Similarity in (Near) Real-time Using Apache Flink",
+            "summary": "Pinterest writes about its near real-time infrastructure to detect image similarity. The article narrates the design of Flink stream-stream join, LSH (Locality Sensitive Hashing) lookup, and the graph storage need for storing the identified cluster to the member list. Pinterest's approach to propagate the debugging data through the Flink operator is an exciting read on the complex pipeline's operability, which one can adapt to any stream processing pipeline.",
+            "urls": [
+                "https://medium.com/pinterest-engineering/detecting-image-similarity-in-near-real-time-using-apache-flink-723ce072b7d2"
+            ]
+        },
+        {
+            "author": "Shopify",
+            "title": "Building Smarter Search Products 3 Steps for Evaluating Search Algorithms",
+            "summary": "Search is a core functionality of most business applications, and it is one of the vital applications of a data product. How to continuously validate the search algorithms? Shopify narrates a three-step approach from collecting the data to evaluating online and offline metrics.",
+            "urls": [
+                "https://shopifyengineering.myshopify.com/blogs/engineering/evaluating-search-algorithms"
+            ]
+        },
+        {
+            "author": "Microsoft",
+            "title": "Time series forecasting - Understanding the fundamentals (Part-1)",
+            "summary": "Time series forecasting operates in a well-defined problem space and expands across different domains. Producing high-quality forecasts is not an easy problem. Microsoft wrote an exciting blog on time series forecasting fundamentals and summarized a few popular Python forecasting packages to get started.",
+            "urls": [
+                "https://medium.com/data-science-at-microsoft/time-series-forecasting-part-1-of-3-understanding-the-fundamentals-13b52eda3e5",
+                "https://otexts.com/fpp2/"
+            ]
+        },
+        {
+            "author": "Confluent",
+            "title": "Apache Kafka Made Simple - A First Glimpse of a Kafka Without ZooKeeper",
+            "summary": "Apache Kafka community started replacing Zookeeper with a self-managed metadata quorum, and the community potentially gets early access in the upcoming 2.8 release. Confluent writes about how the quorum control works if you opt for Kafka and scaling up & down the Kafka cluster.",
+            "urls": [
+                "https://www.confluent.io/blog/kafka-without-zookeeper-a-sneak-peek/",
+                "https://cwiki.apache.org/confluence/display/KAFKA/KIP-500%3A+Replace+ZooKeeper+with+a+Self-Managed+Metadata+Quorum"
+            ]
+        },
+        {
+            "author": "Fathom",
+            "title": "Building the world's fastest website analytics.",
+            "summary": "Fathom Engineering writes about its analytical database journey from MySQL to SingleStore (MemSQL). The article narrates the scalability challenges with MySQL as an analytical DB and the evaluation process of Elasticsearch, Timescale DB, Rockset & ClickHouse. The article is an excellent reminder of how important to have the documentation well-written and easy to understand.",
+            "urls": [
+                "https://usefathom.com/blog/worlds-fastest-analytics"
+            ]
+        },
+        {
+            "author": "Financial Times",
+            "title": "Predicting FT Trending Topics",
+            "summary": "Financial Times writes about its trending topic prediction infrastructure and how it helps journalists write more relevant stories. Slack's integration as part of the prediction workflow to send signals to the stakeholders is an exciting design and a good reminder about incorporating the business workflow as part of the prediction system.",
+            "urls": [
+                "https://medium.com/ft-product-technology/predicting-ft-trending-topics-7eda85ece727"
+            ]
+        },
+        {
+            "author": "Picnic",
+            "title": "How we built our Lakeless Data Warehouse",
+            "summary": "Picnic data team writes about their five-year journey of its data warehouse system. There are many exciting lessons on store time in UTC, the importance of follow up on the stop-gap solutions, start with a low-risk tech stack and scale up as you grow, document the data catalog early, minimize the number of tooling.",
+            "urls": [
+                "https://blog.picnic.nl/how-we-built-our-lakeless-data-warehouse-38178f6cee12"
+            ]
+        },
+        {
+            "author": "Data Mechanics",
+            "title": "Apache Spark 3.1 Release Spark on Kubernetes is now Generally Available",
+            "summary": "With the Apache Spark 3.1 release in March 2021, the Spark on Kubernetes project is officially declared production-ready and Generally Available. The blog narrates the Apache Spark Kubernetes support journey from version 2.4 to 3.1. The blog highlights some of the key enhancements on Spark 3.0, such as handling graceful executor decommission, supporting the NFS volume option (now it's much simpler to integrate EFS), and stage-level scheduling.",
+            "urls": [
+                "https://www.datamechanics.co/blog-post/apache-spark-3-1-release-spark-on-kubernetes-is-now-ga"
+            ]
+        },
+        {
+            "author": "Groupon",
+            "title": "How to add custom KPIs to Airflow",
+            "summary": "The ability to customize Airflow UI with additional task KPI can significantly improve the data team's productivity. Groupon writes an exciting blog on how it did the same with additional KPI with the code example.",
+            "urls": [
+                "https://medium.com/groupon-eng/how-to-add-custom-kpis-to-airflow-ac09eb1bf3e1"
+            ]
+        }
+    ]
+}

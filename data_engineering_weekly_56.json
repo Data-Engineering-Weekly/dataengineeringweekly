@@ -1,0 +1,61 @@
+{
+    "edition": 56,
+    "articles": [
+        {
+            "author": "Benn Stancil",
+            "title": "The Data OS",
+            "summary": "Y Combinator\u2014an incubator of both startups and the Silicon Valley zeitgeist\u2014funded 15 analytics, data engineering, and AI and ML companies. In 2021, they funded 100. Does the modern data stack bring too many tools to the table to solve the data problem? Benn Stancil is discussing data OS.",
+            "urls": [
+                "https://benn.substack.com/p/the-data-os"
+            ]
+        },
+        {
+            "author": "Airbnb",
+            "title": "Automating Data Protection at Scale",
+            "summary": "Data protection and privacy monitoring is a critical aspect of the data management platform. It is the most challenging aspect of data management since it can travel through multiple data storages, making it harder to keep track of manually. Airbnb writes about Madoka, a metadata system for data protection that maintains the security and privacy-related metadata for all data assets on the Airbnb platform.",
+            "urls": [
+                "https://medium.com/airbnb-engineering/automating-data-protection-at-scale-part-1-c74909328e08"
+            ]
+        },
+        {
+            "author": "Uber",
+            "title": "YAML Generator for Funnel YAML Files Streamlining the Mobile Data Workflow Process",
+            "summary": "Funnel analysis is a critical analytical feature from click tracking events. Uber writes an exciting blog about YAML generators, followed by a simple UI workflow engine to develop funnel analysis. It triggers an interesting data pipeline debate, no-code or code-only data pipeline. IMO, the answer is to know your audience and their workflow to make them productive.",
+            "urls": [
+                "https://eng.uber.com/streamlining-mobile-data-workflow-process/"
+            ]
+        },
+        {
+            "author": "Intuit",
+            "title": "A Paved Road for Data Pipelines",
+            "summary": "Intuit writes about a general overview of its data infrastructure, emphasizing that lack of standardization can lead to fragmentation and islands of computing. The blog narrates Intuit's developer portal and UI-driven pipeline lifecycle management platform.",
+            "urls": [
+                "https://medium.com/intuit-engineering/a-paved-road-for-data-pipelines-779004143e41"
+            ]
+        },
+        {
+            "author": "Pinterest",
+            "title": "Faster Flink adoption with self-service diagnosis tool at Pinterest",
+            "summary": "Self-serving diagnostic tooling is a vital part of the data platform for democratizing the adoption. Pinterest writes about Dr. Squirrel, a Flink logs aggregator to perform job health checks, flag unhealthy jobs explicitly, and provide root cause analysis and actionable steps to help fix the issues.",
+            "urls": [
+                "https://medium.com/pinterest-engineering/faster-flink-adoption-with-self-service-diagnosis-tool-at-pinterest-50a07143f444"
+            ]
+        },
+        {
+            "author": "Cloudera",
+            "title": "Operating Apache Kafka with Cruise Control",
+            "summary": "Cruise control is one of my favorite tools to operate Apache Kafka at scale. Cloudera writes an exciting blog giving an overview of Cruise Control and its use cases. ",
+            "urls": [
+                "https://blog.cloudera.com/operating-apache-kafka-with-cruise-control/"
+            ]
+        },
+        {
+            "author": "AutoTrader",
+            "title": "Auto-generating an Airflow DAG using the dbt manifest",
+            "summary": " It is always challenging to integrate Airflow as a task dependency system with Dbt, a model-dependent system. AutoTrader writes an exciting blog about its DbtTaskGenerator to auto-generate Airflow DAGs using Dbt's manifest files.",
+            "urls": [
+                "https://engineering.autotrader.co.uk/2021/09/15/auto-generated-airflow-dag-for-dbt.html"
+            ]
+        }
+    ]
+}
