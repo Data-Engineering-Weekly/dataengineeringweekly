@@ -1,0 +1,77 @@
+{
+    "edition": 40,
+    "articles": [
+        {
+            "author": "Event Highlight",
+            "title": "The LinkedIn Big Data Summit",
+            "summary": "LinkedIn published the LinkedIn Big Data Summit agenda is a half-day workshop-style event that focuses on the intersection of AI, Cloud, and Big Data. The conference is open for everyone to attend.https://thelinkedinbigdatasummit.splashthat.com/",
+            "urls": [
+                "https://thelinkedinbigdatasummit.splashthat.com/"
+            ]
+        },
+        {
+            "author": "Airbnb",
+            "title": "How Airbnb Achieved Metric Consistency at Scale",
+            "summary": "Airbnb writes about its analytical journey, sharing a few growing pains and introducing Minerva, Airbnb's metrics infrastructure. It's exciting to read Minerva's simplified denormalization process, flexible backfill, comprehensive data management policy support, and integration with the data discovery system.",
+            "urls": [
+                "https://medium.com/airbnb-engineering/how-airbnb-achieved-metric-consistency-at-scale-f23cc53dea70"
+            ]
+        },
+        {
+            "author": "Google",
+            "title": "Logica - organizing your data queries, making them universally reusable and fun",
+            "summary": "One of the shortcomings of SQL, it is not flexible enough to test and develop reusable components. Google open-source Logica extends classical Logic programming syntax to solve SQL problems using the syntax of mathematical propositional logic rather than the natural English language.",
+            "urls": [
+                "https://opensource.googleblog.com/2021/04/logica-organizing-your-data-queries.html?m=1"
+            ]
+        },
+        {
+            "author": "Shopify",
+            "title": "A Five-Step Guide for Conducting Exploratory Data Analysis",
+            "summary": "A Five-Step Guide for Conducting Exploratory Data Analysis",
+            "urls": [
+                "https://shopifyengineering.myshopify.com/blogs/engineering/conducting-exploratory-data-analysis"
+            ]
+        },
+        {
+            "author": "Intuit",
+            "title": "Safeguarding Data in the Data Lake - Intuit\u2019s Holistic Approach",
+            "summary": "Intuit writes about its holistic approach to secure the data lake. The journey from manual to automated data discovery and classification, encryption by default, focus on dataset ownership are the key highlights.",
+            "urls": [
+                "https://medium.com/intuit-engineering/safeguarding-data-in-the-data-lake-intuits-holistic-approach-1109bbbae2cb"
+            ]
+        },
+        {
+            "author": "Uber",
+            "title": "Automating Merchant Live Monitoring with Real-Time Analytics - Charon",
+            "summary": "Uber writes about Charon, its internal framework for controlling the demand at the merchant level through the enforcement of real-time rules. The high-level architecture is an exciting read with Presto & Pinot at the core of the rule engine integrated with Hive & Kafka.",
+            "urls": [
+                "https://eng.uber.com/charon/"
+            ]
+        },
+        {
+            "author": "SoundCloud",
+            "title": "The Journey of Corpus",
+            "summary": "SoundCloud writes its journey migrating from Redshift to BigQuery with the project Corpus to create a single centralized source of truth for SoundCloud's most relevant data. It's an exciting read on the mission-driven approach focusing on quality, compliance, timeliness, usability, efficiency & maintainability, and the approaches to adhere to the principles.",
+            "urls": [
+                "https://developers.soundcloud.com/blog/the-journey-of-corpus"
+            ]
+        },
+        {
+            "author": "Jupyter",
+            "title": "nbterm- Jupyter Notebooks in the terminal",
+            "summary": "Jupyter notebook on terminal!!! The blog walkthrough on how to install with examples.",
+            "urls": [
+                "https://blog.jupyter.org/nbterm-jupyter-notebooks-in-the-terminal-6a2b55d08b70"
+            ]
+        },
+        {
+            "author": "Databricks",
+            "title": "What\u2019s New in Apache Spark\u2122 3.1 Release for Structured Streaming",
+            "summary": "Databricks writes the highlights of Spark 3.1 releases introducing the new streaming table API, support for stream-stream joins, and structured streaming UI improvements.",
+            "urls": [
+                "https://databricks.com/blog/2021/04/27/whats-new-in-apache-spark-3-1-release-for-structured-streaming.html"
+            ]
+        }
+    ]
+}

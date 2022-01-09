@@ -1,0 +1,80 @@
+{
+    "edition": 39,
+    "articles": [
+        {
+            "author": "WePay",
+            "title": "An Offline to Online Data Pipeline at WePay",
+            "summary": "The fraud detection system requires offline computations or complex analysis performed by users integrated and propagated to an online serving system to fight fraud. WePay writes about its Fraud detection infrastructure on top of the Google Cloud Platform.",
+            "urls": [
+                "https://wecode.wepay.com/posts/an-offline-to-online-data-pipeline-at-wepay"
+            ]
+        },
+        {
+            "author": "Benn Stancil",
+            "title": "Why is self-serve still a problem?",
+            "summary": "Self-serve analytics is a north star architecture for any data infrastructure, but what is self-serve analytics? The author made some excellent narratives on self-serve analytics and emphasis why opinionated simplicity is better than indifferent optionality.",
+            "urls": [
+                "https://benn.substack.com/p/self-serve-still-a-problem"
+            ]
+        },
+        {
+            "author": "ABN AMRO",
+            "title": "ABN AMRO\u2019s Data Integration Architecture",
+            "summary": "ABM AMRO writes about its digital integration and access layer architecture with the concept of data providers and the consumers. How does the integration and interoperability work between the data provider and the consumers? The blog narrates Digital Integration and Access Layer(DIAL) and the principles behind the architecture.",
+            "urls": [
+                "https://piethein.medium.com/abn-amros-data-integration-architecture-3d266a59fbdd"
+            ]
+        },
+        {
+            "author": "InfoQ",
+            "title": "Data Gateways in the Cloud Native Era",
+            "summary": "Modern distributed application architectures created the need for API Gateways and helped popularize API Management and Service Mesh technologies. The growing adoption of data mesh increases the domain-centric ownership similar to Microservices. The blog narrates the current landscape of data gateway and various technologies available to establish data gateway.",
+            "urls": [
+                "https://www.infoq.com/articles/data-gateways-cloud-native/"
+            ]
+        },
+        {
+            "author": "Intuit",
+            "title": "Superglue \u2014 Journey of Lineage, Data Observability & Data Pipelines",
+            "summary": "Intuit open sources SuperGlue, its lineage-tracking tool built to help visualize data propagation through complex pipelines composed of tables, jobs, and reports. The SQL parsing to understand the lineage, dependency recommendations, anomaly detection, and personalization are some of the exciting features of SuperGlue.",
+            "urls": [
+                "https://towardsdatascience.com/superglue-journey-of-lineage-data-observability-data-pipelines-23ffb2990b30",
+                "https://github.com/intuit/superglue"
+            ]
+        },
+        {
+            "author": "Lyft",
+            "title": "How Lyft Data Scientists Have Worked Remotely During the Pandemic",
+            "summary": "Lyft's data scientist team shared some of their experience working during this pandemic. The article contains some great learning on the tools and skills that helped Lyft's data science team.",
+            "urls": [
+                "https://eng.lyft.com/a-day-in-the-life-of-a-lyft-data-scientist-ffe6651f138b"
+            ]
+        },
+        {
+            "author": "NuBank",
+            "title": "Distributing the data team to boost innovation reliably",
+            "summary": "One of the critical KPI for a data team is its impact on the organization's data-driven culture. As it scales, a data platform does not only need to adapt its technology stack but also the people organization around it. NuBank writes an exciting blog sharing their learning on building the data team.",
+            "urls": [
+                "https://building.nubank.com.br/distributing-the-data-team-to-boost-innovation-reliably/"
+            ]
+        },
+        {
+            "author": "Adobe",
+            "title": "Introducing the \u201cOne-Stop Anomaly Shop\u201d (OSAS)",
+            "summary": "Adobe\u2019s security intelligence team open sources OSAS, a security intelligence toolset to detect security anomalies. ",
+            "urls": [
+                "https://medium.com/adobetech/introducing-the-one-stop-anomaly-shop-osas-c27581ee1bd3",
+                "https://github.com/adobe/OSAS",
+                "https://www.insticc.org/Primoris/Resources/PaperPdf.ashx?idPaper=7424dHp8E4k="
+            ]
+        },
+        {
+            "author": "Ask HN",
+            "title": "Is there a way to efficiently subscribe to an SQL query for changes?",
+            "summary": "An interesting Hacker News thread on the topic of subscribing to the incremental materialize views. There are some excellent comparisons of RethinDB, Materialize, and Postgres' proposals for incremental view maintenance.",
+            "urls": [
+                "https://news.ycombinator.com/item?id=26901352"
+            ]
+        }
+    ]
+}

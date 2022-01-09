@@ -1,0 +1,85 @@
+{
+    "edition": 38,
+    "articles": [
+        {
+            "author": "Bill Schmarzo",
+            "title": "Orphaned Analytics The Great Destroyers of Economic Value",
+            "summary": "Does the number of developed ML models is an indicator of a company's analytics prowess and maturity? What is the cost of orphaned analytics? The author narrates the cost of orphaned analytics, representing a significant operational and regulatory risk and walkthrough the role of Hypothesis Development Canvas to Prevent Orphaned Analytics.",
+            "urls": [
+                "https://www.datasciencecentral.com/profiles/blogs/orphaned-analytics-the-great-destroyers-of-economic-value"
+            ]
+        },
+        {
+            "author": "ThoughtWorks",
+            "title": "Macro trends in the technology industry",
+            "summary": "Macro trends in the technology industry",
+            "urls": [
+                "https://www.thoughtworks.com/insights/blog/macro-trends-technology-industry-april-2021"
+            ]
+        },
+        {
+            "author": "Chau Vinh Loi",
+            "title": "A Comprehensive Framework for Data Quality Management",
+            "summary": "A Comprehensive Framework for Data Quality Management",
+            "urls": [
+                "https://towardsdatascience.com/a-comprehensive-framework-for-data-quality-management-b110a0465e83"
+            ]
+        },
+        {
+            "author": "Explorium",
+            "title": "Benchmarking SQL engines for Data Serving - PrestoDb, Trino, and Redshift",
+            "summary": "Benchmarking SQL engines for Data Serving - PrestoDb, Trino, and Redshift",
+            "urls": [
+                "https://medium.com/explorium-ai/benchmarking-sql-engines-for-data-serving-prestodb-trino-and-redshift-1c5f16d6e5da"
+            ]
+        },
+        {
+            "author": "LakeFS",
+            "title": "Hudi, Iceberg & Delta Lake - Data Lake Table Format Compared",
+            "summary": "LakeFS writes an exciting blog comparing the lake formats Hudi, Iceberg, and Delta Lake on their platform compatibility, performance & throughput, and concurrency. The recommendations are, If you are also already a Databricks customer, Delta Engine brings significant improvements. If your primary pain points are managing huge tables on an object store (more than 10k partitions), Iceberg works excellent. If you use various query engines and require flexibility for managing mutating datasets, Hudi does the job.",
+            "urls": [
+                "https://lakefs.io/hudi-iceberg-and-delta-lake-data-lake-table-formats-compared/"
+            ]
+        },
+        {
+            "author": "Adobe",
+            "title": "Iceberg Series - ACID Transactions at Scale on the Data Lake in Adobe Experience Platform",
+            "summary": "The write amplification increases while concurrent process trying upsert at the same time. Adobe writes about Tombstone, its internal implementation of row-level upsert operation on Iceberg to handle more than 10B rows reprocessing every day",
+            "urls": [
+                "https://medium.com/adobetech/iceberg-series-acid-transactions-at-scale-on-the-data-lake-in-adobe-experience-platform-f3e8fe0cef01"
+            ]
+        },
+        {
+            "author": "Airbnb",
+            "title": "Achieving Insights and Savings with Cost Data",
+            "summary": "Cloud cost optimization is one of the vital aspects of platform engineering, and Airbnb's cost data foundation shares its learnings from building a pipeline, defining metrics, and designing visualizations.",
+            "urls": [
+                "https://medium.com/airbnb-engineering/achieving-insights-and-savings-with-cost-data-ec9a49fd74bc"
+            ]
+        },
+        {
+            "author": "Microsoft",
+            "title": "Time series forecasting - Selecting algorithms",
+            "summary": "Microsoft writes the second part of the time series forecasting series, focusing on selecting the algorithms. The blog narrates a univariate forecasting engine and evaluation metrics to measure the predictions.",
+            "urls": [
+                "https://medium.com/data-science-at-microsoft/time-series-forecasting-part-2-of-3-selecting-algorithms-11b6635f61bb"
+            ]
+        },
+        {
+            "author": "LinkedIn",
+            "title": "Solving for the cardinality of set intersection at scale with Pinot and Theta Sketches",
+            "summary": "LinkedIn writes about Apache Pinot's  Theta-Sketches set intersection cardinality estimation to solve the audience-reach estimation problem in production. This new solution alleviated the existing problem of data staleness by reducing data size (by approximately 80%) and capping the data size growth from superlinear to sub-linear.",
+            "urls": [
+                "https://engineering.linkedin.com/blog/2021/pinot-and-theta-sketches"
+            ]
+        },
+        {
+            "author": "Mitchell Silverman ",
+            "title": "Layering Your Data Warehouse",
+            "summary": "How to layer a DBT project? The author narrates why the layering is vital in data infrastructure and a complete description of the root layer, logic layer, dimension & activity layer, and reporting layer.",
+            "urls": [
+                "https://mitchellsilv-79772.medium.com/layering-your-data-warehouse-f3da41a337e5"
+            ]
+        }
+    ]
+}

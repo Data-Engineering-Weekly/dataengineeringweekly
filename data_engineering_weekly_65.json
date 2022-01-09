@@ -1,0 +1,76 @@
+{
+    "edition": 65,
+    "articles": [
+        {
+            "author": "https",
+            "title": "//www.freecodecamp.org/news/how-to-analyze-data-with-python-pandas/",
+            "summary": "https://www.freecodecamp.org/news/how-to-analyze-data-with-python-pandas/",
+            "urls": []
+        },
+        {
+            "author": "Meta",
+            "title": "Data Observability Learning Summit 2021",
+            "summary": "Meta (Facebook) published videos of its recent data observability summit.  I've not watched all videos and looking forward to watching data and ML observability in the public cloud & \"Catch me if you can\": Keeping up with ML in production.",
+            "urls": [
+                "https://m.facebook.com/watch/9445547199/490224945331402"
+            ]
+        },
+        {
+            "author": "Netflix",
+            "title": "Building confidence in a decision",
+            "summary": "Netflix published the fifth post in a multi-part series on how Netflix uses A/B tests to inform decisions and continuously innovate its products. The fifth part focuses on how Netflix uses the test results to support decision-making in a complex business environment.",
+            "urls": [
+                "https://netflixtechblog.com/building-confidence-in-a-decision-8705834e6fd8"
+            ]
+        },
+        {
+            "author": "Spotify",
+            "title": "The Rise (and Lessons Learned) of ML Models to Personalize Content on Home",
+            "summary": "Spotify shared a two-part post on its ML adoption story & lesson learned to build personalized content on its Homepage. The blog is an exciting narration of thinking through converting a rule-based application into ML-driven.",
+            "urls": [
+                "https://engineering.atspotify.com/2021/11/15/the-rise-and-lessons-learned-of-ml-models-to-personalize-content-on-home-part-i/",
+                "https://engineering.atspotify.com/2021/11/18/the-rise-and-lessons-learned-of-ml-models-to-personalize-content-on-home-part-ii/"
+            ]
+        },
+        {
+            "author": "Vimeo",
+            "title": "Uncovering bias in search and recommendations",
+            "summary": "The code we write fundamentally, the reflection of the human thought process, and human bias in the system are harmful by-products. Being dependent on existing data tends to privilege what systems are already in place. Vimeo writes an exciting blog on that line on how its search & recommendation team approaches uncover the bias in its ML models.",
+            "urls": [
+                "https://medium.com/vimeo-engineering-blog/uncovering-bias-in-search-and-recommendations-751b01d1c874"
+            ]
+        },
+        {
+            "author": "Pinterest",
+            "title": "MemQ -An efficient, scalable cloud-native PubSub system",
+            "summary": "Pinterest writes about its internal pub-sub system called MemQ, born out of learning from operating Kafka. The system design of the pluggable replicator storage layer is the highlight of the design. The key takeaways on operating Kafka is a must-read.",
+            "urls": [
+                "https://medium.com/pinterest-engineering/memq-an-efficient-scalable-cloud-native-pubsub-system-4402695dd4e7"
+            ]
+        },
+        {
+            "author": "PayPal",
+            "title": "Scaling Kafka Consumer for Billions of Events",
+            "summary": "PayPal writes about its performance benchmark on improving the throughput of its Kafka cluster. The performance gain from switching java GC from CMS to G1GC is an interesting takeaway.",
+            "urls": [
+                "https://medium.com/paypal-tech/kafka-consumer-benchmarking-c726fbe4000"
+            ]
+        },
+        {
+            "author": "Confluent",
+            "title": "How to Efficiently Subscribe to a SQL Query for Changes",
+            "summary": "Subscribing to a real-time CDC pipeline to get the update in a scalable way is powerful. Confluent writes about how ksqlDB supports efficiently subscribe to real-time SQL queries. However, the lack of support for the group by partition by & window expression is a disappointment.",
+            "urls": [
+                "https://www.confluent.io/blog/push-queries-v2-with-ksqldb-scalable-sql-query-subscriptions/"
+            ]
+        },
+        {
+            "author": "Servian",
+            "title": "Modelling Type 1 + 2 Slowly Changing Dimensions with dbt",
+            "summary": "Finally, the blog narrates the practical implementation of Type 1 & Type 2 slowly changing dimensions with dbt.",
+            "urls": [
+                "https://servian.dev/modelling-type-1-2-slowly-changing-dimensions-with-dbt-1b80078f290a"
+            ]
+        }
+    ]
+}

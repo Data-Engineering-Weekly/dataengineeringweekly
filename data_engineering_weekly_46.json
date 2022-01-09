@@ -1,0 +1,70 @@
+{
+    "edition": 46,
+    "articles": [
+        {
+            "author": "Pinterest",
+            "title": "Trusting Metrics at Pinterest",
+            "summary": "Data accuracy is strategically fundamental for the business to make data-driven decisions. The certified data metrics are the standard practice in many companies to bring trust in data. Pinterest writes an exciting post explaining how simple counting can be a complicated task and the metrics certification process works at Pinterest.",
+            "urls": [
+                "https://medium.com/pinterest-engineering/trusting-metrics-at-pinterest-ed76307e10a0"
+            ]
+        },
+        {
+            "author": "Uber",
+            "title": "Continuous Integration and Deployment for Machine Learning Online Serving and Models",
+            "summary": "The rapid adoption of ML as a core part of feature development also brings significant operational challenges known as MLOps. Uber writes an exciting blog on the evolution of its CI features, including the dynamic model reloading, auto-shading & auto-expiration of the model for an efficient MLOps continuous integration system.",
+            "urls": [
+                "https://eng.uber.com/continuous-integration-deployment-ml/"
+            ]
+        },
+        {
+            "author": "Julien Kervizic",
+            "title": "Leveraging DBT as a Data Modeling tool",
+            "summary": "The blog reflects one year with DBT, answering questions on whether we can use DBT as a data modeling tool. The author narrates the pros and cons of DBT, from model features & documentation to testing strategy.",
+            "urls": [
+                "https://medium.com/analytics-and-data/leveraging-dbt-as-a-data-modeling-tool-b3caf78f4a3a"
+            ]
+        },
+        {
+            "author": "Facebook",
+            "title": "Meet Kats \u2014 a one-stop shop for time series analysis",
+            "summary": "Facebook open source a Python library for generic time-series analysis Kats. Kats supports forecasting, time-series pattern detection, feature extraction & embedding, and time-series event simulators.",
+            "urls": [
+                "https://engineering.fb.com/2021/06/21/open-source/kats/",
+                "https://github.com/facebookresearch/Kats"
+            ]
+        },
+        {
+            "author": "Pinterest",
+            "title": "Improving data processing efficiency using partial deserialization of Thrift",
+            "summary": "The structured event stream processing brings challenges to data modeling. Often the event structure ends up a complex nested structure, and the consumers need to process only a subset of events most of the time. Serialization & deserialization is compute-intensive for the downstream consumers. Pinterest writes an existing blog on how it implemented partial deserialization on thrift to process the events efficiently.",
+            "urls": [
+                "https://medium.com/pinterest-engineering/improving-data-processing-efficiency-using-partial-deserialization-of-thrift-16bc3a4a38b4"
+            ]
+        },
+        {
+            "author": "DoorDash",
+            "title": "Managing Supply and Demand Balance Through Machine Learning",
+            "summary": "DoorDash writes about its ML-driven approach for its Supply-Demand system that reduces the cancelation and delivery time. The blog is a classic reference design of matching the product requirement to system capabilities for an efficient operation.",
+            "urls": [
+                "https://doordash.engineering/2021/06/29/managing-supply-and-demand-balance-through-machine-learning/"
+            ]
+        },
+        {
+            "author": "Swiggy",
+            "title": "Learning to Predict Two-Wheeler Travel Distance",
+            "summary": "Swiggy's data science team shares its system design on predicting the two-wheeler distance travel distance that uses the synthesized ground truth distance as labels and historical features to build an ML model. The blog that compares the existing distance computing model with the ML approach is an exciting read.",
+            "urls": [
+                "https://bytes.swiggy.com/learning-to-predict-two-wheeler-travel-distance-752d836d741d"
+            ]
+        },
+        {
+            "author": "DBT",
+            "title": "dbt + Materialize Streaming to a dbt project near you",
+            "summary": "As the data volume increases, the processing pattern tends to move towards real-time processing rather than batch processing. DBT writes about the new adopter for Materialize, a SQL platform for processing stream data. The streaming data warehouse is an exciting space to watch.",
+            "urls": [
+                "https://materialize.com/blog-introduction/"
+            ]
+        }
+    ]
+}

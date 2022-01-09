@@ -1,0 +1,73 @@
+{
+    "edition": 64,
+    "articles": [
+        {
+            "author": "Poll Result",
+            "title": "What tools/SaaS products are you using for data access & security, such as column-level access control for multi-database (DW) environments?",
+            "summary": "Recent work on building multi-cloud data identity & access management allowed revisiting this space. The opinion poll shows Apache Ranger is the widely adopted solution, and the cloud provider's solution is second to Apache Ranger.",
+            "urls": [
+                "https://cdn.substack.com/image/fetch/f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fbucketeer-e05bbc84-baa3-437e-9518-adb32be77984.s3.amazonaws.com%2Fpublic%2Fimages%2F8b29e124-2a54-48a9-bc7e-138c28242808_535x322.png"
+            ]
+        },
+        {
+            "author": "Patrick Chase",
+            "title": "Data warehouse is the new backend",
+            "summary": "SasS applications emerging from business process solutions to full-suite data workflow engines provide lower cost & faster distribution to run a business effectively. The article raises an interesting question. Does the role of Data Warehouse changing to a backend of data?!! The following tweet also echoes a similar thought on the role of SaaS applications in modern data engineering. It would be interesting to see this trend and how it shapes the data warehouse systems as we know of today. ",
+            "urls": [
+                "https://twitter.com/gwenshap/status/1459202011014971398?s=20",
+                "https://twitter.com/gwenshap/status/1459202011014971398?s=20",
+                "https://pchase.substack.com/p/thenewbackend"
+            ]
+        },
+        {
+            "author": "Confluent",
+            "title": "Scaling Apache Druid for Real-Time Cloud Analytics at Confluent",
+            "summary": "Confluent writes about its adoption story of Apache Druid for its Cloud Metrics API services. The scalability challenges, hardware choices, and compaction strategies are an exciting read.",
+            "urls": [
+                "https://www.confluent.io/blog/scaling-apache-druid-for-real-time-cloud-analytics-at-confluent/"
+            ]
+        },
+        {
+            "author": "Expedia",
+            "title": "Apache Cassandra for Real-Time User Analytics at Expedia Group",
+            "summary": "Expedia shares its high-level overview of real-time user analytics infrastructure. The blog narrates a good refresher for Apache Cassandra with some trivia quizzes!!!",
+            "urls": [
+                "https://medium.com/expedia-group-tech/apache-cassandra-for-real-time-user-analytics-at-expedia-group-4b612bac05a7"
+            ]
+        },
+        {
+            "author": "Samhita Alla",
+            "title": "Bring ML Close to Data Using Feast and Flyte",
+            "summary": "Feature engineering is one of the most significant challenges in applied machine learning. Flyte makes it easy to create concurrent, scalable, and maintainable workflows for machine learning and data processing. Feast provides the feature registry, an online feature serving system, and Flyte can engineer the features. The blog narrates how two systems complement each other and the interoperability among them.",
+            "urls": [
+                "https://flyte.org/",
+                "https://feast.dev/",
+                "https://betterprogramming.pub/bring-ml-close-to-data-using-feast-and-flyte-bd0cb5608678"
+            ]
+        },
+        {
+            "author": "Coinbase",
+            "title": "How we scaled data streaming at Coinbase using AWS MSK",
+            "summary": "Coinbase writes about its adoption story of AWS MSK and the benefits it provides from Kafka security service (KSS), tooling & Kafka connect service. Coinbase reduced the end-to-end streaming pipeline latency by 95% when switching from Kinesis (~ 200 msec) to Kafka (< 10 msec).",
+            "urls": [
+                "https://blog.coinbase.com/how-we-scaled-data-streaming-at-coinbase-using-aws-msk-4595f171266c"
+            ]
+        },
+        {
+            "author": "PolicyGenius",
+            "title": "Building a Data Warehouse on Google Cloud Platform That Scales With the Business",
+            "summary": "PolicyGenius writes about its data warehouse system built on Google Cloud & Airflow. It is exciting to see the Google sheet is an important data source. The data classification on stages of data lifecycle as the Source data, Foundational view, Unified view & the Reporting view is a refreshing take on the pipeline classification.",
+            "urls": [
+                "https://medium.com/policygenius-stories/building-a-data-warehouse-on-google-cloud-platform-that-scales-with-the-business-2b07f7c7292e"
+            ]
+        },
+        {
+            "author": "Scentbird",
+            "title": "Scentbird Analytics 2.0. Migrate from Redshift to Snowflake",
+            "summary": "Scentbird writes some limitations with AWS Redshift & Glue-based data warehouse solution and its migration journey to Snowflake. The narration around Glue limitations is exciting, and I presume these limitations will apply to most of the no-code UI-based ETL engines.",
+            "urls": [
+                "https://medium.com/@Not4j/scentbird-analytics-2-0-migrate-from-redshift-to-snowflake-redesign-etl-process-e79611723a90"
+            ]
+        }
+    ]
+}

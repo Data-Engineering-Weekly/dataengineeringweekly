@@ -1,0 +1,86 @@
+{
+    "edition": 47,
+    "articles": [
+        {
+            "author": "Erik Bernhardsson",
+            "title": "Building a data team at a mid-stage startup - a short story",
+            "summary": "The blog is possibly one of the best narrations highlighting the real-world complexity of data engineering. The blog is walking through various stages of data team as an organization grows and can be a catalyst to bring data-driven culture.",
+            "urls": [
+                "https://erikbern.com/2021/07/07/the-data-team-a-short-story.html"
+            ]
+        },
+        {
+            "author": "Jamie Brandon",
+            "title": "Against SQL",
+            "summary": "SQL is the lingua franca for databases, but how does this stand with other general-purpose languages? The author takes a fresh perspective on SQL, discussing some of the shortcomings and discuss the possibility of what is after SQL looks.",
+            "urls": [
+                "https://scattered-thoughts.net/writing/against-sql/"
+            ]
+        },
+        {
+            "author": "Benn Stancil",
+            "title": "Self-serve is a feeling",
+            "summary": "Every organization loves to talk about self-serve analytics, but the definition of self-serve after vague. Is it a bot answering all business questions that is self-serving? The author narrates all aspects of self-serving and emphasizes the importance of chase the self-serve experience that makes the data team and the data consumers feel most at home.",
+            "urls": [
+                "https://benn.substack.com/p/self-serve-is-a-feeling"
+            ]
+        },
+        {
+            "author": "OpenLineage",
+            "title": "Backfilling Airflow DAGs using Marquez",
+            "summary": "Backfilling is a vital aspect of the data pipeline to fix the computing or produce a newer version. In a typical functional data engineering, backfilling can have a cascading downstream effect. Though systems like Airflow does provide backfilling capabilities out-of-the-box, the scope is limited to DAG definition. Marquez writes an exciting blog that narrates how to use the Marquez lineage API to trigger end-to-end backfilling.",
+            "urls": [
+                "https://maximebeauchemin.medium.com/functional-data-engineering-a-modern-paradigm-for-batch-data-processing-2327ec32c42a",
+                "https://openlineage.io/blog/backfilling-airflow-dags-using-marquez/"
+            ]
+        },
+        {
+            "author": "DataHub/ Saxo Bank",
+            "title": "Enabling Data Discovery in a Data Mesh - The Saxo Journey",
+            "summary": "Saxo Bank writes about its data infrastructure with an in-house central data management application, \"Data Workbench.\" powered by Data Hub and Great Expectations. The blog narrates the data inconsistency issues resulting from inconsistent naming and the Saxo Bank's approach with the data glossary feature.",
+            "urls": [
+                "https://medium.com/datahub-project/enabling-data-discovery-in-a-data-mesh-the-saxo-journey-451b06969c8f"
+            ]
+        },
+        {
+            "author": "Shopify",
+            "title": "Shopify's Path to a Faster Trino Query Execution - Infrastructure",
+            "summary": "Shopify writes about its experience in tuning the Trino query infrastructure. The workload-specific Trino clusters, analysis on the coordinator node congestion, limit the number of drivers per query to preventing the compute starvation are some of the exciting reads.",
+            "urls": [
+                "https://shopifyengineering.myshopify.com/blogs/engineering/faster-trino-query-execution-infrastructure"
+            ]
+        },
+        {
+            "author": "DoorDash",
+            "title": "Leveraging the Pipeline Design Pattern to Modularize Recommendation Services",
+            "summary": "Doordash writes about its experience applying pipeline design patterns to the explore page to improve the modularization. The blog is an exciting read on the pipeline approach to decoupling retrieval and ranking to efficiently solve the information retrieval problem.",
+            "urls": [
+                "https://doordash.engineering/2021/07/07/pipeline-design-pattern-recommendation/"
+            ]
+        },
+        {
+            "author": "Uber",
+            "title": "Tuning Model Performance",
+            "summary": "Creating and maintaining a high-performing model is an iterative process. Uber writes about its ML platform Michelangelo and the support for iterative tuning and one-off comprehensive tuning of ML models.",
+            "urls": [
+                "https://eng.uber.com/tuning-model-performance/"
+            ]
+        },
+        {
+            "author": "Fiancial Times",
+            "title": "6 Lessons from rapid experimentation at the Financial Times",
+            "summary": "The fast-changing content platform brings challenges to run through A/B testing. The Financial Times writes about its lesson learned from adopting the rapid experiments strategy.",
+            "urls": [
+                "https://medium.com/ft-product-technology/6-lessons-from-rapid-experimentation-at-the-financial-times-19524ea36040"
+            ]
+        },
+        {
+            "author": "Holistic Blog",
+            "title": "OLAP != OLAP Cube",
+            "summary": "OLAP and OLAP Cubes are often confused, where OLAP specifies the access pattern, and the OLAP Cubes specify the data structure. The blog is walking through the distinction of the two terms.",
+            "urls": [
+                "https://www.holistics.io/blog/olap-is-not-olap-cube/"
+            ]
+        }
+    ]
+}

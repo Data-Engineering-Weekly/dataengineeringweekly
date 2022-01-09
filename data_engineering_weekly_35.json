@@ -1,0 +1,92 @@
+{
+    "edition": 35,
+    "articles": [
+        {
+            "author": "Deep Learning AI",
+            "title": "A Chat with Andrew on MLOps From Model-centric to Data-centric AI",
+            "summary": "80% of the ML workload is data preparation and management, yet 99% of papers published focus on AI research, and 1% focus on data. The talk narrates ML lifecycle's importance and why it requires from model-centric to data-centric makes data quality a systematic & reliable process.",
+            "urls": []
+        },
+        {
+            "author": "FreeCodeCamp",
+            "title": "What is MLOps? Machine Learning Operations Explained",
+            "summary": "The enterprises are increasingly embedding ML-enabled decision automation across business verticles. The reliability of the ML applications became mainstream, and the rise of MLOps takes the mainstage. The article walks through different stages of the MLOps and the skills required to develop ML products.",
+            "urls": [
+                "https://www.freecodecamp.org/news/what-is-mlops-machine-learning-operations-explained/",
+                "https://papers.nips.cc/paper/2015/file/86df7dcfd896fcaf2674f757a2463eba-Paper.pdf"
+            ]
+        },
+        {
+            "author": "Salesforce",
+            "title": "Building a Successful Enterprise AI Platform",
+            "summary": "How to plan about building an AI platform? The blog narrates the founding blocks of a successful platform. It emphasizes the importance of end-to-end user experience, having the right mix of domain and technical expertise, effective communication channels, faster research to production, uniformity, privacy & trust.",
+            "urls": [
+                "https://engineering.salesforce.com/building-a-successful-enterprise-ai-platform-197a3c4d8b60"
+            ]
+        },
+        {
+            "author": "Shopify",
+            "title": "Capturing Every Change From Shopify\u2019s Sharded Monolith",
+            "summary": "Shopify writes an exciting blog about its change data capture journey from periodic batch query polling to continuous change data capture using Debeizium & Kafka Connect. The blog narrates the technical challenges with pull-based change data capture and lessons learned from the CDC platform, such as schema changes and handling large records.",
+            "urls": [
+                "https://shopify.engineering/capturing-every-change-shopify-sharded-monolith"
+            ]
+        },
+        {
+            "author": "Fivetran/ Strava",
+            "title": "Scaling Data Culture Is a Marathon, Not a Sprint",
+            "summary": "One of the data engineering team's vital responsibilities is to drive the data culture across the organization. The blog narrates the importance of focusing on the data pipeline's bottleneck to accelerate the data journey to minimize the people scale problems.",
+            "urls": [
+                "https://fivetran.com/blog/scaling-data-culture-is-a-marathon-not-a-sprint"
+            ]
+        },
+        {
+            "author": "New York Times",
+            "title": "An Update to Our SQL Interviews",
+            "summary": "NYT writes an exciting blog about the pros and cons of whiteboarding vs. online coding vs. take-home interview formats for the data analyst workload. NYT adoption of the hybrid model interview process is an interesting approach to read.",
+            "urls": [
+                "https://open.nytimes.com/an-update-to-our-sql-interviews-cf39dafeddcf"
+            ]
+        },
+        {
+            "author": "Tiqets Engineering",
+            "title": "Taming the Dependency Hell with dbt",
+            "summary": "The model-based dependency much powerful when it comes to the data pipeline workload, and DBT made it a default dependency mode. The blog narrates the challenges of maintaining views without tools like DBT, how DBT simplified the problem, and some of the pain points running DBT in production.",
+            "urls": [
+                "https://medium.com/tiqets-tech/taming-the-dependency-hell-with-dbt-2491771a11be"
+            ]
+        },
+        {
+            "author": "Distributed Computing with Ray",
+            "title": "Executing a distributed shuffle without a MapReduce system",
+            "summary": "Ray provides a simple primitive for building and running distributed applications. A distributed data computation algorithms rely on efficient data shuffling. The blog narrates how Ray simplifies the data shuffling without the need for MapReduce frameworks.",
+            "urls": [
+                "https://medium.com/distributed-computing-with-ray/executing-a-distributed-shuffle-without-a-mapreduce-system-d5856379426c"
+            ]
+        },
+        {
+            "author": "Adaltas",
+            "title": "Storage size and generation time in popular file formats",
+            "summary": "Object storage becomes the default persistence layer for the data lake, and choosing an efficient file format is equally important. The blog did excellent work on comparing various file formats and concludes ORC provides a much effective storage optimization.",
+            "urls": [
+                "https://medium.com/adaltas/storage-size-and-generation-time-in-popular-file-formats-48a23190c1da"
+            ]
+        },
+        {
+            "author": "Anindya Saha",
+            "title": "Nested Attributes & Functions Operating on Nested Types in PySpark",
+            "summary": "The nested data structures are the norm of data analytics and help minimize the need to build complex normalization forms. Arrays and Maps are the common nested structures. The author walks through how to handle nested data types in PySpark.",
+            "urls": [
+                "https://anindyacs.medium.com/working-with-nested-data-types-7d1228c09903"
+            ]
+        },
+        {
+            "author": "Data Camp Engineering Blog",
+            "title": "Data Scientists, don\u2019t worry about data engineering - Viewflow has your back.",
+            "summary": "In a complex data pipeline, finding all the upstream dependency is a tedious job that often results in hacky code search. The data lineage can mitigate the findability of the dependency yet requires multiple navigations. ViewForm takes an exciting approach to automatically generate the internal and external dependency for the task as a code-gen for Airflow.",
+            "urls": [
+                "https://medium.com/datacamp-engineering/viewflow-fe07353fa068"
+            ]
+        }
+    ]
+}

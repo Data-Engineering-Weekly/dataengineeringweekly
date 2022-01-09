@@ -1,0 +1,95 @@
+{
+    "edition": 49,
+    "articles": [
+        {
+            "author": "Event Alert",
+            "title": "Airbnb - The Journey Toward High-Quality Data",
+            "summary": "Airbnb hosts its first virtual tech talk focusing on data quality Wednesday, July 28th, 12:00 PM-1:00 PM PST. SignUp here",
+            "urls": [
+                "https://journeytowardhighqualitydata.splashthat.com/"
+            ]
+        },
+        {
+            "author": "Netflix",
+            "title": "Designing Better ML Systems - Learnings from Netflix",
+            "summary": "Netflix shares its design principles on building the recommender ML infrastructure. The article unbundles the three core parts of the orchestration engine from Netflix's Metaflow,\u00a0",
+            "urls": [
+                "https://metaflow.org/",
+                "https://www.infoq.com/presentations/designing-ml-systems-netflix/"
+            ]
+        },
+        {
+            "author": "James Serra",
+            "title": "Data Mesh - Centralized ownership vs. decentralized ownership",
+            "summary": "The data as a product is a robust design thought introduced from the data mesh principles. Yet, there is still some confusion around the feasibility of adopting the data mesh principles, mainly because of the lack of toolings.",
+            "urls": [
+                "https://www.jamesserra.com/archive/2021/07/data-mesh-centralized-ownership-vs-decentralized-ownership/"
+            ]
+        },
+        {
+            "author": "Uber",
+            "title": "Containerizing Apache Hadoop Infrastructure at Uber",
+            "summary": "Uber writes about its experience on the instability of running a mutable infrastructure and the experience of adopting immutable containerized Apache Hadoop infrastructure. The implementation of pre-fetching the docker image to reduce the bootstrap failures, Kerberos integration, and the complexity analysis on adopting the internal service mesh vs. DNS solutions is an informative read.",
+            "urls": [
+                "https://eng.uber.com/hadoop-container-blog/"
+            ]
+        },
+        {
+            "author": "LinkedIn",
+            "title": "From daily dashboards to enterprise-grade data pipelines",
+            "summary": "The Daily Executive Dashboard (DED) dashboards contain critical growth, engagement, and success metrics that indicate the health of a company. LinkedIn writes an exciting blog that narrates its executive dashboard pipeline journey from the incubation of Microstrategy -> Teradata -> integration with LinkedIn's data infrastructure stack.",
+            "urls": [
+                "https://engineering.linkedin.com/blog/2021/from-daily-dashboards-to-enterprise-grade-data-pipelines"
+            ]
+        },
+        {
+            "author": "Alibaba Cloud",
+            "title": "How to Analyze CDC Data in Iceberg Data Lake Using Flink",
+            "summary": "The real-time analytics on the change data capture events are critical for business operations. The blog narrates the historical approach of analyzing the CDC events by various systems like HBase, Kudu, Hive incremental tables, Spark Delta, and narrates the reasoning to adopt Apache Iceberg + Flink solution.",
+            "urls": [
+                "https://www.alibabacloud.com/blog/how-to-analyze-cdc-data-in-iceberg-data-lake-using-flink_597838"
+            ]
+        },
+        {
+            "author": "Sponsored - RudderStack",
+            "title": "Why It\u2019s Hard for Engineering to Support Marketing",
+            "summary": "Engineers and marketers don\u2019t [often] get along, and the tension between these teams isn't fabricated. It's based on conflicting approaches that naturally present alignment challenges. RudderStack writes a thoughtful analysis of the contentious relationship and hints at a solution.",
+            "urls": [
+                "https://rudderstack.com/blog/why-it-s-hard-for-engineering-to-support-marketing?utm_source=email&utm_medium=email&utm_campaign=CMPGN_46_DEWS&utm_content=None&utm_term=%7Bkeyword%7D&raid=39008a0a0c72eb7f33bee9b56cf063be"
+            ]
+        },
+        {
+            "author": "Uber",
+            "title": "\u2018Orders Near You\u2019 and User-Facing Analytics on Real-Time Geospatial Data",
+            "summary": "Uber writes about the criticality of real-time geospatial analytics for its business and how it uses Apache Pinot's geospatial indexing based on Uber's H3 indexing system helped to solve some of the business cases for Uber Eats. The article narrates how Pinot's geospatial indexing support helped solve the scalability issue with the previous Cassandra-based solution, from 120 db calls to 1.",
+            "urls": [
+                "https://h3geo.org/#/",
+                "https://eng.uber.com/orders-near-you/"
+            ]
+        },
+        {
+            "author": "Salesforce",
+            "title": "Building Data Pipelines Using Kotlin",
+            "summary": "Salesforce writes about its choice of adopting Kotlin for building the data pipeline. The null pointer safety,  presence of the data classes to reduce the boilerplate codes, flexible branching expression, and the fact that it seamlessly integrates with java to utilize the java library ecosystems are some of the exciting features in Kotlin as a data pipeline language.",
+            "urls": [
+                "https://engineering.salesforce.com/building-data-pipelines-using-kotlin-2d70edc0297c"
+            ]
+        },
+        {
+            "author": "Pinterest",
+            "title": "Building scalable near-real time indexing on HBase",
+            "summary": "The lack of seamless secondary indexing support is one of the design constraints of adopting Apache HBase. Pinterest writes about Ixia, its internal generic search interface on top of HBase to provide near-real-time secondary indexing support.",
+            "urls": [
+                "https://medium.com/pinterest-engineering/building-scalable-near-real-time-indexing-on-hbase-7b5eeb411888"
+            ]
+        },
+        {
+            "author": "Grab",
+            "title": "Processing ETL tasks with Ratchet",
+            "summary": "Grab writes about its Lending platform adoption of Ratchet library for performing data pipeline & ETL tasks in Go. It's exciting to see a couple of articles sharing their experience building data pipelines in Kotlin & Go, diverging from the usual Python, Java, or Scala.",
+            "urls": [
+                "https://engineering.grab.com/processing-etl-tasks-with-ratchet"
+            ]
+        }
+    ]
+}

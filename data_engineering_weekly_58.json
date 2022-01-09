@@ -1,0 +1,85 @@
+{
+    "edition": 58,
+    "articles": [
+        {
+            "author": "O'Reilly",
+            "title": "2021 Data/AI Salary Survey",
+            "summary": "O'Reilly published a comprehensive salary report for data & AI professionals. The sad trend continues where Women's salaries were sharply lower than men's salaries, averaging $126,000 annually, or 84% of the average salary for men ($150,000). Python, SQL & JavaScript are the top 3 most popular programming languages for data & AI.",
+            "urls": [
+                "https://www.oreilly.com/radar/2021-data-ai-salary-survey/"
+            ]
+        },
+        {
+            "author": "Vivian Guo",
+            "title": "Make Machine Learning Work for Your Company - A Primer",
+            "summary": "Software-driven industrialization is moving from process-based workflow to an ML/AI-driven workflow. But how do you build a machine learning team? And what does this mean for software companies? The author walks through how to start a machine learning team, hiring & tracking the impact.",
+            "urls": [
+                "https://medium.com/iconiq-growth/make-machine-learning-work-for-your-company-a-primer-f68ad0b1cd40"
+            ]
+        },
+        {
+            "author": "Matt Turck",
+            "title": "Red Hot - The 2021 Machine Learning, AI and Data (MAD) Landscape",
+            "summary": "Matt Turck published a comprehensive list of Machine Learning, AI & Data (MAD!!!) landscape. One interesting fact that I noticed in the landscape is that Jupiter notebooks still own the collaboration space. Data Engineering is inherently social & collaborative work across the org, and I can see this collaboration space still wide open.",
+            "urls": [
+                "https://mattturck.com/data2021/"
+            ]
+        },
+        {
+            "author": "Pinterest",
+            "title": "Ensuring High Availability of Ads Realtime Streaming Services",
+            "summary": "Pinterest writes about its high available ads real-time streaming services on Apache Flink & Kafka stream. The hot-hot primary & standby pipeline for each service is an exciting design to read.",
+            "urls": [
+                "https://medium.com/pinterest-engineering/ensuring-high-availability-of-ads-realtime-streaming-services-ea3889420490"
+            ]
+        },
+        {
+            "author": "LinkedIn",
+            "title": "Distributed tier merge How LinkedIn tackles stragglers in search index build",
+            "summary": "LinkedIn writes about distributed tier merge in building offline search index using Apache Spark. The migration from MapReduce to Spark & distributed tier merge improved the build time by 40% across the product!!",
+            "urls": [
+                "https://engineering.linkedin.com/blog/2021/distributed-tier-merge"
+            ]
+        },
+        {
+            "author": "DoorDash",
+            "title": "How to Run Apache Airflow on Kubernetes at Scale",
+            "summary": "DoorDash writes an exciting blog narrating its migration of Airflow from a single instance infrastructure to KubernetesPodOperators. The blog states the higher memory availability of the Airflow scheduler after offloading the operator workloads to Kubernetes.",
+            "urls": [
+                "https://doordash.engineering/2021/09/28/how-to-run-apache-airflow-on-kubernetes-at-scale/"
+            ]
+        },
+        {
+            "author": "Airbnb",
+            "title": "The Airflow Smart Sensor Service",
+            "summary": "Airflow poking sensor implementation is a resource-intensive operator that will keep running until the specified condition is satisfied. Airbnb writes about the impact of smart sensors on its Airflow infrastructure. With deduplication, it reduces 40% of the load from the Hive meta store.",
+            "urls": [
+                "https://medium.com/airbnb-engineering/the-airflow-smart-sensor-service-221f96227bcb"
+            ]
+        },
+        {
+            "author": "Storyblocks",
+            "title": "Blue-Green ETLs with Airflow Task Groups",
+            "summary": "Storyblocks writes about adopting the Blue-Green ETL model with Airflow on its Redshift data warehouse. The load and swap in the mutable pipeline is always a challenge, and it's great to see the Blue-Green deployment pattern adoption.",
+            "urls": [
+                "https://medium.com/storyblocks-engineering/blue-green-etls-with-airflow-task-groups-71c36d120c2e"
+            ]
+        },
+        {
+            "author": "Wealthfront",
+            "title": "Automating Data Quality Checks on External Data",
+            "summary": "Data pipeline on top of the external, uncontrolled datasets can be challenging. Wealthfront writes about its data quality approach following persisting the raw data, transforms to a confirmed schema and validate, and handles the anomalies.",
+            "urls": [
+                "https://eng.wealthfront.com/2021/09/28/automating-data-quality-checks-on-external-data/"
+            ]
+        },
+        {
+            "author": "Teads",
+            "title": "Managing a BigQuery data warehouse at scale",
+            "summary": "Teads published helpful tips and tools to manage BigQuery to resolve slow-running queries and improve slot usage and table size. The BqVisualiser looks like an exciting tool to visualize and optimize the query performance.ff",
+            "urls": [
+                "https://bqvisualiser.appspot.com/"
+            ]
+        }
+    ]
+}

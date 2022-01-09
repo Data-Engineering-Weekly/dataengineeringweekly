@@ -1,0 +1,71 @@
+{
+    "edition": 57,
+    "articles": [
+        {
+            "author": "Vicki Boykis",
+            "title": "Reaching MLE (machine learning enlightenment)",
+            "summary": "Vicki Boykis writes exciting storytelling of the current state of the ML engineer on embracing the reality of building production-ready Machine Learning insights. The highlight of the blog ",
+            "urls": [
+                "http://veekaybee.github.io/2021/09/23/enlightenment/"
+            ]
+        },
+        {
+            "author": "Uber",
+            "title": "Real-Time Exactly-Once Ad Event Processing with Apache Flink, Kafka, and Pinot",
+            "summary": "Flink\u2019s checkpoint support for a two-phase commit protocol enables exactly-once semantics in Apache Flink. Uber writes about extending Flink\u2019s exactly-once semantics with Apache Pinot\u2019s upsert support to achieve end-to-end pipeline\u2019s exactly-once semantics.",
+            "urls": [
+                "https://flink.apache.org/features/2018/03/01/end-to-end-exactly-once-apache-flink.html",
+                "https://medium.com/apache-pinot-developer-blog/introduction-to-upserts-in-apache-pinot-987c12149d93",
+                "https://eng.uber.com/real-time-exactly-once-ad-event-processing/"
+            ]
+        },
+        {
+            "author": "Airbnb",
+            "title": "How Airbnb Enables Consistent Data Consumption at Scale",
+            "summary": "Airbnb writes the third part of the data consistency at scale, talking about Minerva, its metrics infrastructure. The approach of metrics-centric instead of the traditional BI approach of table-centric is an exciting one to read.",
+            "urls": [
+                "https://medium.com/airbnb-engineering/how-airbnb-enables-consistent-data-consumption-at-scale-1c0b6a8b9206"
+            ]
+        },
+        {
+            "author": "Microsoft",
+            "title": "How we used ML \u2014 and heuristic data labeling \u2014 to help customers with their cloud migration",
+            "summary": " Lift and ship an infrastructure is always challenging with many unknowns. Microsoft writes an exciting blog on how it is using ML to bring observability to the migration process.",
+            "urls": [
+                "https://medium.com/data-science-at-microsoft/how-we-used-ml-and-heuristic-data-labeling-to-help-customers-with-their-cloud-migration-d3af7ff020fc"
+            ]
+        },
+        {
+            "author": "PayPal",
+            "title": "Comparing BigQuery Processing and Spark Dataproc",
+            "summary": "PayPal writes about data processing performance and cost comparison on running the analytics query on BigQuery vs. GCS. It is interesting to see the trends on more analytical workload moving to the cloud from big internet companies.",
+            "urls": [
+                "https://medium.com/paypal-tech/comparing-bigquery-processing-and-spark-dataproc-4c90c10e31ac"
+            ]
+        },
+        {
+            "author": "Adevinta",
+            "title": "Treating data as a product at Adevinta",
+            "summary": "Adevinta writes about its journey to adopt data as a  product and the infrastructure changes around it that lead 13% increase in weekly querying users. I\u2019m curious to see the learnings from each data as a product has its repository of code isolated from the rest approach.",
+            "urls": [
+                "https://medium.com/adevinta-tech-blog/treating-data-as-a-product-at-adevinta-c1dce5d394c5"
+            ]
+        },
+        {
+            "author": "James Le",
+            "title": "What I Learned From Attending Tecton apply(meetup) 2021",
+            "summary": "James Le shared comprehensive notes from the recent Tecton apply(meetup) 2021. The rule-based data profiling from GE, ML software hierarchy, and interactive ML are exciting reads.",
+            "urls": [
+                "https://data-notes.co/what-i-learned-from-attending-tecton-apply-meetup-2021-9e6a89d1e72d"
+            ]
+        },
+        {
+            "author": "PayPal",
+            "title": "A Journey from Software to Machine Learning Engineer at iZettle",
+            "summary": "A great experience sharing blog on the journey from software engineering to Machine Learning engineering, highlighting the learning process and what books and courses can't teach.",
+            "urls": [
+                "https://medium.com/paypal-tech/a-journey-from-software-to-machine-learning-engineer-at-izettle-49192ce3a758"
+            ]
+        }
+    ]
+}

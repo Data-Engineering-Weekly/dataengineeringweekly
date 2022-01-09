@@ -1,0 +1,94 @@
+{
+    "edition": 44,
+    "articles": [
+        {
+            "author": "Chris Riccomini",
+            "title": "What the Heck is a Data Mesh?!",
+            "summary": "Data mesh is a widely discussed data engineering principle, and there were many exciting discussions around it. The concept of \"data as a product\" compelling, and many successful internet companies adopted it in the past with great success. The debate on how the data mesh principle encapsulates the data as a product & decentralized ownership is an exciting space to watch. The author shared some insightful views on data mesh principles.",
+            "urls": [
+                "https://cnr.sh/essays/what-the-heck-data-mesh"
+            ]
+        },
+        {
+            "author": "Atlan",
+            "title": "The Rise of the Metadata Lake",
+            "summary": "Modern business operations increasingly depend on data to derive their business. As the data takes the central role in the business operation, the number of stakeholders interacting with the data is more diverse than ever. In this increasingly diverse data world, metadata holds the key to the elusive promised land. Is it a time to think about metadata lake? The blog narrates the role of metadata lake in the modern data stack.",
+            "urls": [
+                "https://towardsdatascience.com/the-rise-of-the-metadata-lake-1e95127594de"
+            ]
+        },
+        {
+            "author": "Google AI",
+            "title": "Data Cascades in Machine Learning",
+            "summary": "Data is a foundational aspect of machine learning (ML) that can impact ML systems' performance, fairness, robustness, and scalability. Paradoxically, while building ML models are often highly prioritized, the work related to data is often the least prioritized aspect. The blog summarizes the recent ACM paper Everyone wants to do the model work, not the data work: Data Cascades in High-Stakes AI, and discuss how to address the data cascading effects.",
+            "urls": [
+                "https://research.google/pubs/pub49953/",
+                "https://ai.googleblog.com/2021/06/data-cascades-in-machine-learning.html"
+            ]
+        },
+        {
+            "author": "Uber",
+            "title": "The Evolution of Data Science Workbench",
+            "summary": "Uber writes about the evolution of its data science workbench, narrating the efficient scheduling, easier Apache Spark integration with the workspace, and package dependency management. The three key learning in the blog is educational read.",
+            "urls": [
+                "https://eng.uber.com/evolution-ds-workbench/"
+            ]
+        },
+        {
+            "author": "Benchling",
+            "title": "Building a version-controlled Data Aquarium",
+            "summary": "Benchling writes about its evolution of data infrastructure from a legacy warehouse to a continuous data pipeline tuned to increase the analyst velocity. The discussion around the challenges of implementing continuous integration, how data infrastructure is different from a traditional web application, and how Snowflake's zero-copy data clone helped achieve continuous data integration is an exciting read.",
+            "urls": [
+                "https://benchling.engineering/building-a-version-controlled-data-aquarium-976d17fbdd20"
+            ]
+        },
+        {
+            "author": "Shopify",
+            "title": "Deleting the Undeletable",
+            "summary": "Deleting the Undeletable",
+            "urls": [
+                "https://shopifyengineering.myshopify.com/blogs/engineering/managing-pii-shopify-scale"
+            ]
+        },
+        {
+            "author": "Expedia",
+            "title": "Powering Self-Service Business Intelligence across Expedia Group",
+            "summary": "The Lakehouse design provides a delicate balance between the complicated data warehouses and inconsistent data lake systems. Expedia writes about their adoption of Lakehouses, the extension of lakehouse to domain-specific DataLakeMart, and OLAP systems.",
+            "urls": [
+                "https://medium.com/expedia-group-tech/powering-self-service-business-intelligence-across-expedia-group-e3d029a7d1f6"
+            ]
+        },
+        {
+            "author": "eBay",
+            "title": "Optimizing Analytics Data Processing on eBay\u2019s New Open-Source-Based Platform",
+            "summary": "Tuning a data pipeline requires a layered approach to achieve SLA timelines. eBay writes about the various layers to consider while tuning the Spark jobs, such as system level, the process, table optimization, SQL optimization & the Apache Spark job config parameter tuning. The structured debugging approach is a delight to read, and this is the one spot the data infrastructure needs a lot of attention, from manual tuning to automated pipeline tuning.",
+            "urls": [
+                "https://tech.ebayinc.com/engineering/optimizing-analytics-data-processing-on-ebays-new-open-source-based-platform/"
+            ]
+        },
+        {
+            "author": "Capital One",
+            "title": "End-to-End Models for Complex AI Tasks",
+            "summary": "The main advantage of machine learning over traditional software engineering is that it allows one to build a component that performs a task by training a model from data, which removes the need for a human to precisely perform the task. Why can't we adopt end-to-end ML rather than part of the tasks? Capital One writes about the pros & cons of adopting an end-to-end ML model and the challenges ahead to reach the promising land of the end-to-end ML model.",
+            "urls": [
+                "https://medium.com/capital-one-tech/end-to-end-models-for-complex-ai-tasks-8c34080145cd"
+            ]
+        },
+        {
+            "author": "Yelp",
+            "title": "Modernizing Business Data Indexing",
+            "summary": "Serving the computed metrics to the end-user in an acceptable latency is critical for an enriched user experience. Yelp writes about its journey of business data indexing system that queried the MySQL table to stream-based CDC system that leverages Kafka, Flink, Apache Beam & Cassandra.",
+            "urls": [
+                "https://engineeringblog.yelp.com/2021/06/modernizing-business-data-indexing.html"
+            ]
+        },
+        {
+            "author": "Ashley Melanson",
+            "title": "Open Source Spotlight - How Dbt Can Transform Your Data Analytics Pipeline",
+            "summary": "I would be surprised if you've not heard or played around with DBT by now. If you've not done so far, the author did a great write-up breaking down the components of DBT.",
+            "urls": [
+                "https://ashleymellz.medium.com/open-source-spotlight-how-dbt-can-transform-your-data-analytics-pipeline-c54cf9516cdf"
+            ]
+        }
+    ]
+}

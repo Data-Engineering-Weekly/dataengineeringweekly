@@ -1,0 +1,81 @@
+{
+    "edition": 67,
+    "articles": [
+        {
+            "author": "Airbnb",
+            "title": "Automating Data Protection at Scale",
+            "summary": "Airbnb writes a third-part series on automating data production at scale, focusing on CDC pipelines. Automated data privacy management is critical to GDPR & California Consumer Privacy Act. Airbnb walkthrough automation & alerting are in place with its data production service. TIL: Thrift & Protobuf does support custom annotations.",
+            "urls": [
+                "https://medium.com/airbnb-engineering/automating-data-protection-at-scale-part-3-34e592c45d46",
+                "https://medium.com/airbnb-engineering/automating-data-protection-at-scale-part-1-c74909328e08",
+                "https://medium.com/airbnb-engineering/automating-data-protection-at-scale-part-2-c2b8d2068216"
+            ]
+        },
+        {
+            "author": "Google AI",
+            "title": "Interpretable Deep Learning for Time Series Forecasting",
+            "summary": "Most real-world datasets have a time component, and forecasting the future can unlock significant value. Google writes about Temporal Fusion Transformers for Interpretable Multi-horizon Time Series Forecasting details the Temporal Fusion Transformer (TFT), an attention-based DNN model for multi-horizon forecasting.",
+            "urls": [
+                "https://www.sciencedirect.com/science/article/pii/S0169207021000637",
+                "https://ai.googleblog.com/2021/12/interpretable-deep-learning-for-time.html"
+            ]
+        },
+        {
+            "author": "Nick Handel",
+            "title": "A brief history of the metrics store",
+            "summary": "The increased specialization of data engineering opens a lot of innovations on effectively utilizing data at scale. The author captures a timeline of the data engineering practices from the data warehouses of Kimball to the metrics store model. If the metrics store gains mass adoption, I presume we will see a new family of specialized metrics databases similar to Prometheus or InfluxDB.",
+            "urls": [
+                "https://towardsdatascience.com/a-brief-history-of-the-metrics-store-28208ec8f6f1"
+            ]
+        },
+        {
+            "author": "Data Science @ Microsoft",
+            "title": "Anatomy of a chart",
+            "summary": "Data Visualization is the interface between insights consumers & producers. Human perception heavily influences the interpretation of data visualization. Sometimes, the insight producer dumps all the visualization in front of the audience and leaves the human interpretation to play its parts. The author recommends a set of curated processes to tell data stories meaningfully.",
+            "urls": [
+                "https://medium.com/data-science-at-microsoft/anatomy-of-a-chart-9e420dc8495b"
+            ]
+        },
+        {
+            "author": "Elijah Meeks",
+            "title": "Viz Palette for Data Visualization Color",
+            "summary": "Staying with data visualization, colors significantly shape perception. The author writes about the best practices for choosing color combinations and talks about the Viz Palette, a tool to pick and optimize colors in and out of JavaScript.",
+            "urls": [
+                "https://projects.susielu.com/viz-palette",
+                "https://medium.com/@Elijah_Meeks/viz-palette-for-data-visualization-color-8e678d996077"
+            ]
+        },
+        {
+            "author": "Confluent",
+            "title": "How to Survive an Apache Kafka Outage",
+            "summary": "Confluent writes about what could go wrong with the Kafka outage and best practices to handle the failures. The blog contains some exciting techniques on how Kafka producers can gracefully handle failure. The usage of fsync vs. the likes of the async disk API is an exciting read.",
+            "urls": [
+                "https://www.confluent.io/blog/how-to-survive-a-kafka-outage/"
+            ]
+        },
+        {
+            "author": "Yelp",
+            "title": "Kafka on PaaSTA - Running Kafka on Kubernetes at Yelp",
+            "summary": "Continuing on the Kafka infrastructure story, Yelp writes about its Kafka architecture on Kubernetes. The blog writes an overview of Yelp's usage of CruiseControl to automate the Kafka operations, and I highly recommend using it in production to reduce the operational toll.",
+            "urls": [
+                "https://engineeringblog.yelp.com/2021/12/kafka-on-paasta-part-one.html"
+            ]
+        },
+        {
+            "author": "KeepTruckIn",
+            "title": "How Standardized Tooling and Metadata Saved Our Data Organization",
+            "summary": "Modern data warehouses build on multiple data sources and diverse data producers and consumers. As complexity grows, the need for standardization of ownership, alerting, testing & quality plays a significant role in establishing trust in the data platform. KeepTruckin shares its experience of how the standardized tooling & metadata saved their data org.",
+            "urls": [
+                "https://medium.com/keeptruckin-eng/how-metadata-saved-our-data-organization-cab3335eb4ae"
+            ]
+        },
+        {
+            "author": "Emily Thompson",
+            "title": "Thinking of Analytics Tools as Products",
+            "summary": "It is evident that establishing standardization around data asset management tooling greatly helps the data organization, but how does one start to think about it. The author establishes the case for thinking of analytics tools as a product to bring integrity to the data platform.",
+            "urls": [
+                "https://scientistemily.substack.com/p/product-management-skills-for-data?utm_source=substack&utm_campaign=post_embed&utm_medium=web"
+            ]
+        }
+    ]
+}

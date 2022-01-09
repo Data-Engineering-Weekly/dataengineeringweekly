@@ -1,0 +1,80 @@
+{
+    "edition": 54,
+    "articles": [
+        {
+            "author": "Uber",
+            "title": "Building Scalable Streaming Pipelines for Near Real-Time Features",
+            "summary": "Uber writes an exciting blog about the tuning Flink streaming platform. The blog narrates the business cases for real-time analytics with geospatial and temporal analysis and focuses on Network, CPU, and memory optimization strategies.",
+            "urls": [
+                "https://eng.uber.com/building-scalable-streaming-pipelines/"
+            ]
+        },
+        {
+            "author": "Confluent",
+            "title": "How ksqlDB Works Internal Architecture and Advanced Features",
+            "summary": "ksqlDB is the streaming SQL engine for Kafka that enables stream processing tasks using SQL statements. Confluent writes a guide to the ksqlDB internal architecture discussing how stream joins, stateful & stateless computing & fault tolerance works.",
+            "urls": [
+                "https://www.confluent.io/blog/ksqldb-architecture-and-advanced-features/"
+            ]
+        },
+        {
+            "author": "Data Science at Microsoft",
+            "title": "ML program management at scale",
+            "summary": "Data Science at Microsoft discusses the role and significance of ML program management and the role of the program manager in the end-to-end lifecycle of the data product. As the scale and the breadth of the ML application adoption grow, the Technical Program Manager for Machine Learning is an exciting job profile that will grow in the coming years.",
+            "urls": [
+                "https://medium.com/data-science-at-microsoft/ml-program-management-at-scale-part-1-of-3-4816a99ad1bd",
+                "https://medium.com/data-science-at-microsoft/ml-program-management-at-scale-part-2-of-2-3ab2cc54f36f"
+            ]
+        },
+        {
+            "author": "Great Expectations",
+            "title": "Maximizing Productivity of Analytics Teams",
+            "summary": "Great Expectations writes a three-part series on maximizing the productivity of the analytics team, focusing on the debugability of the dashboards, reducing the technical debt on the data pipeline, and the role of Great Expectations in the data engineering process.",
+            "urls": [
+                "https://greatexpectations.io/blog/maximizing-productivity-of-analytics-teams-pt2/",
+                "https://greatexpectations.io/blog/maximizing-productivity-of-analytics-teams-pt2/",
+                "https://greatexpectations.io/blog/maximizing-productivity-of-analytics-teams-pt3/"
+            ]
+        },
+        {
+            "author": "Shopify",
+            "title": "5 Steps for Building Machine Learning Models for Business",
+            "summary": "Shopify writes a five-step guideline article on building ML products. The first three-step guidelines focus on asking the necessity of the ML model rather than simple heuristic algorithms. The blog reemphasizes that simplicity is the best ML model strategy.",
+            "urls": [
+                "https://shopifyengineering.myshopify.com/blogs/engineering/building-business-machine-learning-models"
+            ]
+        },
+        {
+            "author": "Uber",
+            "title": "How Data Shapes the Uber Rider App",
+            "summary": "Product data analytics is the core of lean product development. Uber writes an exciting blog on its rider app using such metrics-driven product development. The blog narrates the data acquisition lifecycle from mobile devices across different OS versions, emphasizes the importance of log standardization, anomaly detection, and data quality standards.",
+            "urls": [
+                "https://eng.uber.com/how-data-shapes-the-uber-rider-app/"
+            ]
+        },
+        {
+            "author": "DoorDash",
+            "title": "Overcoming Rapid Growth Challenges for Datasets in Snowflake",
+            "summary": "DoorDash writes about the cost-driven optimization techniques it uses in the pipeline to optimize Snowflake usage. The optimization techniques focus on deprecating unused ETL jobs, favoring incremental ETL processing over bulk processing, reducing the number of projections in the SQL queries, clustering keys, and maximize the Snowflake native function usage.",
+            "urls": [
+                "https://doordash.engineering/2021/06/22/overcoming-rapid-growth-challenges-for-datasets-in-snowflake/"
+            ]
+        },
+        {
+            "author": "Sachin Bansal",
+            "title": "Running Timeseries Anomaly Detection at Scale on SQL Data",
+            "summary": "Anomaly detection is a critical functionality in data engineering for reliable metrics, yet it is no short of challenges to implement and run at scale. The author narrates how CueObserve, an open-source metrics monitoring system, is solving anomaly detection at scale.",
+            "urls": [
+                "https://towardsdatascience.com/running-timeseries-anomaly-detection-at-scale-on-sql-data-4407eb3d3bd3"
+            ]
+        },
+        {
+            "author": "Picnic",
+            "title": "Releasing diepvries, a Data Vault framework for Python",
+            "summary": "Picnic adopted data vault modeling techniques for its data warehouses. Continue to adapt the data vault modeling technique, Picnic open sources diepvries a simple python library that automates the data loading process for Data Vault and avoids the maintenance of repetitive SQL queries for ETL jobs.",
+            "urls": [
+                "https://blog.picnic.nl/releasing-diepvries-a-data-vault-framework-for-python-3f01a5d46f84"
+            ]
+        }
+    ]
+}

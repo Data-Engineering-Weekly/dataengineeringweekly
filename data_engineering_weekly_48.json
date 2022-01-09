@@ -1,0 +1,78 @@
+{
+    "edition": 48,
+    "articles": [
+        {
+            "author": "Pedram Navid",
+            "title": "For SQL",
+            "summary": "Last week we saw  Jamie Brandon's manifesto against SQL. SQL's problems boil down to its inexpressiveness, incompressibility, and non-porousness. Pedram Navid writes a well-thought article for SQL, saying it is not a concern in most cases, and when it comes to composability, tools like dbt have helped bridge that gap bringing the power of jinja templating to SQL. The author raised some valid questions: all these arguments against SQL result from an almost class divide between \"Software Engineering\" and \"Data People.\"?",
+            "urls": [
+                "https://pedram.substack.com/p/for-sql"
+            ]
+        },
+        {
+            "author": "Benn Stancil",
+            "title": "Analytics is at a crossroads",
+            "summary": "Been Stancil writes beautifully summarized thoughts on For SQL, Against SQL, and the data team a short story by start by asking, \"The world is full of great analysts. Will we have the courage to go looking for them?.\" The author rightly points out that the most challenging and most essential problems analysts work on aren't technical or even mathematical, highlighting the challenges for analytical engineering.",
+            "urls": [
+                "https://pedram.substack.com/p/for-sql"
+            ]
+        },
+        {
+            "author": "Continual",
+            "title": "The Future of the Modern Data Stack",
+            "summary": "The data infrastructure came a long way from the in-house Hadoop clusters to increasingly adopting the cloud-native solution. The article narrates the emerging focus area on top of the modern data stack, such as AI, data sharing, data governance, streaming, and application serving.",
+            "urls": [
+                "https://continual.ai/post/the-future-of-the-modern-data-stack"
+            ]
+        },
+        {
+            "author": "NuBank",
+            "title": "Scaling data analytics with software engineering best practices",
+            "summary": "Self-serving data analytics is the primary goal of an organization to scale data usage and remove the bottleneck from the data team. A well-defined process and tools to enable the process are essential for self-serving analytics. NuBank writes an exciting article sharing its self-serving path on scaling data analytics with software engineering best practices.",
+            "urls": [
+                "https://building.nubank.com.br/scaling-data-analytics-with-software-engineering-best-practices/"
+            ]
+        },
+        {
+            "author": "Sponsored - RudderStack",
+            "title": "Real-Time Personalization with Redis and RudderStack",
+            "summary": "Nailing personalization can mean increasing revenue by 15%, but technical challenges keep many companies stuck using basic methods. RudderStack writes a step-by-step guide on designing and implementing a real-time personalization engine using Redis and RudderStack.",
+            "urls": [
+                "https://rudderstack.com/blog/real-time-personalization-with-redis-and-rudderstack?utm_source=email&utm_medium=email&utm_campaign=CMPGN_46_DEWS&utm_content=None&utm_term=%7Bkeyword%7D&raid=39008a0a0c72eb7f33bee9b56cf063be"
+            ]
+        },
+        {
+            "author": "DoorDash",
+            "title": "Building Faster Indexing with Apache Kafka and Elasticsearch",
+            "summary": "DoorDash writes about its search indexing infrastructure built on Apache Kafka, Apache Flink, and Elasticsearch. The adoption of incremental indexing to support both the CDC and ETL data, the Assembler design to connect with ETL DB, and windowed API lookup to enrich the entities are some of the highlight design strategies in the indexing infrastructure.",
+            "urls": [
+                "https://doordash.engineering/2021/07/14/open-source-search-indexing/"
+            ]
+        },
+        {
+            "author": "Pinterest",
+            "title": "Unified Flink Source at Pinterest - Streaming Data Processing",
+            "summary": "Pinterest writes about its streaming infrastructure, Xenon, focusing on a unified Flink data source approach to combine Kafka and data on S3 that abstracts the complexity of data storage from the consumer yet deliver all the streaming guarantees. The article captures the trend in the data infrastructure that closes the gap between batch processing and stream processing.",
+            "urls": [
+                "https://medium.com/pinterest-engineering/unified-flink-source-at-pinterest-streaming-data-processing-c9d4e89f2ed6"
+            ]
+        },
+        {
+            "author": "PayPal",
+            "title": "Introducing DataFu-Spark",
+            "summary": "Apache DataFu\u2122 is a collection of libraries for working with large-scale data in Hadoop. It provides a well-testing solution to common big data processing problems like data deduplication and skewed joins etc. PayPal writes about DataFu integration with Spark with the example of finding the most recent updates in a record, skewed joins, join with range, counting distinct values, and calling python code from scala.",
+            "urls": [
+                "https://datafu.apache.org/docs/spark/getting-started.html",
+                "https://medium.com/paypal-tech/introducing-datafu-spark-ba67faf1933a"
+            ]
+        },
+        {
+            "author": "Pinterest",
+            "title": "Interactive Querying with Apache Spark SQL at Pinterest",
+            "summary": "Though Presto remains the most popular query engine choice for quick interactive querying with limited resource requirements, we often end up requiring Hive or Spark SQL to query extensive data for ad-hoc exploration. Pinterest shares its experience of building Spark SQL as an interactive query engine using Apache Livy and Remote Spark Context.",
+            "urls": [
+                "https://medium.com/pinterest-engineering/interactive-querying-with-apache-spark-sql-at-pinterest-2a3eaf60ac1b"
+            ]
+        }
+    ]
+}

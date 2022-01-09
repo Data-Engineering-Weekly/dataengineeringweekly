@@ -1,0 +1,79 @@
+{
+    "edition": 62,
+    "articles": [
+        {
+            "author": "Netflix",
+            "title": "Open-Sourcing a Monitoring G.U.I. for Metaflow, Netflix\u2019s ML Platform",
+            "summary": "The success of any developer framework depends on how efficiently the tool integrates with the developer workflow. Netflix writes about open source Metaflow G.U.I. for monitoring and operating its full-stack framework for data science.",
+            "urls": [
+                "https://netflixtechblog.com/open-sourcing-a-monitoring-gui-for-metaflow-75ff465f0d60"
+            ]
+        },
+        {
+            "author": "Ahmad Houri",
+            "title": "How Netflix Metaflow Helped Us Build Real-World Machine Learning Services",
+            "summary": "The article gives a good overview of Netflix's Metaflow, demonstrating the scaling and cloud integration support of Metaflow with the A.W.S. step function.",
+            "urls": [
+                "https://towardsdatascience.com/how-netflix-metaflow-helped-us-build-real-world-machine-learning-services-9ab9a97cdf33"
+            ]
+        },
+        {
+            "author": "Presto",
+            "title": "Scaling with Presto on Spark",
+            "summary": "Presto is known for interactive queries against data warehouses, but it has evolved into a unified SQL engine on open data lake analytics for interactive and batch workloads. Apache Spark execution engine with Presto is an exciting development to bring one SQL for batch & interactive workload.",
+            "urls": [
+                "https://prestodb.io/blog/2021/10/26/Scaling-with-Presto-on-Spark.html"
+            ]
+        },
+        {
+            "author": "Shopify",
+            "title": "Shopify\u2019s Path to a Faster Trino Query Execution Custom Verification, Benchmarking, and Profiling Tooling",
+            "summary": "Reliable data infrastructure is critical for a faster \u201ctime-to-insight\u201d for analytical queries. Shopify writes about its approach to benchmarking Trino infrastructure. The Key lessons section highlighting",
+            "urls": [
+                "https://shopifyengineering.myshopify.com/blogs/engineering/faster-trino-query-execution-verification-benchmarking-profiling"
+            ]
+        },
+        {
+            "author": "InfoQ",
+            "title": "A.W.S. Announces the Public Preview of A.W.S. Data Exchange for Amazon Redshift",
+            "summary": "Access to the third-party data to correlate with the business metrics is vital to understanding the business's external influence. \"Data Sharing\" from cloud datawarehouse is increasingly popular, as is the ETL & Reverse-ETL tooling. I wrote about the data exchange pattern in the past.",
+            "urls": [
+                "https://www.dataengineeringweekly.com/p/omicron-paradigm-architectural-patterns?utm_source=substack&utm_campaign=post_embed&utm_medium=web",
+                "https://docs.snowflake.com/en/user-guide/data-sharing-intro.html",
+                "https://www.infoq.com/news/2021/10/aws-dax-amazon-redshift-preview/"
+            ]
+        },
+        {
+            "author": "PayPal",
+            "title": "Machine Learning Model CI/CD and Shadow Platform",
+            "summary": "PayPal writes about its Machine Learning model CI/CD pipeline and shadow platform to meet the regulatory requirements of ML/DL models tested in a shadow pipeline before deploying in production. The end-to-end workflow of CI/CD & shadow platform handling temporally aware features is an exciting read.",
+            "urls": [
+                "https://medium.com/paypal-tech/machine-learning-model-ci-cd-and-shadow-platform-8c4f44998c78"
+            ]
+        },
+        {
+            "author": "Groupon",
+            "title": "Pinion \u2014 The Load Framework Part-2",
+            "summary": "Groupon writes the second part of the blog about its loader framework Pinion to ingest the event to Delta Lake. The blog narrates how the loader framework performs data validation, compaction, auditing to support data governance, multi-stage ingestion strategy.",
+            "urls": [
+                "https://medium.com/groupon-eng/pinion-the-load-framework-part-2-e6a47586e7be"
+            ]
+        },
+        {
+            "author": "Microsoft",
+            "title": "Measuring the Impact of Data Science",
+            "summary": "The measurable impact is critical to iterate and improve the efficiency of a platform. Microsoft data science writes an exciting blog on measuring the impact of data science with P.U.G.E.T. (product/ problem definition, Users and customer segments, Goals, and metrics, Efficient and measurable strategy, Trade-offs).",
+            "urls": [
+                "https://medium.com/data-science-at-microsoft/measuring-impact-in-data-science-part-1-6ef9712bcbea"
+            ]
+        },
+        {
+            "author": "Nextdoor",
+            "title": "Running ML Inference Services in Shared Hosting Environments",
+            "summary": "The data workload is increasingly adopting a shared execution environment and the talk from Nextdoor highlights the impact of load balancing & resource sharing on inference service's performance.",
+            "urls": [
+                "https://engblog.nextdoor.com/running-ml-inference-services-in-shared-hosting-environments-6176b39bc9b7"
+            ]
+        }
+    ]
+}

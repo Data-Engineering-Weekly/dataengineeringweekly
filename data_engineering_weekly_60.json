@@ -1,0 +1,79 @@
+{
+    "edition": 60,
+    "articles": [
+        {
+            "author": "Google A.I.",
+            "title": "An ML-Based Framework for COVID-19 Epidemiology",
+            "summary": "COVID-19 pandemic has had a profound impact on daily life. Google A.I. discusses the recent paper A prospective evaluation of AI-augmented epidemiology to forecast COVID-19 in the USA and Japan. Though the learned transition with the available data is novel, the author acknowledges that a lack of reliable, high-quality public data is significant.",
+            "urls": [
+                "https://ai.googleblog.com/2021/10/an-ml-based-framework-for-covid-19.html"
+            ]
+        },
+        {
+            "author": "Udemy",
+            "title": "Designing the New Event Tracking System at Udemy",
+            "summary": "Udemy writes about its journey to build an event tracking system. The discussion around buy vs. build, protobuf vs. Avro, Avro schema annotations are exciting reads.",
+            "urls": [
+                "https://medium.com/udemy-engineering/designing-the-new-event-tracking-system-at-udemy-a45e502216fd"
+            ]
+        },
+        {
+            "author": "Pinterest",
+            "title": "Efficient Resource Management at Pinterest\u2019s Batch Processing Platform",
+            "summary": "Pinterest writes about efficient Yarn resource management for its batch processing platform. The blog is an exciting case study of data-driven system design compared to the auto-scaling of computing instances.",
+            "urls": [
+                "https://medium.com/pinterest-engineering/efficient-resource-management-at-pinterests-batch-processing-platform-61512ad98a95"
+            ]
+        },
+        {
+            "author": "Open Metadata",
+            "title": "Announcing OpenMetadata",
+            "summary": "OpenMetadata is an open-source project building Schema First and API First Metadata Standard. A Single place to Discover, Collaborate and Get your data right.",
+            "urls": [
+                "https://twitter.com/d3fmacro",
+                "https://blog.open-metadata.org/announcing-openmetadata-20399b816e60",
+                "https://github.com/ananthdurai/dataengineeringweekly"
+            ]
+        },
+        {
+            "author": "Salesforce",
+            "title": "How to ETL at Petabyte-Scale with Trino",
+            "summary": "Salesforce writes about its usage of Trino as an ETL engine. Trino certainly has some shortcomings in ETL, such as lack of mid-query fault tolerance and limited expressive power; there are also some highly underrated advantages to using Trino for ETL. The author narrates techniques to overcome some of the shortcomings of Trino as an ETL engine.",
+            "urls": [
+                "https://engineering.salesforce.com/how-to-etl-at-petabyte-scale-with-trino-5fe8ac134e36"
+            ]
+        },
+        {
+            "author": "Stitch Fix",
+            "title": "Functions & DAGs introducing Hamilton, a microframework for dataframe generation",
+            "summary": "Stitch Fix writes about Hamilton, a microframework for dataframe generation. Hamilton efficiently solving the complexity of the chain of dataframe transformation on each column. Instead of having Data Scientists write code that they subsequently execute in a massive procedural tangle, Hamilton utilizes how the function is defined to create a DAG and execute it for Data Scientists.",
+            "urls": [
+                "https://multithreaded.stitchfix.com/blog/2021/10/14/functions-dags-hamilton/"
+            ]
+        },
+        {
+            "author": "AWS",
+            "title": "Implement a slowly changing dimension in Amazon Redshift",
+            "summary": "Slowly changing dimension and incremental data processing are the 90% of data pipeline workload pattern. AWS writes how to handle slowly changing dimensions (SCD) in Redshift with best practices and anti-patterns.",
+            "urls": [
+                "https://aws.amazon.com/blogs/big-data/implement-a-slowly-changing-dimension-in-amazon-redshift/"
+            ]
+        },
+        {
+            "author": "Databricks",
+            "title": "Native Support of Session Window in Spark Structured Streaming",
+            "summary": "Excited to see in the upcoming Apache Spark 3.2, we add \u201csession windows\u201d as new supported types of windows, which works for both streaming and batch queries. The blog walkthrough how to add a session window on event time.",
+            "urls": [
+                "https://databricks.com/blog/2021/10/12/native-support-of-session-window-in-spark-structured-streaming.html"
+            ]
+        },
+        {
+            "author": "HomeToGo",
+            "title": "DBT at HomeToGo",
+            "summary": "HomeToGo writes about its adoption of dbt into the data infrastructure and dbt integration with Apache Airflow. The layered approach of metrics computations on top of the dbt model, testing the dbt model with GreatExpectations, is exciting to read.",
+            "urls": [
+                "https://engineering.hometogo.com/dbt-at-hometogo-ece067987267"
+            ]
+        }
+    ]
+}

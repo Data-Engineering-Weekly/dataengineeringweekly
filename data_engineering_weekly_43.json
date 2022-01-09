@@ -1,0 +1,86 @@
+{
+    "edition": 43,
+    "articles": [
+        {
+            "author": "Pedram Navid",
+            "title": "Building The Modern Data Team",
+            "summary": "Modern data toolings like DBT maturing can process and manage complex pipelines; however, building the modern data team remains challenging. In addition, prioritizing what the team should work on holds the key to minimizing the dysfunction of a team. In the blog, the author shares the views on data as a product, the good & bad of agile & scrum adoption for the data team.",
+            "urls": [
+                "https://pedram.substack.com/p/modern-data-team"
+            ]
+        },
+        {
+            "author": "Nvidia",
+            "title": "What Is Explainable AI?",
+            "summary": "AI got adopted across industries as part of the core decision-making frameworks, from radiology, credit check to public policymaking. Hence Explainable AI (XAI) is a vital aspect of AI development. What is XAI? How does it work? Nvidia writes an exciting blog introducing XAI.",
+            "urls": [
+                "https://blogs.nvidia.com/blog/2021/05/24/what-is-explainable-ai/"
+            ]
+        },
+        {
+            "author": "LinkedIn",
+            "title": "An update on Responsible AI at LinkedIn",
+            "summary": "On a similar line, LinkedIn talks about an update on responsible AI and how it embedded the principles in the design and engineering process. LinkedIn's responsible AI follows Microsoft's responsible AI principles, discusses AI fairness, privacy, and future roadmap.",
+            "urls": [
+                "https://engineering.linkedin.com/blog/2021/responsible-ai-update"
+            ]
+        },
+        {
+            "author": "Airbnb",
+            "title": "How Airbnb Standardized Metric Computation at Scale - Part 2 - The six design principles of Minerva compute infrastructure",
+            "summary": "Airbnb writes about the second part of the Minerva platform to standardize metrics computation at scale. It's an exciting system design read with a declarative SDK to manage datasets, data versioning to maintain metric consistency, self-healing pipeline with batched backfilling, and data quality integrations.",
+            "urls": [
+                "https://medium.com/airbnb-engineering/airbnb-metric-computation-with-minerva-part-2-9afe6695b486"
+            ]
+        },
+        {
+            "author": "Wrike TechClub",
+            "title": "Data Quality Roadmap",
+            "summary": "Data quality is a vital aspect of data engineering, and many companies talked about their internal implementation and data quality approach. However, how does one should start the journey of data quality? How does the roadmap look like, and what is the consequence of lacking certain engineering practices? The blog is an excellent narration of the data quality roadmap and reference articles to support data quality efforts.",
+            "urls": [
+                "https://medium.com/wriketechclub/data-quality-roadmap-part-i-61332d5be7a",
+                "https://medium.com/wriketechclub/data-quality-roadmap-part-ii-case-studies-614e85906178"
+            ]
+        },
+        {
+            "author": "Shopify",
+            "title": "How Shopify Built An In-Context Analytics Experience",
+            "summary": "How Shopify Built An In-Context Analytics Experience",
+            "urls": [
+                "https://shopifyengineering.myshopify.com/blogs/engineering/shopify-in-context-analytics"
+            ]
+        },
+        {
+            "author": "Spotify",
+            "title": "Visual Analytics at Spotify",
+            "summary": "Visualization is a quick and meaningful way to interpret the data, and the visualization tools often quick to start but hard to master. Spotify writes an exciting blog on how hiring an expert visualization engineer to build core dashboards and templates & guides to standardize the dashboards improves the quality of data analytics.",
+            "urls": [
+                "https://medium.com/spotify-insights/visual-analytics-at-spotify-3d4221d8686"
+            ]
+        },
+        {
+            "author": "Groupon",
+            "title": "Managing Billions of Data Points - Evolution of Workflow Management at Groupon",
+            "summary": "Groupon writes about its usage of Apache Airflow, and the decision to move away from cron scheduler. The blogs contains a comprehensive functional comparison chart among Apache Airflow, Oozie, Azkaban, and cron schedulers. ",
+            "urls": [
+                "https://medium.com/groupon-eng/managing-billions-of-data-points-evolution-of-workflow-management-at-groupon-dab000a3440d"
+            ]
+        },
+        {
+            "author": "Mapbox/ Dagster",
+            "title": "Incrementally Adopting Dagster at Mapbox",
+            "summary": "Mapbox shared their migration journey from Airflow to Dagster with the claim that Dagster reduced the core process time from days or weeks to 1-2 hours.!!! The blog narrates Dagster\u2019s Airflow compatibility to do incremental migration, Dagster\u2019s tooling support for testing & local development.",
+            "urls": [
+                "https://medium.com/dagster-io/incrementally-adopting-dagster-at-mapbox-b635b1118594"
+            ]
+        },
+        {
+            "author": "Databricks",
+            "title": "Top 10 Announcements From Data + AI Summit",
+            "summary": "Databricks writes a quick recap of the top 10 announcements from Data + AI summit. Delta sharing, an open protocol to share data securely, data catalog, and Kolas merge into Apache Spark are some of the exciting development to watch in the near future.",
+            "urls": [
+                "https://databricks.com/blog/2021/06/04/dont-miss-these-top-10-announcements-from-data-ai-summit.html"
+            ]
+        }
+    ]
+}

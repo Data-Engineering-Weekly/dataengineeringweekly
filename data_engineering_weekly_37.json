@@ -1,0 +1,94 @@
+{
+    "edition": 37,
+    "articles": [
+        {
+            "author": "Data Council",
+            "title": "What are the most popular OSS data projects of 2021?",
+            "summary": "What are the most popular OSS data projects of 2021?",
+            "urls": [
+                "https://petesoder.medium.com/what-are-the-most-popular-oss-data-projects-of-2021-84ef021bb5a2"
+            ]
+        },
+        {
+            "author": "Wikipedia",
+            "title": "Wikipedia data engineering practices with Nuria Ruiz",
+            "summary": "The conversation gives an excellent overview of Wikimedia's data infrastructure. There is a good highlight of the challenges of collecting data from the edge network, principle-based metrics definition than profit-based, and privacy. One awakening moment for me in the conversation, we have sophisticated data computation and management frameworks, and none of them treat data privacy as a first-class citizen.",
+            "urls": [
+                "https://www.speedwins.tech/posts/some-words-with-nuria-ruiz"
+            ]
+        },
+        {
+            "author": "Uber",
+            "title": "Real-time Data Infrastructure at Uber",
+            "summary": "Uber writes an exciting paper summarizing its real-time infrastructure with Apache Kafka, Apache Flink, Apache Pinot & Presto as a foundational technology stack. The Kafka consumer proxy, the logical separation of Kafka topics, Auto-scaling Flink applications, Pinot's upsert feature, and Pinot integration with the rest of the data ecosystems are some of the exciting read.",
+            "urls": [
+                "https://arxiv.org/pdf/2104.00087.pdf"
+            ]
+        },
+        {
+            "author": "Apache Pinot",
+            "title": "Introduction to Upserts in Apache Pinot",
+            "summary": "Pinot is an immutable data store, which means that there is no genuine concept of upsert as you stream data into it from Kafka. The blog summarizes the need for upsert support and how it differs from the traditional database upserts.",
+            "urls": [
+                "https://medium.com/apache-pinot-developer-blog/introduction-to-upserts-in-apache-pinot-987c12149d93"
+            ]
+        },
+        {
+            "author": "Facebook",
+            "title": "Large-scale forecasting - self-supervised learning framework for hyperparameter tuning",
+            "summary": "Forecasting is one of the core data science and machine learning tasks. Providing fast, reliable, and accurate forecasting results with large amounts of time series data is vital for a business operation. Facebook writes about its framework, SSL-HPT, that takes time-series features as inputs and produces optimal hyperparameters in less time without sacrificing accuracy.",
+            "urls": [
+                "https://ai.facebook.com/blog/large-scale-forecasting-self-supervised-learning-framework-for-hyper-parameter-tuning/"
+            ]
+        },
+        {
+            "author": "Databricks",
+            "title": "Fine-Grained Time Series Forecasting at Scale With Facebook Prophet and Apache Spark Updated for Spark 3",
+            "summary": "Facebook's Prophet is a procedure for forecasting time series data based on an additive model where non-linear trends are fit with yearly, weekly, and daily seasonality, plus holiday effects. Databricks writes about training hundreds of time series forecasting models in parallel with Facebook Prophet and Spark.",
+            "urls": [
+                "https://databricks.com/blog/2021/04/06/fine-grained-time-series-forecasting-at-scale-with-facebook-prophet-and-apache-spark-updated-for-spark-3.html"
+            ]
+        },
+        {
+            "author": "Yelp",
+            "title": "Powering Messaging Enabledness with Yelp's Data Infrastructure",
+            "summary": "Powering Messaging Enabledness with Yelp's Data Infrastructure",
+            "urls": [
+                "https://engineeringblog.yelp.com/2021/04/powering-messaging-enabledness-with-yelps-data-infrastructure.html"
+            ]
+        },
+        {
+            "author": "Salesforce",
+            "title": "The Design of Strongly Consistent Global Secondary Indexes in Apache Phoenix",
+            "summary": "Secondary indexing, which enables efficient queries on non-primary key fields, is central in many use cases. Apache HBase's ability to read random, real-time read/write access comes with the cost that the access pattern depends on the key. Salesforce writes about how Apache Phoenix supports a strongly consistent global secondary index. The design approach of handling immutable (the secondary index column is immutable) and mutable(the secondary index column is mutable) is an exciting read.",
+            "urls": [
+                "https://engineering.salesforce.com/the-design-of-strongly-consistent-global-secondary-indexes-in-apache-phoenix-part-1-90b90bda4210",
+                "https://engineering.salesforce.com/the-design-of-strongly-consistent-global-secondary-indexes-in-apache-phoenix-part-2-392c57ec6633"
+            ]
+        },
+        {
+            "author": "Auto Traders",
+            "title": "Reliable tracking Validating Snowplow events using Cypress & Snowplow Micro",
+            "summary": "Reliable tracking: Validating Snowplow events using Cypress & Snowplow Micro",
+            "urls": [
+                "https://engineering.autotrader.co.uk/2021/04/09/cypress-snowplow-micro-blog.html"
+            ]
+        },
+        {
+            "author": "Monte Carlo Data",
+            "title": "Root Cause Analysis for Data Engineers",
+            "summary": "Root Cause Analysis for Data Engineers",
+            "urls": [
+                "https://towardsdatascience.com/root-cause-analysis-for-data-engineers-782c02351697"
+            ]
+        },
+        {
+            "author": "AlayaLabs",
+            "title": "From Jupyter Notebooks to Production Data Pipelines - Our Framework for Delivering Data Projects",
+            "summary": "AlyaLabs writes about its data infrastructure using Snowflake, S3, Airflow & Looker and how it converts the prototyping from Jupiter Notebook to a continuous data pipeline.",
+            "urls": [
+                "https://medium.com/alayalabs/from-jupyter-notebooks-to-production-data-pipelines-our-framework-for-delivering-data-projects-6b8f41643520"
+            ]
+        }
+    ]
+}

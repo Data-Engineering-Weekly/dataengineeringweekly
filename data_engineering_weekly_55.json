@@ -1,0 +1,81 @@
+{
+    "edition": 55,
+    "articles": [
+        {
+            "author": "AWS",
+            "title": "A PartiQL deep dive - Understand the language and bring SQL queries to AWS non-relational database services",
+            "summary": "AWS writes a deep dive on PartiQL, a SQL 92 compatible query language that runs queries against structured, semi-structured, and unstructured data. PartiQL idea of a logical type system data modeling on top of formats like JSON & Parquet and the support for dynamic typing is an exciting space to watch. Though AWS data services rapidly adopting PartiQL, how far it can gain momentum in the open-source community against the likes of Apache Calcite is yet to be seen.",
+            "urls": [
+                "https://aws.amazon.com/blogs/database/a-partiql-deep-dive-understanding-the-language-bringing-sql-queries-to-aws-non-relational-database-services/"
+            ]
+        },
+        {
+            "author": "Paige Berry",
+            "title": "Share Your Data Insights to Engage Your Colleagues",
+            "summary": "People don't make decisions based on data; they make the decision based on the story.!!!",
+            "urls": [
+                "https://locallyoptimistic.com/post/share-your-data-insights-to-engage-your-colleagues/"
+            ]
+        },
+        {
+            "author": "Pinterest",
+            "title": "Pinterest\u2019s Analytics as a Platform on Druid",
+            "summary": "Pinterest shared a 3 part blog post on its journey with Apache Druid. The blog narrates the shortcoming of the Apache HBase infrastructure, instance optimization based on tiered request pattern, secondary key pruning, and bloom filter index on real-time segments.",
+            "urls": [
+                "https://medium.com/pinterest-engineering/pinterests-analytics-as-a-platform-on-druid-part-1-of-3-9043776b7b76",
+                "https://medium.com/pinterest-engineering/pinterests-analytics-as-a-platform-on-druid-part-2-of-3-e63d5280a1a9",
+                "https://medium.com/pinterest-engineering/pinterests-analytics-as-a-platform-on-druid-part-3-of-3-579406ffa374"
+            ]
+        },
+        {
+            "author": "Confluent",
+            "title": "Protecting Data Integrity in Confluent Cloud Over 8 Trillion Messages Per Day",
+            "summary": "Confluent writes about its end-to-end data durability monitoring infrastructure for Apache Kafka. The data integrity check focuses on the system state change operations to detect the integrity instead of data scrubbing is an elegant integrity check approach.",
+            "urls": [
+                "https://www.confluent.io/blog/how-confluent-cloud-protects-kafka-data-integrity-for-eight-trillion-messages-per-day/"
+            ]
+        },
+        {
+            "author": "Databricks",
+            "title": "Implementing More Effective FAIR Scientific Data Management With a Lakehouse",
+            "summary": "FAIR framework for good data management and stewardship for scientific data initially introduced in a 2016 article in  Nature, with \u201clong-term care of valuable digital assets\u201d at the core of it. Databricks writes an exciting blog on how lakehouse architecture empowering the FAIR framework. The blog introduced me to the FAIR principle, and it is an exciting article to read.",
+            "urls": [
+                "https://www.go-fair.org/fair-principles/"
+            ]
+        },
+        {
+            "author": "StarTree.AI",
+            "title": "Launching at LinkedIn The Story of Apache Pinot",
+            "summary": "It is always refreshing to read the backstory of a successful open-source system and how it starts from a simple beginning and grows over time. StarTree shared one of the success stories of how Apache Pinot starts from a simple beginning at LinkedIn and grows with the adoption at Uber.",
+            "urls": [
+                "https://www.startree.ai/blogs/launching-at-linkedin-the-story-of-apache-pinot/"
+            ]
+        },
+        {
+            "author": "Uber",
+            "title": "Streaming Real-Time Analytics with Redis, AWS Fargate, and Dash Framework",
+            "summary": "Uber writes about real-time analytics systems with Redis, AWS Fargate & Dash framework evaluation from the long polling ingestion to event-driven model. It is the first story I read about Uber's usage of AWS and sounds like an interesting development. Earlier Dropbox shared its analytical stack migration to AWS, Twitter ads analytical stack migration to Google Cloud.",
+            "urls": [
+                "https://aws.amazon.com/solutions/case-studies/dropbox-s3/",
+                "https://cloud.google.com/blog/products/data-analytics/modernizing-twitters-ad-engagement-analytics-platform",
+                "https://eng.uber.com/streaming-real-time-analytics/"
+            ]
+        },
+        {
+            "author": "Snowflake",
+            "title": "Migrating Airflow from Amazon EC2 to Kubernetes",
+            "summary": "Snowflake shared its Apache Airflow migration from EC2 instances to KubernetesPodExecutors to scale DAG growth. The blog adds best practices of Airflow health monitoring & alerting practices. It is sad to see the Airflow operational challenges remain the same even after years!!!",
+            "urls": [
+                "https://www.snowflake.com/blog/migrating-airflow-from-amazon-ec2-to-kubernetes/"
+            ]
+        },
+        {
+            "author": "Capital One Tech",
+            "title": "Automate Application Monitoring with Slack",
+            "summary": "Slack (like) platform plays a significant role in data ops and application monitoring to bridge the workflow between humans and machines. CapitalOne writes an exciting blog that narrates using Apache Airflow and Slack Bot to monitor ElasticSearch.",
+            "urls": [
+                "https://medium.com/capital-one-tech/automate-application-monitoring-with-slack-9e4e498652a3"
+            ]
+        }
+    ]
+}

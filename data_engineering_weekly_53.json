@@ -1,0 +1,78 @@
+{
+    "edition": 53,
+    "articles": [
+        {
+            "author": "Benn Stancil",
+            "title": "The Modern Data Experience - How a revolution comes together. Or doesn\u2019t",
+            "summary": "Benn Stancil writes another exciting blog highlighting the missing focus on the modern data experience. The growth of modern data engineering tooling focus on a specific part of data engineering leads to data practitioners' isolated and inconsistent experience. An integrated data platform experience that can connect the modern and past data tools greatly accelerates data-driven culture.",
+            "urls": [
+                "https://benn.substack.com/p/the-modern-data-experience"
+            ]
+        },
+        {
+            "author": "Microsoft Research Lab",
+            "title": "Discovering Related Data At Scale",
+            "summary": "There are several advantages of adopting a decentralized schema-on-read data lake approach. However, it can leads to inconsistency in the naming of the schema. A \"server\" column can be named as \"Machine\" or \"Host\" or \"instance\" in other tables. Finding column relationships is a complex task historically solved by sampling the data or finding the unique value matching. Microsoft lab writes an exciting paper that uses SQL query logs to find the relationship.",
+            "urls": [
+                "https://www.microsoft.com/en-us/research/publication/discovering-related-data-at-scale/"
+            ]
+        },
+        {
+            "author": "Jordan Volz",
+            "title": "Five Predictions for the Future of the Modern Data Stack",
+            "summary": "The emerging cloud-native data platforms, collectively known as the \"modern data stack,\" simplify entry barriers to data analytics. The author walks through the developments on the modern data stack and bright side of \"Modern Data Stack V2\", focusing on AI, Data Sharing, Data Governance, Streaming & Application Serving.",
+            "urls": [
+                "https://medium.com/@jordan_volz/five-predictions-for-the-future-of-the-modern-data-stack-435b4e911413"
+            ]
+        },
+        {
+            "author": "InfoQ",
+            "title": "AI, ML, and Data Engineering InfoQ Trends Report - August 2021",
+            "summary": "InfoQ released 2021 AI/ML/Data Engineering trends as a CHASM model. The top highlights are the Deep learning frameworks moved from innovators to early adopters and AutoML picking momentum. I've not come across any business process automation with digital assistance, so finding the digital assistance frameworks at the Early Adopters stage is a bit of a surprise.",
+            "urls": [
+                "https://www.infoq.com/articles/ai-ml-data-engineering-trends-2021/"
+            ]
+        },
+        {
+            "author": "Trifacta",
+            "title": "Summer of SQL - Why It\u2019s Back",
+            "summary": "We can associate the growth of modern data stacks and SQL reclaiming the throne of data engineering. The blog is an excellent overview of why SQL is back now and why it is a perfect tool for data engineering?",
+            "urls": [
+                "https://www.trifacta.com/blog/sql-for-elt-and-cloud-data-engineering/"
+            ]
+        },
+        {
+            "author": "Slack",
+            "title": "Data Lineage at Slack",
+            "summary": "Slack writes its data lineage journey highlighting lineage ingestion and consumption part of it. The Notification service out of the lineage data is an excellent reminder that the potential of the lineage exponentially increases when we start integrating it into the data practitioner's workflow.",
+            "urls": [
+                "https://slack.engineering/data-lineage-at-slack/"
+            ]
+        },
+        {
+            "author": "Gusto",
+            "title": "What is Growth Engineering?",
+            "summary": "I am an application developer. Why should I care about data engineering? ",
+            "urls": [
+                "https://engineering.gusto.com/what-is-growth-engineering/"
+            ]
+        },
+        {
+            "author": "Sisu",
+            "title": "Why aren't cloud analytics platforms just UDFs?",
+            "summary": "UDFs bring uniformity and consistency to the data pipeline's business logic; however, few cloud providers support it, and there are no standards for defining the UDF. LinkedIn attempted to solve this problem with Transport: Towards Logical Independence Using Translatable Portable UDFs.",
+            "urls": [
+                "https://engineering.linkedin.com/blog/2018/11/using-translatable-portable-UDFs",
+                "https://sisudata.com/blog/cloud-analytics-platforms"
+            ]
+        },
+        {
+            "author": "Nubank",
+            "title": "Scaling data analytics with software engineering best practices",
+            "summary": "Nubank writes about its process of scaling data analytics with software engineering practices. The blog is an exciting reminder on focusing on structured dataset creations, collaboration & knowledge sharing, and the lifecycle management of the datasets.",
+            "urls": [
+                "https://building.nubank.com.br/scaling-data-analytics-with-software-engineering-best-practices/"
+            ]
+        }
+    ]
+}
