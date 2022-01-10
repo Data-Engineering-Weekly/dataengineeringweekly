@@ -1,0 +1,79 @@
+{
+    "edition": 69,
+    "articles": [
+        {
+            "author": "Devoted Health",
+            "title": "One Year of dbt",
+            "summary": "Devoted Health shares its experience running dbt for a year. The two-phase commit strategy to publish datasets, wrapper tooling to handle authentication, unit testing framework on top of dbt are some exciting reads. The blog is an excellent reminder that any tool integrated well with the developer workflow multiplies its effectiveness.",
+            "urls": [
+                "https://tech.devoted.com/one-year-of-dbt-b2e8474841ca"
+            ]
+        },
+        {
+            "author": "Matt",
+            "title": "The future history of Data Engineering",
+            "summary": "The article captures the trend on the commoditization of data infrastructure complexity. Any successful technology should move from niche to commoditized to survive longer-term. ",
+            "urls": [
+                "https://people.cs.umass.edu/~yanlei/courses/CS691LL-f06/papers/SH05.pdf",
+                "https://groupby1.substack.com/p/data-engineering",
+                "https://people.cs.umass.edu/~yanlei/courses/CS691LL-f06/papers/SH05.pdf"
+            ]
+        },
+        {
+            "author": "Thinh Ha",
+            "title": "10 reasons why you are not ready to adopt data mesh",
+            "summary": "This article is an excellent checklist before starting your data mesh journey. The author highlights the need for organizational maturity before taking the data mesh approach since the principles require a strong foundation & tooling.",
+            "urls": [
+                "https://medium.com/google-cloud/10-reasons-why-you-should-not-adopt-data-mesh-7a0b045ea40f"
+            ]
+        },
+        {
+            "author": "Mikkel Dengs\u00f8e",
+            "title": "Data to engineers ratio - A deep dive into 50 top European tech companies",
+            "summary": "The blog is an excellent analysis of the data engineers ratio in an organization and how the organization's engineering culture impacts the hiring pattern. It is interesting to see platform/ marketplace companies hire more data engineers than B2B companies.",
+            "urls": [
+                "https://mikkeldengsoe.substack.com/p/data-to-engineers"
+            ]
+        },
+        {
+            "author": "Halodoc",
+            "title": "Lake House Architecture @ Halodoc - Data Platform 2.0",
+            "summary": "Halodoc writes an excellent overview of its data platform 2.0, focusing on the LakeHouse architecture. The blog narrates some of the key takeaways from implementing Apache Hudi, a configuration-driven approach to onboarding new tables. Kudos for including the end-to-end reference architecture diagram. ",
+            "urls": [
+                "https://blogs.halodoc.io/lake-house-architecture-halodoc-data-platform-2-0/amp/"
+            ]
+        },
+        {
+            "author": "Picnic",
+            "title": "Picnic Analytics Platform - Migration from AWS Kinesis to Confluent Cloud",
+            "summary": "Picnic writes about its migration story from AWS Kinesis to Confluent Cloud. The prime motivation behind the move seems to be to have a longer retention time and adopt the broad Kafka ecosystem. Interestingly, Kinesis can't extend its hot data retention for more than seven days!!",
+            "urls": [
+                "https://blog.picnic.nl/picnic-analytics-platform-migration-from-aws-kinesis-to-confluent-cloud-adb06601c78"
+            ]
+        },
+        {
+            "author": "PayPal",
+            "title": "Sales Pipeline Management with Machine Learning - A Lightweight Two-Layer Ensemble Classifier Framework",
+            "summary": "PayPal writes about ML-driven sales pipeline management. The lightweight two-layer ensemble classifier framework as a solution to progressive prediction problems is an exciting read.",
+            "urls": [
+                "https://medium.com/paypal-tech/sales-pipeline-management-with-machine-learning-15398bab913b"
+            ]
+        },
+        {
+            "author": "Apache Dolphin Scheduler",
+            "title": "From Airflow to Apache DolphinScheduler, the Evolution of Scheduling System On Youzan Big Data Development Platform",
+            "summary": "Youzan writes an in-depth overview of their migration of data orchestration engine from Airflow to Apache Dolphine. The article contains an excellent comparison of Airflow and Dolphin regarding scalability and high availability.",
+            "urls": [
+                "https://medium.com/@ApacheDolphinScheduler/from-airflow-to-apache-dolphinscheduler-the-evolution-of-scheduling-system-on-youzan-big-data-ec897f310f91"
+            ]
+        },
+        {
+            "author": "Google Cloud",
+            "title": "Announcing preview of BigQuery\u2019s native support for semi-structured data",
+            "summary": "I firmly believe that native indexing support for semi-structured data is a must-have feature in modern data warehouse systems. It is exciting to see Google BigQuery announce native support for semi-structured data.",
+            "urls": [
+                "https://cloud.google.com/blog/products/data-analytics/bigquery-now-natively-supports-semi-structured-data"
+            ]
+        }
+    ]
+}
