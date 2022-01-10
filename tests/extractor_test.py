@@ -1,7 +1,9 @@
-from publisher.extractor import Extractor
+from publisher.publish import bootstrap, publish_edition
 
 
-def test_to_json():
-    extractor = Extractor()
-    print(extractor.extract_weekly(36))
-    # print(extractor.to_json(36))
+def test_bootstrap():
+    bootstrap()
+
+
+def test_publish_edition():
+    publish_edition(69)
