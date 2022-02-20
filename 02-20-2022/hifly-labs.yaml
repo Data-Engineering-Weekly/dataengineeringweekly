@@ -1,0 +1,13 @@
+article:
+  author:
+    linkedin: "https://www.linkedin.com/company/hiflylabs-informatikai-kft-/mycompany/"
+    name: Hiflylabs
+    twitter: ""
+  link: "https://github.com/Hiflylabs/awesome-dbt"
+  review: ""
+  reviewer:
+    linkedin: ""
+    name: ""
+    twitter: ""
+  tags: "awesome-list, dbt, analytics-engineering, modern-data-stack"
+  title: "Awesome dbt Repository"
