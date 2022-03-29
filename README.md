@@ -29,7 +29,7 @@ article:
   review: "<Optional: Your review about the article>. It is okay if you can just share the links to the articles."
   reviewer:
     linkedin: "<optional: your LinkedIn handle>"
-    name: "<optional> if you would like to add your name as a reviewer in the data engineering founder_story newsletter"
+    name: "<optional> if you would like to add your name as a reviewer in the data engineering weekly newsletter"
     twitter: "<optional: your twitter handle>"
   tags: "<comma separate tags about the theme of the article>"
 ```
