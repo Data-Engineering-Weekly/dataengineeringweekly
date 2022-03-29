@@ -1,9 +1,19 @@
 # Data Engineering Weekly
 Weekly Data Engineering Newsletter
 
-The data engineering weekly newsletter started with a mission of reflecting views on the latest developments in the data engineering world. Every week we publish selected blog posts in the newsletters and share thoughts on them. One question I always get is how to contribute to the newsletters. The Github repo is a logical next step for the data engineering weekly to open up the community to contribute to the weekly newsletters.
+The data engineering weekly newsletter started with a mission of reflecting views on the latest developments in the data engineering world. Every week we publish selected blog posts in the newsletters and share thoughts on them. 
+Data Engineering Weekly currently accepts contributions in two forms.
+1. Founder story. See the announcement for the [founder story](https://www.dataengineeringweekly.com/p/launching-the-data-founder-story).
+2. Article contribution.
 
-# Sounds great, how can I contribute articles?
+# how can I contribute founder story 
+The founder's story will be published every Wednesday as a separate edition. 
+
+Open a pull request with a simple .md file with a title and a one-pager about what you're working. 
+
+You could also point to a blog post you already published, given that the data engineering weekly can republish the content.  
+
+# how can I contribute articles?
 
 It is simple, open a pull request with the article title under the weekly folder. Please read the contributing guidelines before submitting the request.
 
