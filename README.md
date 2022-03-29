@@ -9,9 +9,11 @@ Data Engineering Weekly currently accepts contributions in two forms.
 # how can I contribute founder story 
 The founder's story will be published every Wednesday as a separate edition. 
 
-Open a pull request with a simple .md file with a title and a one-pager about what you're working. 
+1. Write your story with a title and one-pager or add a link to the blog post you already published your story. The markdown format is a preferred format. 
 
-You could also point to a blog post you already published, given that the data engineering weekly can republish the content.  
+2. Add the file under the founder_story folder, and open a PR. 
+
+3. You could also point to a blog post you already published, given that the data engineering weekly can republish the content.  
 
 # how can I contribute articles?
 
