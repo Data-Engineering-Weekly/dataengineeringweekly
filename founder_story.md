@@ -11,7 +11,7 @@ With my professional domain expertise in database development, I think it will b
 
 # Personal Experience
 
-A couple of years ago, I took a job at a company where I experienced racial discrimination. My manager would pick on another diverse coworker for taking a 5-minute coffee break in the morning and began asking me to do things, not in my job description. 
+At a previous job I experienced racial discrimination. My manager at the time would pick on myself and another diverse coworker for taking a 5-minute coffee break in the morning and began asking me to do things, not in my job description.  
 
 I felt uncomfortable saying no, and to be safe; I started saving emails from him where he was asking for me to work out of regular work hours. He asked me to work off the books and told me he would give me back time later in the month. I waited until I was there for an entire year so it wouldn't look bad on my resume and gave my two weeks notice. The day I put in my two-week notice, I spoke to HR and gave the woman all of my emails. I told her how uncomfortable he made the diverse staff under him, and I was escorted out of the office.
 
