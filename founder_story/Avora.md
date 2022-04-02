@@ -38,12 +38,14 @@ As a customer of Avora, I was always impressed by the team and delivery. I was g
 
 I started advising Avora, soon after this, on product features and UX. I was one of the first to see the Anomaly Detection (AD) and Root Cause Analysis (RCA) products pre-launch. For the last couple of years, I've advised Avora on further enhancements to these new products which are the basis of the NewCo I have joined.
 
-Avora has needed a metrics layer, in order to provide AD and RCA on metric trends. This has been an internal one that is simple but powerful for customer needs; allowing for metric relationships and quick time to value. At the end of 2021, I had been guiding them towards is adopting the dbt metrics layer. I believed then, and more firmly now, that shared and standardised metrics layers will be widely adopted in the future. The potential for serving a wider customer base, and reducing onboarding friction, is a huge opportunity for Avora.
+Avora has needed a metrics layer, in order to provide AD and RCA on metric trends. This has been an internal one that is simple but powerful for customer needs; allowing for metric relationships and quick time to value. At the end of 2021, I had been guiding them towards adopting the dbt metrics layer. I believed then, and more firmly now, that shared and standardised metrics layers will be widely adopted in the future. The potential for serving a wider customer base, and reducing onboarding friction, is a huge opportunity for Avora.
 
 In parallel to advising, I also acted as a customer reference for Venture Capital funds. This has turned out to be very useful given I'm currently speaking to VCs to raise a seed round as a cofounder!
 
 ### Unexpected Opportunity
-At the end of last year, it wasn't the right time to join Avora for myself or Avora. My personal circumstances changed at the start of March, and with good customer acquisition, the same was true for Avora! I have joined as cofounder to lead us towards:
+At the end of last year, it wasn't the right time to join Avora for me or Avora. My personal circumstances changed at the start of March, and with good customer acquisition and signs of product-market fit, the same was true for Avora! 
+
+I have joined as cofounder to lead us towards:
 
 -   integrations with metrics layers
 -   technical partnerships in the Modern Data Stack
@@ -53,7 +55,7 @@ At the end of last year, it wasn't the right time to join Avora for myself or Av
 
 I believe there is a missing tactical layer in how data serves the strategic apex:
 
-1.  At the strategic layer, we now have tools enabling self-serve metrics and curated analytical research. This is difficult to automate without the advent of AGI! It's the consultative work that really fulfils humans in a data team, and empowers them to impact their org.
+1.  At the strategic layer, we now have tools enabling self-serve metrics and curated analytical research. This is difficult to automate without the advent of AGI! It's this consultative work that really fulfils humans in a data team, and empowers them to impact their org.
     
 2.  At the tactical layer of the apex we have an opportunity to augment decisions that need to be made faster. These need human input, but with AI-powered context and monitoring. This is where [Avora](https://avora.com) fits in.
     
@@ -67,11 +69,9 @@ Avora is a great opportunity for me to be a cofounder, with a level of safety in
 
 -   The Modern Data Stack is enabling a level of data maturity that wasn't possible even two years ago
 -   Data consumers are hungry for richer actionable insights
--   The scale of complexity and change in data, mean data teams are struggling, with BI tools, to do the workload Avora automates
+-   The scale of complexity and change in data mean data teams are struggling, with BI tools, to do the workload Avora automates
 -   There is a real problem in the industry in shortage of engineers and data people to build internal teams
     
-
-  
+I believe our products help fulfil some of these needs. We have the foundational team to win and delivering on our roadmap will help our customers win bigger with data.
 
 *Don't take it from us! You can try Avora for free, no-strings-attached, for 14 days.  [Sign up on our website.](https://avora.com)*
-
