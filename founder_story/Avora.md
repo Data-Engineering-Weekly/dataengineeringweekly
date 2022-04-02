@@ -12,7 +12,7 @@ I've been a Data practitioner for about 12 years, working across industries such
 
   
 
-During my time at Worldpay, I led a small team to build a system to predict our main metrics. This system was also able to explain why our metrics changed vs the past or forecast. It was a long and expensive process and involved me building a team to build, deploy and maintain it. While it was a success and well-used, it wasn't generic, it was very focused on a specific part of the payments system. I thought that a generic version of this system could be hugely valuable in analytics.
+During my time at Worldpay, I led a small team to build a system to predict our main metrics. This system was also able to explain why our metrics changed vs the past or forecast. It was a long and expensive process and involved me building a team to build, deploy and maintain it. While it was a success and well-used, it wasn't generic, it was very focused on a specific part of the payments system. I thought that a generic version of this system could be hugely valuable in analytics, this is what Root Cause Analysis is.
 
   
 
