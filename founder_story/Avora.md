@@ -73,5 +73,5 @@ Avora is a great opportunity for me to be a cofounder, with a level of safety in
 
   
 
-Don't take it from us! You can try Avora for free, no-strings-attached, for 14 days.  [Sign up on our website.](https://avora.com)
+*Don't take it from us! You can try Avora for free, no-strings-attached, for 14 days.  [Sign up on our website.](https://avora.com)
 
