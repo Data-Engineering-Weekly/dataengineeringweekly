@@ -1,3 +1,5 @@
+[![avora-small-banner](https://user-images.githubusercontent.com/54331742/161858750-75555e2f-a8ff-4d42-a6d6-0e9062a327d6.jpg)](https://avora.com)
+
 # Joining as a Cofounder after being an Advisor
 By [David Jayatillake](https://www.google.com/url?sa=t&rct=j&q=&esrc=s&source=web&cd=&cad=rja&uact=8&ved=2ahUKEwjxzt6KyfL2AhUgQkEAHcWwDfEQFnoECAcQAQ&url=https%3A%2F%2Ftwitter.com%2Fdsjayatillake%3Flang%3Den&usg=AOvVaw1s2-zy_spfDpeNWK0Z8QMC)
 
