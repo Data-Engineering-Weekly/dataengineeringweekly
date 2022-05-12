@@ -1,0 +1,13 @@
+article:
+  author:
+    linkedin: "https://www.linkedin.com/company/rovio/mycompany/"
+    name: "Rovio Entertainment Corporation"
+        twitter: ""
+  link: "https://medium.com/@Rovio_Tech/unlocking-interactive-dashboards-at-rovio-with-druid-and-spark-40f8fe6a0b05"
+  review: ""
+  reviewer:
+    linkedin: ""
+    name: ""
+    twitter: ""
+  tags: "Apache Spark, Apache Druid, Data Engineering, Game Analytics, Low Latency"
+  title: "Unlocking interactive dashboards at Rovio with Druid and Spark"
