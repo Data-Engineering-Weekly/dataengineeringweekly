@@ -1,4 +1,5 @@
-#  Singularity Data
+# Singularity Data
+![Yingjun Wu](https://user-images.githubusercontent.com/103924350/177096486-51ce3d73-2620-4a94-b4cc-78b36b5af31a.JPG)
 
 Hey everyone! I'm [Yingjun Wu](https://twitter.com/YingjunWu?s=20&t=_Imy0cpwOWg3sK6NYiWz4A), the founder of [Singularity Data](https://singularity-data.com) — an early-stage startup innovating next-generation database systems. Our product is [RisingWave](https://github.com/singularity-data/risingwave), a cloud-native SQL streaming database for modern real-time applications. With RisingWave, users can easily extract knowledge from streaming data by issuing powerful and efficient queries using standard SQL language.
 
