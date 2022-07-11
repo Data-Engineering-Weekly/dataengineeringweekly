@@ -1,0 +1,12 @@
+article:
+  author:
+    linkedin: "https://www.linkedin.com/company/cube-dev/"
+    name: "Cube"
+    twitter: "thecubejs"
+  link: "https://cube.dev/blog/dewitt-clause-or-can-you-benchmark-a-database"
+  review: "An entertaining digression into the recent history of computer science as well as a list of database vendors who will either praise or punish you for doing a benchmark"
+  reviewer:
+    linkedin: "igorlukanin"
+    name: "Igor Lukanin"
+    twitter: "igorlukanin"
+  tags: "database,performance,benchmarking"
