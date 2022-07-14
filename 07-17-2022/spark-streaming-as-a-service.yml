@@ -1,0 +1,12 @@
+article:
+  author:
+    linkedin: "https://www.linkedin.com/in/or-sagiv/"
+    name: "Riskified"
+    twitter: ""
+  link: "https://medium.com/riskified-technology/spark-streaming-as-a-service-53420d8a857b"
+  review: "Streaming infrastructure has become increasingly important—learn how to build Spark Streaming as a (Self-)Service for your organization."
+  reviewer:
+    linkedin: "or-sagiv"
+    name: ""
+    twitter: ""
+  tags: "bigdata,apache spark,spark streaming, delta lake, data engineering"
