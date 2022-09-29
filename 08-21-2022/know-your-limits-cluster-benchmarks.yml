@@ -1,0 +1,7 @@
+article:
+  author:
+    linkedin: "https://www.linkedin.com/in/elad-leev/"
+    name: "Riskified"
+    twitter: "https://twitter.com/Eladleev"
+  link: "https://medium.com/riskified-technology/know-your-limits-cluster-benchmarks-ecc6c3c77574"
+  tags: "bigdata, scale, system performance, performance, omb, kafka, stress test"
