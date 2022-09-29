@@ -1,0 +1,12 @@
+article:
+  author:
+    linkedin: "https://www.linkedin.com/in/igorlukanin/"
+    name: "Cube"
+    twitter: "thecubejs"
+  link: "https://cube.dev/blog/open-source-looker-alternative"
+  review: ""
+  reviewer:
+    linkedin: ""
+    name: ""
+    twitter: ""
+  tags: "looker,superset,cube,bi,businessintelligence,headlessbi"
