@@ -1,0 +1,12 @@
+article:
+  author:
+    linkedin: "https://www.linkedin.com/in/keydunov/"
+    name: "Artyom Keydunov"
+    twitter: "keydunov"
+  link: "https://cube.dev/blog/introducing-views"
+  review: ""
+  reviewer:
+    linkedin: ""
+    name: ""
+    twitter: ""
+  tags: "semantic layer,metrics layer,bi,businessintelligence,headlessbi"
