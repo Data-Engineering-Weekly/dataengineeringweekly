@@ -1,0 +1,11 @@
+article:
+  author:
+    linkedin: "https://www.linkedin.com/in/paoloplatter/"
+    name: "Agile Lab"
+  link: "https://www.agilelab.it/blog/how-to-model-data-products"
+  review: "When it comes to modeling Data Products, people go into panic. There are no clear rules, only some conceptual and not actionable indications.
+In this article, the author goes through some rules of thumbs to follow when modeling data products."
+  reviewer:
+    linkedin: "https://www.linkedin.com/in/robertocoluccio/"
+    name: "Roberto Coluccio"
+  tags: "data products, data mesh, ddd, data model, data management, data engineering, master data management, domain driven design"
