@@ -1,0 +1,12 @@
+article: "Gee, stop building into production!"
+  author:
+    linkedin: "https://www.linkedin.com/company/hiflylabs/mycompany/"
+    name: "Hiflylabs"
+    twitter: ""
+  link: "https://medium.com/hiflylabs/gee-stop-building-into-production-a91d9a61551a"
+  review: ""
+  reviewer:
+    linkedin: ""
+    name: ""
+    twitter: ""
+  tags: "deployment, bigquery, dbt, analytics-engineering, modern-data-stack"
