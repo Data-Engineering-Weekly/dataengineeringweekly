@@ -1,0 +1,67 @@
+Why We Founded Speedb - By Adi Gelvan, CEO and co-founder, Speedb
+My name is Adi Gelvan and I co-founded Speedb in November 2020 in Israel with two former colleagues. Speedb is a next generation KVS storage engine that’s a drop-in replacement for RocksDB, the de facto industry standard. We open source it to the developer community based on technology delivered in an enterprise edition for the past two years. 
+I’d like to begin by making a confession in the spirit of the most important value of open source companies - transparency and openness: 
+Until about 2 years ago, I didn't even know what a storage engine was.
+All three of us co-founders were working at an enterprise storage unicorn, where I was the CRO. We were experimenting with various settings and performance tuning in the RocksDB key value storage engine, but we quickly found that when the volume of metadata reached more than 100GB, RocksDB could not keep up. My two co-founders, both brilliant technologists, tried sharding to break down the dataset into smaller slices that are more manageable -  but this proved to be a cumbersome approach that resulted in increased complexity. 
+I remember the first time that Hilik, Speedb’s chief scientist and co-founder, came to me all excited, saying that he has built what he thought could be the future of storage engines.
+I was pretty embarrassed to tell him: “Cool, that’s really great, but what the hell is a storage engine?” 
+“Ah,” Hilik replied, “you surely know about LSM trees, right?” 
+I looked a bit dazzled and answered, “Yeah, I mean, I think so.” (Spoiler alert: I didn’t have a clue, despite a rather long career in the storage industry.) So my first motivation was to avoid feeling like an idiot in my next talk with Hilik. 
+
+How we realized we needed to rewrite RocksDB 
+The amount of metadata we had in our former company’s product was growing way beyond our expectations. We realized the only way to have something working in a reasonable time was to embed an enterprise-grade KVS into our product. 
+Choosing RocksDB as our storage engine was a pretty straightforward decision for us because:
+It was developed by Facebook
+It was forked from Google's LevelDB
+It is used by thousands of developers and clients worldwide 
+
+What could possibly go wrong with that choice, right? 
+
+Indeed, RocksDB performed smoothly at the beginning. However things became challenging when we started loading more and more metadata into the system. RocksDB is based on a log structured merge (LSM) tree design. LSM trees suffer from write amplification factor (WAF): The more data is written, the number of LSM levels increases and results in poor performance. After investigating this thoroughly, we found that many other RocksDB users have the same problem.
+
+ As we added more data to the system, we began to see more behaviors like I/O hangs, stalls, excessive use of CPU and memory, and other issues that stem from RocksDB’s high WAF. 
+
+Pretty soon, it became clear to us: Reducing Rocksdb’s high WAF can solve many of the performance and scalability issues that resulted from the underline storage engine. Furthermore, we could see how the scalability challenge was especially intractable in applications such as analytics, AI and ML - high-growth sectors where cloud-scale ramp ups were common. Yet not one vendor was addressing this very horizontal pain point. 
+
+So that was exactly our next step. We founded Speedb. Hilik and his team invented a Hybrid Compaction method that reduces the WAF from ~X30 to ~X5. With that, we were ready to go and sell Speedb to enterprise clients who needed a highly scalable embedded KVS and are using RocksDB. 
+
+Our go-to-market (GTM) was a classic enterprise sales model. We signed a strategic alliance with Redis where Speedb is offered as the storage engine for Redis-on-Flash (RoF) customers.  We helped customers to boost metadata memory performance, and replaced RocksDB as the embedded storage engine of some of the world’s most prominent databases, providing them with greater data performance at scale.
+
+And Yet…………
+
+ We thought we had it made, developing Speedb as an enterprise-grade storage engine, yet something was missing:
+
+Many C-level and senior engineering managers don’t even know that their programmers are using Rocksdb
+Developers don’t like it when people try to sell them things, and
+Developers prefer OSS products. Big time.
+
+
+We were in new territory. We thought the goal was to sell proprietary software, and by sell, we meant  keeping our technology secrets to ourselves. Right? 
+
+Wrong. 
+
+A Game-Changing Community  
+
+Six months after starting to sell Speedb to an enterprise client, a smart CEO that I have consulted with about our go-to-market strategy, told me: “Do remember, that the world has more money than engineers. No one is going to steal your technology.” Yes, Einat Orr, that was you.
+
+At that point, we realized that not being open source is actually holding us back from getting attention from our target audience - developers. In today's world, the developer holds the power to decide what technologies to use via OSS offerings, especially in the data space.
+
+We also realized that if we want to put a piece of software in the heart of our clients’ infrastructure, we have to give them the confidence that they know what lies behind it.
+
+As we started engaging with developers, we found that there is growing frustration among them due to the following reasons:  
+
+Versatility - Facebook forked RocksDB from LevelDB, and designed it to fit its own needs and unique use case. In the Facebook use case, every user is considered to be a set of data, and not a very big one. RocksDB was perfectly designed to address this very specific use case. However, it is not suitable for other very common use cases outside Facebook that involve much larger datasets. 
+Rebase - RocksDB feature set serves mainly the facebook use case. Thus, only certain PR’s that are relevant to Facebook are accepted by the team.
+
+In 2013 Facebook made Rocksdb free to use by the open source community ( Apache license), Consequently, RocksDB became widely spread among thousands of enterprises worldwide.
+
+Given this state of things, we realized that with by introducing innovation around RocksDB’s scalability, easy of use, performance (at scale), to an open source community, together we can build a next generation KVS storage engine, one that can be versatile enough to fit many unaddressable use cases. We can make it robust and strong with a true vibrant community around It. Combining the benefits of the LSM technology with our own knowledge and the collective wisdom of thousands of engineers, we can make Speedb the storage engine of choice for many developers.
+
+The Road Ahead
+
+Sounds simple, right? Just put your source code on GitHub, and the open source community will embrace you and start using Speedb across their applications. 
+
+Of course startup life is not all roses and rainbows, and every day brings some aspect of the learning process. We have our open source repo on GitHub, active and growing,  and we have our enterprise version that we keep selling to enterprises who need high performance at scale with support and services. It’s rewarding to build a community, not just a product, and get creative engineers from all over the world to contribute code. You never know what an innocent PR might develop into.
+
+
+As we watch the yin and yang of developer communities with their multiple great ideas on features and functionality, and the response of our engineers, I’m conscious that I’m viewing a beautiful phenomenon where both sides benefit greatly.
