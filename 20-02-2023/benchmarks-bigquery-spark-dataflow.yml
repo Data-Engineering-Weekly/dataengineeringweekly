@@ -1,0 +1,12 @@
+article:
+  author:
+    linkedin: "https://www.linkedin.com/in/sourygna-luangsay-71686b9/"
+    name: "Sourygna"
+    twitter: ""
+  link: "https://medium.com/cts-technologies/bigquery-spark-or-dataflow-a-story-of-speed-and-other-comparisons-fb1b8fea3619"
+  review: "Benchmarking a service in the Cloud should not only involve performance, but also cost and developer experience. This blog uses a standard TPC-DS query to try to do a fair comparison between BigQuery, Spark on Dataproc and Dataflow"
+  reviewer:
+    linkedin: "Sourygna"
+    name: ""
+    twitter: ""
+  tags: "Google Cloud, BigQuery, Spark, Dataproc, Dataflow, benchmarks"
