@@ -1,0 +1,12 @@
+article:
+  author:
+    linkedin: "https://www.linkedin.com/in/yigal-kassel-a4b28564/"
+    name: "Riskified"
+    twitter: "@KasselYigalk"
+  link: "https://medium.com/riskified-technology/dlq-with-spark-streaming-and-avro-7225dd580cd0"
+  review: "<Optional: Your review about the article>. It is okay if you can just share the links to the articles."
+  reviewer:
+    linkedin: "<optional: your LinkedIn handle>"
+    name: "<optional> if you would like to add your name as a reviewer in the data engineering weekly newsletter"
+    twitter: "<optional: your twitter handle>"
+  tags: "spark,structured_streaming,abris,data_engineering,avro,dlq"
