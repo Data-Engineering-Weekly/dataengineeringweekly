@@ -1,0 +1,7 @@
+article:
+  author:
+    linkedin: https://www.linkedin.com/in/jasonbrownstein/
+    name: Devoted Health
+    twitter: https://x.com/devotedhealth?lang=en
+  link: https://tech.devoted.com/building-a-custom-static-analysis-tool-for-looker-914f44b74c14
+  tags: "looker, lookml, antlr, continuous integration, static analysis"
