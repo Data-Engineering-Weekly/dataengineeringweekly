@@ -1,0 +1,7 @@
+article:
+  author:
+    linkedin: "https://www.linkedin.com/in/elad-leev/"
+    name: "Elad Leev"
+    twitter: "@Eladleev"
+  link: "https://leevs.dev/bridging-the-gap-between-eras-using-debezium-and-cdc/"
+  tags: "#bigquery, #cdc, #data integration, #data scalability, #data streaming, #data transformation, #debezium, #etl pipeline, #kafka, #legacy systems, #oracle database, #real-time data, #smts, #stream processing"
