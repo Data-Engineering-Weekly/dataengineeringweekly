@@ -1,35 +1,34 @@
+# The Journey Behind Mitzu.io
+I’m István Mészáros, and in February 2023, I founded Mitzu.io with a clear mission: to help businesses unlock the full potential of their data. But it isn’t just a product—it’s the culmination of years of experience, countless frustrations, and a deep desire to challenge the third-party tools. This is the story of why I started.
 
-My name is István Mészáros, and I founded Mitzu.io in February 2023 with a mission to transform how businesses analyze their data.
-Mitzu.io is a warehouse-native product analytics platform designed to help teams with real-time, actionable insights directly from their existing data warehouses, such as BigQuery, Databricks, Snowflake, and ClickHouse, AWS Redshift, PostgreSQL, Trino. 
-It simplifies analytics workflows, reduces costs, and ensures data security and reliability by eliminating the need for traditional reverse ETL processes or data duplication.
+## The Problem That Wouldn’t Go Away
+Over the years, I’ve worked with many companies trying to make sense of their data. Like most people in the industry, I’ve seen how important analytics is for decision-making. But I’ve also seen how messy and inefficient it can be.
+The rise of modern data warehouses like Snowflake, BigQuery, and Databricks promised to change everything. These platforms made it easier than ever to store and manage large-scale of data. But when it came to actually analyzing that data, businesses were stuck using tools that hadn’t evolved with the times.
+Here’s what I mean: most analytics tools require you to copy your data into their systems. This duplication creates all kinds of problems:
+- **It’s expensive** - Costs skyrocket as your business grows.
+- It’s slow—data is **never truly up-to-date** because of delays in syncing.
+- **It’s complicated** — You need engineers to set up and maintain reverse ETL pipelines.
+- **It’s risky** — Moving sensitive data into third-party systems increases security concerns.
+It felt like businesses were being forced to work around the limitations of these tools rather than having tools that worked for them. And no matter how much effort we put into fixing these inefficiencies, the root problem remained: the tools themselves weren’t designed for this new era of data infrastructure.
 
-### **Why We Built Mitzu.io**
-The rise of modern data warehouses has created an opportunity to rethink analytics. Traditional third-party tools like Mixpanel and Amplitude often require duplicating data into proprietary systems, which introduces inefficiencies and escalates costs as businesses scale. At Mitzu.io, we saw a need for a solution that syncs directly within the data warehouse, enabling teams to leverage their data infrastructure without relying on separate systems or tools.
+## The Turning Point
+The idea for Mitzu.io didn’t come from a single “eureka” moment—it came from years of working through these frustrations. However, a specific project pushed me over the edge.
+I was helping a company integrate multiple analytics tools with their data warehouse. The setup was a nightmare: syncing data between systems, dealing with inconsistencies, and constantly troubleshooting errors. At one point, I remember thinking: Why are we even doing this? Why can’t we analyze the data directly where it already lives?
+That question stuck with me. And the more I thought about it, the more obvious the answer became: we didn’t need another tool that copied data - we needed a tool that worked directly on top of the data warehouse itself.
 
-### Mitzu.io was built to address these challenges by offering:
-- **Real-time insights**: Direct integration with data warehouses ensures zero lag in accessing up-to-date information.
-- **Self-service capabilities**: Non-technical users can analyze data without SQL expertise.
-- **Advanced insights**: Mitzu provides a comprehensive view of business performance, from conversion tracking and retention analysis to revenue metrics and cohort segmentation.
-- **Cost-efficiency**: A seat-based pricing model ensures predictable costs without limits on tracked events or users.
-### What Makes Mitzu.io Unique
-- **Automated SQL Generation**: Mitzu automatically generates SQL queries, allowing teams to explore data intuitively without writing code.
-- **Warehouse-Native Analytics**: Mitzu operates directly within your data warehouse, eliminating the need for reverse ETL tools or external ingestion mechanisms.
-- **Real-Time Insights**: Users can access up-to-date information with zero lag by querying directly from the warehouse.. Advanced 
-- **Subscription Analytics**: Ideal for SaaS companies, Mitzu tracks metrics like Monthly Recurring Revenue (MRR) and subscriber growth.
-- **Unified Data Access**: Teams can analyze product, marketing, and revenue data in one place, fostering collaboration and decision-making.
+## A Vision for Change
+With this vision in mind, I set out to build Mitzu.io. But this wasn’t just about solving technical problems—it was about addressing a deeper issue: the disconnect between how businesses store their data and how they analyze it.
+I wanted to create something that:
+- Eliminated unnecessary duplication by working directly within existing data warehouses.
+- Made analytics accessible for non-technical users without requiring SQL expertise.
+- Provided real-time insights so teams could act quickly on up-to-date information.
+- Reduced costs and complexity by cutting out reverse ETL processes and external systems.
+It wasn’t easy. There are plenty of moments where I questioned whether we could pull it off. But what kept me going was knowing how much simpler and more effective analytics could be if we got it right.
 
-### Case studies
-Here are four examples of how Mitzu has made an impact:
+## Lessons Learned Along the Way
+One thing I’ve learned through this process is that solving big problems often means challenging assumptions. For years, businesses accepted that duplicating their data into third-party tools was just “how it’s done.” But when you step back and question why things are done a certain way, you see opportunities for change.
+Another lesson has been the importance of listening—to customers and to partners like CDPs. Every feature we’ve built at Mitzu.io has been shaped by real-world feedback from people who are just as frustrated by traditional analytics as I was.
 
-[Prezi](https://www.mitzu.io/post/how-mitzu-helped-prezi-to-reach-100-data-accuracy)
-a leader in visual communication, integrated Mitzu.io to ensure 100% data accuracy and eliminate silos across their teams. With Mitzu’s warehouse-native approach, Prezi empowered non-technical teams like marketing, sales, and product to access real-time insights directly from their data warehouse. This reduced their reliance on the data team, sped up decision-making processes, and improved confidence in the data they were using.
-
-[Colossyan](https://www.mitzu.io/post/how-did-mitzu-help-colossyan-scale-beyond-100-people-without-growing-the-data-team)
-an AI-powered video creation platform, switched to Mitzu.io as they scaled their operations. By centralizing its analytics within its existing data warehouse, Colossyan eliminated the need for multiple tools and reduced inconsistencies in reporting. With Mitzu’s intuitive interface, teams across the company gained quicker access to insights, which helped them improve user onboarding flows and optimize product features based on real-time data.
-
-[Shapr3D](https://www.mitzu.io/post/how-mitzu-helped-shapr3d-move-from-3-analytics-tools-to-1-platform)
-a 3D design platform for professionals, faced challenges with fragmented analytics tools that led to inconsistent reporting and inefficiencies. By switching to Mitzu.io’s warehouse-native solution, Shapr3D consolidated its product and marketing data into one place. This allowed teams to create self-service dashboards, reduce mismatches in reporting by 90%, and focus on improving key metrics like user retention and funnel performance.
-
-### The Road Ahead
-Mitzu.io is more than just a product; it’s a community-driven platform designed to grow alongside its users. By syncing directly with data warehouses and providing intuitive analysis tools, we aim to make advanced analytics accessible to developers and non-technical team members.
-As we continue to innovate, our focus remains on empowering businesses with scalable analytics solutions that reduce complexity and unlock the full potential of their data.
+## The Road Ahead
+Mitzu.io is still young, but our impact already feels significant. Companies like Prezi, Khatabook, and Shapr3D are using our platform to simplify their data stacks.
+For me, this journey isn’t just about building a successful product—it’s about fixing something that’s been broken for too long. It’s about allowing businesses to analyze their data without all the unnecessary complexity and cost.
