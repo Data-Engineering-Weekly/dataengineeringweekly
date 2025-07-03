@@ -1,0 +1,7 @@
+article:
+  author:
+    linkedin: "https://www.linkedin.com/company/juicedata"
+    name: "Juicedata"
+    twitter: "JuicedataInc"
+  link: "https://juicefs.com/en/blog/engineering/data-synchronization-consistency-multi-cloud-storage"
+  tags: "mirror file system, data synchronization, multi-cloud architecture"
