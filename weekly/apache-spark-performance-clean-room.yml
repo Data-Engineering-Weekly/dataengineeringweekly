@@ -1,0 +1,20 @@
+article:
+  author:
+    linkedin: https://www.linkedin.com/in/chetan-urkudkar-44ab593a/
+    name: LiveRamp
+    twitter: n/a
+  link: https://liveramp.com/blog/apache-spark-performance-clean-room
+  review: >
+    A practical production write-up on accelerating Apache Spark in data clean room
+    environments using DataFusion Comet. The article walks through why row-oriented
+    JVM execution becomes a bottleneck for multi-terabyte columnar workloads, how
+    Comet provides a drop-in native columnar backend while preserving Spark's
+    Catalyst optimizer and PySpark APIs, and shares real benchmark results showing
+    up to 49.5% runtime improvements across measurement and attribution pipelines
+    on Kubernetes. Valuable for teams running large-scale Spark analytics under
+    strict SLAs and cost constraints.
+  reviewer:
+    linkedin: https://www.linkedin.com/in/chetan-urkudkar-44ab593a/
+    name: Chetan Urkudkar
+    twitter: n/a
+  tags: "Apache Spark, DataFusion Comet, Apache Arrow, data clean room, columnar execution, Kubernetes, PySpark, performance optimization"
