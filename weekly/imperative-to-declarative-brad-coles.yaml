@@ -1,0 +1,17 @@
+article:
+  link: "https://bradcoles.dev/blog/declarative-transformation.html"
+  author:
+    name: "Brad Coles"
+    linkedin: "https://www.linkedin.com/in/bradcoles"
+    twitter: ""
+  reviewer:
+    name: ""
+    linkedin: ""
+    twitter: ""
+  review: "A decade-long look at the shift from imperative to declarative across the full ELT stack — covering dbt, Delta Live Tables, Snowflake Dynamic Tables, Spark Declarative Pipelines, and Fabric Materialized Lake Views. Includes a timeline of the convergence, a practical comparison of procedural notebooks vs declarative frameworks, and a section on why AI amplifies the case for declarative tooling."
+  tags:
+    - dbt
+    - declarative
+    - spark
+    - delta-lake
+    - data-transformation
