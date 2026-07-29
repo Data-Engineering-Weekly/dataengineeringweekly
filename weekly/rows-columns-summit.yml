@@ -1,0 +1,8 @@
+article:
+  author:
+    linkedin: "https://www.linkedin.com/in/elizabeth-garrett-christensen/"
+    name: "Elizabeth Christensen"
+    twitter: "@sqlliz"
+  link: "https://rowsandcolumnssummit.com/"
+  review: "Andy Pavlo is keynoting Rows & Columns Summit, a free single-track conference on the OLTP-OLAP convergence. Practitioner talks on hybrid architectures, open table formats, CDC, purpose-built systems, and new database paradigms. September 22 in San Francisco. CFP open through August 8."
+  tags: "OLTP, OLAP, data architecture, conference, hybrid databases, open table formats, CDC"
