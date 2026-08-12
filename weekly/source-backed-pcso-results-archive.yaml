@@ -1,0 +1,17 @@
+article:
+  link: "https://lottolensph.com/research/pcso-results-data-coverage"
+  author:
+    name: "LottoLens PH"
+    linkedin: ""
+    twitter: ""
+  reviewer:
+    name: ""
+    linkedin: ""
+    twitter: ""
+  review: "A practical look at maintaining a source-backed public data archive across nine Philippine draw games. The report documents record normalization, row-level provenance, freshness gates that block publication when an expected draw window is missing, and an append-only policy that prevents later updates from rewriting historical results. It also states the archive's coverage limits and avoids treating historical frequencies as predictions."
+  tags:
+    - data-quality
+    - data-provenance
+    - data-pipelines
+    - open-data
+    - data-freshness
