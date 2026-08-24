@@ -12,7 +12,7 @@ I'm not talking about when the query throws an error, those you easily fix befor
 
 When data assistants showed up, text-to-SQL over the warehouse, ask-your-data in Slack, they industrialised that exact mistake. So now the confident, well-formatted, wrong number doesn't even need me to write it. All the time one of these was supposed to save me, I spent digging for where it had quietly gone off.
 
-It took me a while to get my head around this. A model that's right nine times out of ten is more dangerous than one that's right four. Because at four you check everything, because you've learned you have to. At nine you stop, and the tenth answer walks straight into a report, a board pack, a decision. Accuracy is the number everyone quotes and on its own it's close to useless, because what hurts you is not being able to tell which answers are wrong. It gets worse as the models improve - trust grows faster than accuracy.
+It took me a while to get my head around this. A model that's right nine times out of ten is more dangerous than one that's right four. At four you check everything, because you've learned you have to. At nine you stop, and the tenth answer walks straight into a report, a board pack, a decision. Accuracy is the number everyone quotes and on its own it's close to useless, because what hurts you is not being able to tell which answers are wrong. It gets worse as the models improve - trust grows faster than accuracy.
 
 ## Nothing measured it
 
@@ -26,9 +26,9 @@ A quaesitor was the Roman examining magistrate - the one who checked the facts s
 
 Every question carries a query I've checked by hand next to a plausible wrong one, and the two differ in exactly one place - a fan-out join, a cohort anchored to the wrong date, a currency left unconverted. When the model misses, I can point at the cause instead of at a vibe.
 
-So, I handed an agent the company's own schema documentation, expecting fewer wrong answers and correctness didn't move, but the failures did.
+So I handed an agent the company's own schema documentation, expecting fewer wrong answers. Correctness didn't move, but the failures did.
 
-What used to come back visibly absurd, negative revenue or a figure off by three orders of magnitude, came back clean, plausible, and still wrong. The context we all reach for to make these systems safer had made the mistakes harder to see, but unfortunately not rarer.
+What used to come back visibly absurd, negative revenue or a figure off by three orders of magnitude, came back clean, plausible, and still wrong. The context we all reach for to make these systems safer had made the mistakes harder to see, not rarer.
 
 ## Where it is now
 
