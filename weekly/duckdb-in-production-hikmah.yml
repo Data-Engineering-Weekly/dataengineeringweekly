@@ -1,0 +1,17 @@
+article:
+  link: "https://hikmahtechnologies.com/blog/duckdb-in-production-what-its-good-at/"
+  author:
+    name: "Arshad Ansari"
+    linkedin: "https://www.linkedin.com/in/mohammed-arshad-ansari/"
+    twitter: ""
+  reviewer:
+    name: ""
+    linkedin: ""
+    twitter: ""
+  review: "An operator's account of where DuckDB fits in production and where it does not, written from systems the author runs rather than from benchmarks. It covers the three deployment patterns that hold up — in-process inside a service, containerised batch job, and a Parquet lake with many read-only readers — and names the anti-pattern behind most reliability complaints: several processes on a shared network filesystem all wanting write access to one file. The limitations section is unusually direct about single-process writes, the absence of a governance layer, and memory and spill behaviour, and it argues that the serving layer you end up writing yourself is the largest hidden line item in 'we'll just use DuckDB'."
+  tags:
+    - duckdb
+    - parquet
+    - local-first
+    - analytics
+    - data-architecture
