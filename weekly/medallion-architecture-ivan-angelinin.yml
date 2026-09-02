@@ -1,0 +1,8 @@
+article:
+  author:
+    linkedin: "https://www.linkedin.com/in/ivan-angelinin-4001a689/"
+    name: "Ivan Angelinin"
+    twitter: ""
+  link: "https://cosmosthrace.com/resources/databricks/databricks-medallion-architecture-best-practices"
+  review: "A layer-responsibility treatment of medallion architecture at enterprise scale: what Bronze owes the source, what Silver has to enforce before Gold can be trusted, where teams misplace transformation logic between layers, and the failure patterns that show up only after the platform has real consumers."
+  tags: "databricks, medallion architecture, lakehouse, data engineering, data quality"
