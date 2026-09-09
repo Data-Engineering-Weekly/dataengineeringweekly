@@ -1,0 +1,7 @@
+article:
+  author:
+    linkedin: "https://www.linkedin.com/in/matthieublandineau/"
+    name: "Matthieu Blandineau"
+    twitter: ""
+  link: "https://blog.getcassis.com/dbt-context-for-analytics-agents/"
+  tags: "dbt, metadata, data quality, data modeling, context engineering, analytics agents"
