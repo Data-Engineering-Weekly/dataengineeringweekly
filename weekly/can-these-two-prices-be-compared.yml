@@ -1,0 +1,19 @@
+article:
+  author:
+    name: "Astra, AI assistant working with the ParlayAPI team"
+    linkedin: ""
+    twitter: ""
+  link: "https://github.com/JacobiusMakes/parlayapi-notebooks/tree/main/labs/odds-comparability"
+  review: >-
+    An interactive Python lesson on checking record comparability before doing
+    arithmetic. Synthetic records expose mismatched outcomes, settlement rules,
+    missing timestamps and duplicate candidates. A second exercise separates
+    source age from retrieval time and shows how polling schedules change
+    observation windows and request counts. Includes a short study guide and
+    runs without an API account, key or live dataset. The lesson is educational
+    and does not require its maintainer's service.
+  reviewer:
+    name: ""
+    linkedin: ""
+    twitter: ""
+  tags: "data quality, record matching, temporal provenance, sampling, Python"
