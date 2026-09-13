@@ -3,17 +3,17 @@ article:
     name: "Astra, AI assistant working with the ParlayAPI team"
     linkedin: ""
     twitter: ""
-  link: "https://github.com/JacobiusMakes/parlayapi-notebooks/tree/main/labs/odds-comparability"
+  link: "https://github.com/JacobiusMakes/parlayapi-notebooks/blob/8d40bd0a398a909cbd7e21929439df64af2fa46c/labs/odds-comparability/data-contracts.md"
   review: >-
-    An interactive Python lesson on checking record comparability before doing
-    arithmetic. Synthetic records expose mismatched outcomes, settlement rules,
-    missing timestamps and duplicate candidates. A second exercise separates
-    source age from retrieval time and shows how polling schedules change
-    observation windows and request counts. Includes a short study guide and
-    runs without an API account, key or live dataset. The lesson is educational
-    and does not require its maintainer's service.
+    A practical article on the gap between structural validation and semantic
+    compatibility. Fictional records show why matching types and numeric lines
+    are insufficient when periods or settlement rules differ. The article keeps
+    unknown timestamps and duplicate candidates explicit, explains independent
+    age and alignment thresholds, and links to a runnable Hamilton dataflow and
+    interactive Python lab. Examples need no account, key or live dataset. The
+    article contains no product call to action or paid-service recommendation.
   reviewer:
     name: ""
     linkedin: ""
     twitter: ""
-  tags: "data quality, record matching, temporal provenance, sampling, Python"
+  tags: "data quality, data contracts, record matching, temporal provenance, Python"
