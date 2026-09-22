@@ -1,0 +1,8 @@
+article:
+  author:
+    linkedin: "https://www.linkedin.com/in/matthieublandineau/"
+    name: "Matthieu Blandineau"
+    twitter: ""
+  link: "https://www.linkedin.com/posts/matthieublandineau_analytics-agents-were-everywhere-at-dbt-labs-ugcPost-7507343408730947584-xXkf/"
+  review: "Takeaways from analytics-agent sessions at dbt Summit 2026: where teams are converging on trusted data, business definitions, and owned evaluations; where approaches to context and knowledge differ; and which questions remain open."
+  tags: "analytics agents, dbt, semantic layer, context engineering, evaluations, data quality"
