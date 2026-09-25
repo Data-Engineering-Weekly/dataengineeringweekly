@@ -1,0 +1,14 @@
+article:
+  author:
+    linkedin: "https://www.linkedin.com/in/builtbyhuy/"
+    name: "Hồ Khắc Huy"
+    twitter: "n/a"
+  link: "https://github.com/builtbyhuy/webhook-crm-reliability-sample#readme"
+  review: >-
+    An independent, AI-assisted Python/SQLite walkthrough of event identity,
+    duplicate suppression across local process restarts, changed-payload
+    conflicts, bounded retries, and explicit replay after retry exhaustion.
+    Includes runnable synthetic scenarios and an explicit account of its
+    production gaps. CRM outcomes are simulated; the preview API has only
+    request-scoped state.
+  tags: "data ingestion, idempotency, retries, Python, SQLite, testing"
