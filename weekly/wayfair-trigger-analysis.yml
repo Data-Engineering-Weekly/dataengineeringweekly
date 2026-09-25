@@ -1,0 +1,7 @@
+article:
+  author:
+    linkedin: "https://www.linkedin.com/in/shashankagarwal7"
+    name: "Wayfair"
+  link: "https://www.aboutwayfair.com/careers/tech-blog/when-assigned-isnt-exposed-how-wayfair-uses-trigger-analysis-to-recover-hidden-test-signals"
+  review: "An architectural deep dive into how Wayfair uses trigger analysis to solve assignment vs. exposure bias, recovering hidden A/B test signals and preventing metric dilution at scale."
+  tags: "experimentation, data-engineering, distributed-systems, causal-inference"
