@@ -1,0 +1,17 @@
+article:
+  link: "https://libredbstudio.hashnode.dev/schema-is-data-too-keeping-an-in-database-ai-assistant-inside-your-boundary"
+  author:
+    name: "LibreDB Studio"
+    linkedin: ""
+    twitter: ""
+  reviewer:
+    name: ""
+    linkedin: ""
+    twitter: ""
+  review: "A look at what a natural-language-to-SQL feature actually sends outside your network every time it answers a plain-English question. It names the three things that leave on a cloud path: the schema, any sample rows pulled in for context, and the business question itself, then argues for three controls that let you keep the assistant without giving up the boundary. The first is a swappable model endpoint, so teams can point the feature at a local runtime and keep the whole path inside the network. The second is read-only access enforced by the database itself rather than by a regex over the generated SQL, with the useful caveat that a read-only transaction still needs a least-privilege role behind it to mean anything. The third is a human review step before any generated query runs, which earns its keep as models get smaller and cheaper. Worth a read for anyone putting an LLM in front of a warehouse or a production database."
+  tags:
+    - text-to-sql
+    - nl2sql
+    - data-governance
+    - llm
+    - database-security
