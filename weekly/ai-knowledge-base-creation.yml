@@ -1,0 +1,7 @@
+article:
+  author:
+    linkedin: "https://www.linkedin.com/in/nidhinkponon/"
+    name: "Nidhin Ponon"
+  link: "https://towardsdatascience.com/how-to-build-an-efficient-knowledge-base-for-ai-models/"
+  review: "Detailed steps to build an AI knowledge base, challenges in creating a knowledge base, and how to overcome them"
+  tags: "ai, data-engineering, knowledge-base"
