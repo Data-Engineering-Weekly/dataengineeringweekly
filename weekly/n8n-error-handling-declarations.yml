@@ -1,0 +1,6 @@
+article:
+  author:
+    name: "Ali Ilyas"
+  link: "https://noderecipe.com/n8n-error-handling-data"
+  review: "A configuration-level study of error-handling declarations in public n8n workflows, with a pinned source corpus and downloadable CSV/JSON. It distinguishes workflow, node and subgroup denominators and explains why declared settings cannot establish runtime reliability. Useful context for engineers reviewing reusable automation templates; the sample is one public collection, not a representative survey of production deployments."
+  tags: "workflow-orchestration, data-pipelines, error-handling, reproducibility"
