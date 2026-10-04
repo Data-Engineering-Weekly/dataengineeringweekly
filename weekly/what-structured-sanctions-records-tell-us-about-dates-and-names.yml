@@ -1,0 +1,12 @@
+article:
+  author:
+    linkedin: ""
+    name: "SanctionsKit"
+    twitter: ""
+  link: "https://www.sanctionskit.com/resources/sanctions-list-identifiers-2026-09"
+  review: "A field-level audit of two official XML snapshots, with a standard-library Python parser, synthetic tests and downloadable aggregate results. It separates a populated date field from a full calendar date, and aliases from primary-name variations. The methodology explains source-specific denominators, validation checks and the limits of reproducing a snapshot from a mutable download URL."
+  reviewer:
+    linkedin: ""
+    name: ""
+    twitter: ""
+  tags: "data-quality, data-ingestion, XML, Python, provenance, schema-semantics"
