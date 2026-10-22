@@ -1,0 +1,17 @@
+article:
+  link: "https://dev.to/antony502189max/your-sqlite-backup-restored-does-its-checkpoint-still-match-the-data-1c2j"
+  author:
+    name: "Anton Gameza"
+    linkedin: ""
+    twitter: ""
+  reviewer:
+    name: ""
+    linkedin: ""
+    twitter: ""
+  review: "A runnable Python and SQLite experiment showing why a pipeline's checkpoint must be committed atomically with its data. It injects a failure before checkpoint advancement, restores a backup into a separate database, replays the input, and checks event identities, amounts, progress, and conflict rollback. The walkthrough states its single-writer, immutable-batch assumptions and distinguishes in-memory state-consistency checks from durable disaster recovery."
+  tags:
+    - sqlite
+    - python
+    - data-engineering
+    - recovery
+    - idempotency
