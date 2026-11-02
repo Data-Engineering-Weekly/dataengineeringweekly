@@ -1,0 +1,13 @@
+
+article:
+  author:
+    linkedin: ""
+    name: "Seth Therrien"
+    twitter: ""
+  link: "https://onshore.consulting/blog/ai-assisted-warehouse-refactor-phases"
+  review: "A practical guide to AI-assisted data warehouse refactoring, covering dependency inventories, parity testing, transformation rebuilding, dashboard validation, and controlled cutover."
+  reviewer:
+    linkedin: ""
+    name: ""
+    twitter: ""
+  tags: "data engineering, data warehouse, data migration, dbt, AI-assisted development"
