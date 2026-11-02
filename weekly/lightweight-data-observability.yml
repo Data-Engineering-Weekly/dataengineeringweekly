@@ -1,0 +1,6 @@
+article:
+  author:
+    name: "Refael Dakar"
+  link: "https://www.arcodash.com/blog/lightweight-data-observability/"
+  review: "Five plain SQL checks (freshness, volume, uniqueness, null share, source reconciliation) that cover most incidents a small data team sees, each a query that returns zero rows when healthy, plus a short note on when a dedicated observability platform becomes worth it."
+  tags: "data quality, observability, sql, data testing"
