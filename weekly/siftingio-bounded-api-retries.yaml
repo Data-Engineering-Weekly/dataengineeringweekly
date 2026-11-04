@@ -1,0 +1,6 @@
+article:
+  author:
+    name: "SiftingIO"
+  link: "https://sifting.io/blog/market-data-api-rate-limits-handle-http-429-without-retry-storm"
+  review: "A Python walkthrough of bounded GET retries, temporary throttling versus exhausted quotas, and synthetic HTTP-response tests for data collection clients."
+  tags: "data-ingestion, api-clients, reliability, testing"
