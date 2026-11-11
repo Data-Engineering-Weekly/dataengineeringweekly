@@ -1,0 +1,7 @@
+article:
+  author:
+    name: "Brahma"
+    twitter: "@BrahmaWritings"
+  link: "https://medium.com/towards-data-engineering/i-built-a-safety-net-for-ai-agents-on-databricks-then-i-tried-to-break-it-476983ea192c"
+  review: "Field notes from stress-testing a change-safety check on a 2-million-row Delta table on Databricks serverless. Covers Unity Catalog lineage that still reports dropped tables, null-safe key joins for data diffs, shallow clones as a sandbox for risky writes, and how a 10% sample hid a one-row delete until a full-table checksum was added. Disclosure: the author wrote the open-source tool the article tests."
+  tags: "data-quality, databricks, delta-lake, data-diff, lineage, ai-agents"
