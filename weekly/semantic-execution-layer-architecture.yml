@@ -1,0 +1,12 @@
+article:
+  author:
+    linkedin: "https://www.linkedin.com/in/h-chouhan/"
+    name: "Harshit Chouhan"
+    twitter: "https://x.com/chouhanharshit1"
+  link: "https://colrows.com/whitepapers/semantic-execution-layer-for-enterprise-ai/"
+  review: "A technical look at why text-to-SQL agents fail on real enterprise schemas, and a compiler-style answer to it. The paper treats business meaning as a typed, versioned knowledge graph and moves the query through seven staged phases before any SQL runs: parsing, semantic binding, join-path proof, constraint solving, logical planning, cost-based physical planning, and dialect generation. Useful details for data engineers: bounded BFS with grain and fan-out pruning to prove a join path instead of guessing it, drift detection with KL-divergence, KS statistics and tree edit distance on schema snapshots, and access policy applied as a scope subgraph at compile time rather than masking after execution."
+  reviewer:
+    linkedin: ""
+    name: ""
+    twitter: ""
+  tags: "semantic layer, knowledge graph, query compilation, join path, schema drift, data governance, text-to-SQL, AI agents"
