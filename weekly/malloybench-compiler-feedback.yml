@@ -1,0 +1,9 @@
+article:
+  title: "MalloyBench: language models write Malloy well with its compiler"
+  author:
+    name: "GetDot (Rick Radewagen)"
+    linkedin: ""
+    twitter: ""
+  link: "https://www.getdot.ai/blog/malloybench"
+  review: "An evaluation of compiler feedback for querying a semantic model in Malloy. The study uses 118 tasks over six datasets and checks result correctness against reference queries on the full data and two samples. It explains the compile, execute and submit loop, the remaining semantic failures, and cost and latency tradeoffs. The harness and public half of the tasks are open source. This is a self-submission by the author; the work is from GetDot. Results cover one engine and one run per task and setting."
+  tags: "semantic layers, query languages, Malloy, DuckDB, data modeling, query correctness"

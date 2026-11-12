@@ -1,0 +1,9 @@
+article:
+  title: "MalloyBench: what Malloy could improve for language models"
+  author:
+    name: "GetDot (Rick Radewagen)"
+    linkedin: ""
+    twitter: ""
+  link: "https://www.getdot.ai/blog/malloybench-mistakes"
+  review: "A failure analysis of queries against Malloy semantic models, covering recurring syntax mistakes, diagnostic quality and the effect of a language reference. Building the benchmark also exposed compiler defects, including silent wrong-result cases. The article links to upstream issues and self-contained DuckDB reproductions, and distinguishes errors a compiler can reject from incorrect results it cannot detect. This is a self-submission by the author, from GetDot."
+  tags: "query engines, compilers, Malloy, DuckDB, data quality, semantic layers, query correctness"

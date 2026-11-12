@@ -1,0 +1,9 @@
+article:
+  title: "MalloyBench: how well do language models know Malloy by heart?"
+  author:
+    name: "GetDot (Rick Radewagen)"
+    linkedin: ""
+    twitter: ""
+  link: "https://www.getdot.ai/blog/malloybench-by-heart"
+  review: "The methodology behind MalloyBench, a benchmark for querying and constructing semantic models. Tasks span familiar, unusual and synthetic datasets. Correctness requires matching reference results on the full data and two samples, including hidden queries for model-building tasks. The article describes public and private task splits, contamination checks, reproducibility and limitations. This is a self-submission by the author, from GetDot; the engineering interest is the evaluation design rather than the model ranking."
+  tags: "semantic layers, Malloy, data modeling, evaluation, query correctness, reproducibility"
