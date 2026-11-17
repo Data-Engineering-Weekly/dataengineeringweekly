@@ -1,0 +1,6 @@
+article:
+  author:
+    name: "LanceDB"
+  link: "https://www.lancedb.com/blog/table-formats-in-depth-what-is-a-table-format"
+  review: "Weston Pace explains why changing data needs more than immutable files, introducing the metadata, commit history, and atomic coordination that underpin table formats. The article compares how Lance, Apache Iceberg, Delta Lake, Apache Hudi, and DuckLake approach these problems, including the tradeoffs between object-storage primitives and centralized coordination for concurrent writers."
+  tags: "table formats, data engineering, object storage, concurrency, Lance, Apache Iceberg, Delta Lake, Apache Hudi, DuckLake"
