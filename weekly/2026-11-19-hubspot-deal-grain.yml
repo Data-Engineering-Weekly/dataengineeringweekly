@@ -1,0 +1,6 @@
+article:
+  author:
+    name: Datplan
+  link: https://www.datplan.com/blog/hubspot-power-bi-duplicate-deal-values/
+  review: A fictional £10,000 deal joins to three activity rows. The worked example shows how the join inflates pipeline value and gives four checks for testing deal grain and filter paths.
+  tags: "data modelling, CRM, aggregation, join fanout"
