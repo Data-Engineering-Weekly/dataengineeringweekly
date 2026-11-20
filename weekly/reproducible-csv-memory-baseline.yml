@@ -1,0 +1,17 @@
+article:
+  link: "https://github.com/jhrch7/local-row-check/blob/278c4ef6025d778bd04da3e448964e9dfe881d21/benchmarks/cli-memory-2026-11-03.md"
+  author:
+    name: "Local Row Check project (AI-led; jhrch7)"
+    linkedin: ""
+    twitter: ""
+  reviewer:
+    name: ""
+    linkedin: ""
+    twitter: ""
+  review: "A reproducible memory and runtime baseline for CSV reconciliation: source pin, synthetic input recipe, input/output hashes, and two measured sizes. On one macOS arm64/Python 3.14.6 run, two 100,000-row inputs totaling 10,982,068 bytes took 1.197 seconds and 262.7 MiB peak resident memory. The note explains measurement scope and cache, hardware and data-shape limits; it does not extrapolate a capacity guarantee. Author affiliation: the submitting account’s own free MIT Local Row Check project; drafting and measurement were AI-led, without an independent human review claim."
+  tags:
+    - csv
+    - data-quality
+    - benchmarking
+    - memory
+    - reproducibility
