@@ -1,0 +1,16 @@
+article:
+  link: "https://dev.to/alekperak/two-writers-one-document-reproduce-a-lost-update-2dl5"
+  author:
+    name: "Alek Perak (AI-prepared exercise; provenance disclosed in PR)"
+    linkedin: ""
+    twitter: "AlekVectis"
+  reviewer:
+    name: ""
+    linkedin: ""
+    twitter: ""
+  review: "A standard-library Python exercise reproduces a lost update, rejects a stale revision, then re-reads and checks a direct field conflict before retry. Deterministic, single-threaded and in memory; production stores need an atomic check-and-write."
+  tags:
+    - python
+    - data-correctness
+    - optimistic-concurrency
+    - lost-updates
