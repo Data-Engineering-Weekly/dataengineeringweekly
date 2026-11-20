@@ -1,0 +1,6 @@
+article:
+  author:
+    name: "Ashish Sinha"
+  link: "https://dev.to/ashish_sinha_5241c7673d93/a-benchmark-found-a-bug-in-my-access-control-check-after-the-fix-it-scored-0984-1fnj"
+  review: "Testing text-to-SQL access control against Spider-ACL, a peer-reviewed benchmark whose labels come from PostgreSQL GRANTs, exposed a fail-closed parser bug that had silently refused valid queries; after the fix it reached refusal F1 0.984 over 19,624 role-labelled questions, with every answered query audited against the grants."
+  tags: "data-governance, access-control, text-to-sql, llm, postgresql"
