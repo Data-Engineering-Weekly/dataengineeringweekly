@@ -1,0 +1,6 @@
+article:
+  author:
+    name: "Ashish Sinha"
+  link: "https://dev.to/ashish_sinha_5241c7673d93/i-ran-my-text-to-sql-access-control-on-a-benchmark-i-didnt-write-23n4"
+  review: "An open-source text-to-SQL layer is run against an access-control benchmark its author did not write: how per-user table permissions are applied before the model ever sees the schema, and where it fails."
+  tags: "text-to-sql, llm, access-control, data-governance, benchmarks"
