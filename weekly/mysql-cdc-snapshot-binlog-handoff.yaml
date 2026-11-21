@@ -1,0 +1,6 @@
+article:
+  author:
+    name: "David Zollo"
+  link: "https://gist.github.com/davidzollo/61c990d1a4e9f65e163ef9b48185b4e4#file-en-snapshot-binlog-handoff-md"
+  review: "A source walkthrough of parallel MySQL snapshots in Apache SeaTunnel 3.1.0: how several readers can scan distinct key ranges of one table, how to identify a slow chunk, and why the final snapshot checkpoint can gate the switch to binlog streaming."
+  tags: "mysql, change-data-capture, data-ingestion, checkpoints"
