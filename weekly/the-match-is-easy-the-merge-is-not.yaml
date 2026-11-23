@@ -1,0 +1,8 @@
+article:
+  author:
+    linkedin: "https://cz.linkedin.com/in/danielberanek"
+    name: "Daniel Beránek"
+    twitter: "https://x.com/_danielberanek"
+  link: "https://dio-odi.hashnode.dev/the-match-is-easy-the-merge-is-not"
+  review: "An engineering deep dive into the decision controls between entity matching and persistent MERGE operations. It covers claim-specific evidence qualification, provenance dependencies, state-bound authorization, transitive write sets, transaction atomicity, pre-COMMIT invariants and post-commit reconciliation. Includes a synthetic CRM MERGE planning example."
+  tags: "entity resolution, agentic AI, master data management, data architecture, database transactions, authorization"
