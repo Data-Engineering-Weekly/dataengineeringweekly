@@ -1,0 +1,6 @@
+article:
+  author:
+    name: "Thomas Phillips"
+  link: "https://github.com/darealrektrush/darealrektrush/blob/main/notes/when-a-confirmation-arrives-first.md"
+  review: "An offline Python lab for reconciling duplicate and out-of-order events. It separates event identity from operation identity, preserves unmatched confirmations, and demonstrates that all 120 permutations of five input positions produce the same result."
+  tags: "data-ingestion, idempotency, event-ordering, python"
